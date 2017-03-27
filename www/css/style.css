@@ -1,1 +1,7 @@
 /* Empty. Add your own CSS if you like */
+.mynavbar{
+  height: 100px !important;
+}
+.logo {
+    float:left  !important;
+}

@@ -3,15 +3,21 @@
     <div class="eventsDiv" >
       
       <h3 class="eventsP"> Events </p> </div>
-    <ion-item class="list list-inset eventsItem"> 
-        <div class="rightBorder">
-
-      </div>
+    <a ng-repeat="event in events"  >
+    <div class="list list-inset eventsItem"> 
+        
       <div class="leftBorder">
         <p class="day">15. </p>
         <p class="monyear">06.2017.</p>
       </div>
-    </ion-item>
-
+       <p class="hour">18:00 </p>
+        <p class="title">Ribičke feštice</p>
+      <div class="rightBorder">
+        <img src="img/favorit.png" ng-if="event['id']!='185'" class="favorit_icon">
+        <img src="img/empty_favorit.png" ng-if="event['id']==185"  class="favorit_icon">
+        <p class="favorites">Add to favorites</p>
+      </div>
+    </div>
+    </a>
   </ion-content>
 </ion-view>

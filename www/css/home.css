@@ -5,6 +5,8 @@
 text-align: center; padding-top: 7px;color:white
 }
 .eventsItem{
+        color: black;
+
     height: 75px;
     background-color: #D3F4F5;
 }
@@ -12,13 +14,43 @@ text-align: center; padding-top: 7px;color:white
     width: 70px;
     margin-top: 6px; 
     height: 84%; 
-    border-right: solid 1px #8ACDCF;
+    float:left;
+    border-right: solid 1px dodgerblue;
 } 
+
+.rightBorder{ 
+     width: 74px;
+     float:right;
+    margin-top: 6px;  
+    height: 84%; 
+    border-left: solid 1px dodgerblue;
+}
+.favorites{
+    padding-left: 4px;
+    font-size: 9px;    
+}
+.favorit_icon{
+    margin-left: 22px;
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
 .day{
     font-weight: bold; 
     padding-top: 10px;
-    text-align: center;
+    text-align: center;    
 }
 .monyear{
     text-align: center;
+}
+.title{
+    font-weight: bold; 
+    margin-left: 85px;
+    position: absolute;
+    margin-top: 30px; 
+}
+.hour{   
+    margin-top: 7px;
+    margin-left: 85px; 
+    position: absolute;
 }

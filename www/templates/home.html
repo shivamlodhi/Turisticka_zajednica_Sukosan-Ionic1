@@ -1,9 +1,9 @@
-<ion-view  class="wrapper">
-   <div style="margin-top: 100px;" class="bar bar-header eventsDiv ">
+<ion-view  class="wrapper" ng-controller="EventsCtrl" >
+   <div style="margin-top: 130px;" class="bar bar-header eventsDiv ">
        <h3  class="eventsP" style="width: 200px; margin:0 auto; padding-top: 7px;"> Events </p>
     </div>
 
-  <ion-content style="margin-top: 100px;"> 
+  <ion-content style="margin-top: 130px;"> 
     <a ng-repeat="event in events"  ui-sref="app.detail({eventId:{{event['id']}}})">
     <div class="list list-inset eventsItem"> 
         

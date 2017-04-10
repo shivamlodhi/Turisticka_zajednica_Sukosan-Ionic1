@@ -1,5 +1,5 @@
 .eventsDiv{
-     background-color: #5E97F7 ; color:white;  height: 50px;
+     background-color: #0094de ; color:white;  height: 50px;
 }
 .eventsP{
 text-align: center; padding-top: 0px;color:white
@@ -15,7 +15,7 @@ text-align: center; padding-top: 0px;color:white
     margin-top: 6px; 
     height: 84%; 
     float:left;
-    border-right: solid 1px dodgerblue;
+    border-right: solid 1px  #0094de;
 } 
 .favorit-button{
   background-color: Transparent;
@@ -31,7 +31,7 @@ text-align: center; padding-top: 0px;color:white
      float:right;
     margin-top: 6px;  
     height: 84%; 
-    border-left: solid 1px dodgerblue;
+    border-left: solid 1px  #0094de;
 }
 .favorites{
     padding-left: 4px;

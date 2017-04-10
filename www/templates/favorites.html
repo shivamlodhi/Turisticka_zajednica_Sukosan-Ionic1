@@ -3,7 +3,7 @@
        <h3  class="eventsP" style="width: 200px; margin:0 auto; padding-top: 7px;"> My favorites </p>
     </div>
 
-  <ion-content style="margin-top: 100px;"> 
+  <ion-content cache-view="true" style="margin-top: 100px;"> 
     <a ng-repeat="event in favoriti"  ui-sref="app.detail({eventId:{{event['id']}}})">
     <div class="list list-inset eventsItem"> 
         
@@ -15,10 +15,10 @@
         <p class="title">{{event["title"]}}</p>
          <p class="title" ng-if="event['title']==null">FISHERSMES FESTIVITIES </p>
       <div class="rightBorder">
-         <button class="favorit-button" ng-if="event['id']!='185'"  style="  z-index:99999;" ng-click=" addSettings() " >
-        <img src="img/settings.png"  class="favorit_icon">    
-        <p style="margin-top: 5px; margin-left: -3px;padding-left: 6px;
-    font-size: 9px;  overflow: visible;  ">Add to favorites</p>  
+         <button class="favorit-button" ng-if="event['id']!='185'"  style=""  ng-click=" addSettings() " >
+        <img src="img/settings.png" style="margin-left: 20px"  class="favorit_icon">    
+        <p style="margin-top: 5px; margin-left: 11px;padding-left: 6px;
+    font-size: 9px;  overflow: visible;  ">Settings</p>  
         </button>
         
         

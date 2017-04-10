@@ -42,6 +42,7 @@ angular.module('Sukosan', ['ionic','ionic-datepicker', 'starter.controllers','ng
     })
   .state('app.home', {
     url: '/home', 
+    cache: false,
     views: {
       'menuContent': {
         templateUrl: 'templates/home.html',

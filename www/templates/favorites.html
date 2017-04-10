@@ -1,21 +1,22 @@
 <ion-view  class="wrapper">
-   <div style="margin-top: 100px;" class="bar bar-header eventsDiv ">
+   <div style="margin-top: 130px;" class="bar bar-header eventsDiv ">
        <h3  class="eventsP" style="width: 200px; margin:0 auto; padding-top: 7px;"> My favorites </p>
     </div>
 
-  <ion-content cache-view="true" style="margin-top: 100px;"> 
-    <a ng-repeat="event in favoriti"  ui-sref="app.detail({eventId:{{event['id']}}})">
+  <ion-content cache-view="true" style="margin-top: 130px;"> 
+    <a ng-repeat="event in favoriti"   >
     <div class="list list-inset eventsItem"> 
         
-      <div class="leftBorder">
+      <div ng-click="go(event['id'])" class="leftBorder">
         <p class="day">15. </p>
         <p class="monyear">06.2017.</p>
       </div>
+      <div ng-click="go(event['id'])">
        <p class="hour">18:00 </p>
-        <p class="title">{{event["title"]}}</p>
-         <p class="title" ng-if="event['title']==null">FISHERSMES FESTIVITIES </p>
+        <p class="title">{{event["title"]}}</p> 
+      </div>
       <div class="rightBorder">
-         <button class="favorit-button" ng-if="event['id']!='185'"  style=""  ng-click=" addSettings() " >
+         <button class="favorit-button" ng-if="event['id']!='185'"  style=""  ng-click=" addSettings(event['id']) " >
         <img src="img/settings.png" style="margin-left: 20px"  class="favorit_icon">    
         <p style="margin-top: 5px; margin-left: 11px;padding-left: 6px;
     font-size: 9px;  overflow: visible;  ">Settings</p>  
@@ -25,5 +26,8 @@
       </div>
     </div>
     </a>
+    <p style="font-size: 20px;color:  #0094de;text-align: center; margin-top: 150px" ng-if="favoriti.length==0">No favorites </p>
+
+
   </ion-content>
 </ion-view>

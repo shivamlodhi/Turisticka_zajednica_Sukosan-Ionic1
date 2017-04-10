@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('Sukosan', ['ionic', 'starter.controllers','ngCordova'])
+angular.module('Sukosan', ['ionic','ionic-datepicker', 'starter.controllers','ngCordova' ])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -24,15 +24,24 @@ angular.module('Sukosan', ['ionic', 'starter.controllers','ngCordova'])
 
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
-
+  
     .state('app', { 
     abstract: true,
     templateUrl: 'templates/menu.html',
     controller: 'AppCtrl'
   })
-
+   .state('app.detail', {
+      cache:false,
+      url: 'event/:eventId',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/eventDetail.html',
+          controller: 'EventDetailCtrl',
+        }
+      }
+    })
   .state('app.home', {
-    url: '/home',
+    url: '/home', 
     views: {
       'menuContent': {
         templateUrl: 'templates/home.html',
@@ -41,10 +50,20 @@ angular.module('Sukosan', ['ionic', 'starter.controllers','ngCordova'])
     }
   })
    .state('app.favorites', {
-    url: '/favorites',
+    url: '/favorites', 
     views: {
       'menuContent': {
-        templateUrl: 'templates/favorites.html'
+        templateUrl: 'templates/favorites.html',
+        controller: 'FavoritesCtrl'
+      }
+    }
+  })
+  .state('app.settings', {
+    url: '/settings',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/settings.html',
+        controller: 'SettingsCtrl'
       }
     }
   })

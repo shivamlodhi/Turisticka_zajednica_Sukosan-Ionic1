@@ -1,0 +1,38 @@
+<ion-view  class="wrapper">
+  
+
+    <ion-content  >  
+     <div style="margin-top: 71px;height: auto; " class=" eventsDiv ">
+       <h3  class="eventsP" style="width: 200px;  margin:0 auto; margin-top: -15px; ">  {{title}}</p>
+    </div>
+    <div class="list list-inset eventsItem" style="margin-top: -10px;width: 105%;margin-left: -10px  "> 
+        
+      <div class="leftBorder">
+        <p class="day">15. </p>
+        <p class="monyear"> 2016-8</p>
+      </div>
+      <div style="height: auto;width: auto; word-wrap: break-word;padding-right: 50px;">
+       <p class="hour">18:00 </p>
+        <p class="title">{{event['title']}}</p>
+      </div>
+      <div class="rightBorder ">
+    <button class="favorit-button" ng-if=" event['favorit']!=1"  style="  z-index:99999;" ng-click="addFavorit(event['id']) " >
+        <img src="img/favorit.png"  class="favorit_icon">    
+        <p style="margin-top: 5px; margin-left: -3px;padding-left: 6px;
+    font-size: 9px;  overflow: visible;  ">Add to favorites</p>  
+        </button>
+            <button class="favorit-button" ng-if="event['favorit']==1"  style="  z-index:99999;" ng-click="addFavorit(event['id']) " >
+        <img src="img/empty_favorit.png" style=" width: 20px;height: 20px;"  class="favorit_icon">    
+        <p style="margin-top: 5px; margin-left: -3px;padding-left: 6px;
+    font-size: 9px;  overflow: visible;  ">Remove from favorite</p>  
+        </button>
+         
+        
+      </div>
+    </div>
+          <p style="margin: 10px;">
+            {{description}}
+         </p>
+        
+  </ion-content>
+</ion-view>

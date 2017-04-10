@@ -1,0 +1,12 @@
+<ion-view  style=" height: 360px;background-color: dodgerblue;margin-top:-170px;color:white;font-size:16px;">
+    <ion-content  style=" border-radius:  25px; margin-top: -40px;"  scroll="false"> 
+        <img src="img/push.png"  style="display: inline; width: 30px;margin-left:28px;margin-top: 10px;"> <p style="position:relative;margin-top: -30px; margin-left: 65px;   ">Set notification</p> 
+        <input type="text" style=" display: inline;height: 26px;width: 50px; margin-left: 65px;margin-top: 8px;"> <p style="position:relative;margin-top: -25px; margin-left: 120px; width: 100px;  ">hours before event</p>
+        <button ng-click="remove()" style="" class="exit_button1"> SET NOTIFICATION</button>
+        <img src="img/empty_favorit.png" ng-if="event['id']!='185'" style="margin-top:  30px;margin-left: 28px;height: 27px;width: 27px;"  class="favorit_icon">    
+     <p style="position:relative;margin-top: -30px; margin-left: 65px;   ">  Remove event from My favorites </p>
+        <button ng-click="remove()" style=" " class="exit_button1"> YES</button>
+        <button ng-click="remove()" class="exit_button"> NO</button>
+        <br>
+    </ion-content>
+     </ion-view>

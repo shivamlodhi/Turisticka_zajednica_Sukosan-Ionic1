@@ -1,21 +1,33 @@
-<ion-view  >
-  <ion-content> 
-    <div class="eventsDiv" >
-      
-      <h3 class="eventsP"> Events </p> </div>
-    <a ng-repeat="event in events"  >
+<ion-view  class="wrapper">
+   <div style="margin-top: 100px;" class="bar bar-header eventsDiv ">
+       <h3  class="eventsP" style="width: 200px; margin:0 auto; padding-top: 7px;"> Events </p>
+    </div>
+
+  <ion-content style="margin-top: 100px;"> 
+    <a ng-repeat="event in events"  ui-sref="app.detail({eventId:{{event['id']}}})">
     <div class="list list-inset eventsItem"> 
         
       <div class="leftBorder">
         <p class="day">15. </p>
-        <p class="monyear">06.2017.</p>
+        <p class="monyear"> 2016-8</p>
       </div>
+      <div style="height: auto;width: auto; word-wrap: break-word;padding-right: 50px;">
        <p class="hour">18:00 </p>
-        <p class="title">Ribičke feštice</p>
-      <div class="rightBorder">
-        <img src="img/favorit.png" ng-if="event['id']!='185'" class="favorit_icon">
-        <img src="img/empty_favorit.png" ng-if="event['id']==185"  class="favorit_icon">
-        <p class="favorites">Add to favorites</p>
+        <p class="title">{{event['title']}}</p>
+      </div>
+      <div class="rightBorder ">
+    <button class="favorit-button" ng-if=" event['favorit']!=1"  style="  z-index:99999;" ng-click="addFavorit(event['id']) " >
+        <img src="img/favorit.png"  class="favorit_icon">    
+        <p style="margin-top: 5px; margin-left: -3px;padding-left: 6px;
+    font-size: 9px;  overflow: visible;  ">Add to favorites</p>  
+        </button>
+            <button class="favorit-button" ng-if="event['favorit']==1"  style="  z-index:99999;" ng-click="addFavorit(event['id']) " >
+        <img src="img/empty_favorit.png" style=" width: 20px;height: 20px;"  class="favorit_icon">    
+        <p style="margin-top: 5px; margin-left: -3px;padding-left: 6px;
+    font-size: 9px;  overflow: visible;  ">Remove from favorite</p>  
+        </button>
+         
+        
       </div>
     </div>
     </a>

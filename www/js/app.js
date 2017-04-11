@@ -8,37 +8,13 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
 
   .run(function ($ionicPlatform, $http, $cordovaSQLite) {
     $ionicPlatform.ready(function () {
-      var get=true;
-      db = window.sqlitePlugin.openDatabase({ name: 'demo.db', location: 'default' });
-      var query = "SELECT * FROM events";
-      $cordovaSQLite.execute(db, query, []).then(function (res1) {
-        if (res1.rows.length > 0) { get=false;}});
-        if(get==true){
-        var request = $http({
-          method: "GET",
-          url: 'http://www.sukosan.hr/rest/events.php',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
-        });
-        request.success(function (data) {
-
-          $cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS events (id integer primary key, title text, date text, description text, favorit integer)").then(function (res) {
+       console.log("loada se APP.js");
+        var   db = window.sqlitePlugin.openDatabase({ name: 'demo.db', location: 'default' });
+         $cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS events (id integer primary key, title text,day text, date text, description text, favorit integer)").then(function (res) {
             console.log("insertId: " + res.insertId);
           }, function (err) {
             console.error("DASD?" + err[0]);
           });
-
-          for (var v = 0; v < data.length; v++) {
-
-            var query = "INSERT INTO events (id, title, date, description, favorit) VALUES (?,?,?,?,?)";
-            $cordovaSQLite.execute(db, query, [data[v]["id"], data[v]["title"], data[v]["date"], data[v]["description"], 1]).then(function (res) {
-              console.log("INSERT ID -> " + res.insertId);
-            }, function (err) {
-              console.error(err);
-            });
-          }
-        });
-        }
-
         // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
         // for form inputs)
         if (window.cordova && window.cordova.plugins.Keyboard) {

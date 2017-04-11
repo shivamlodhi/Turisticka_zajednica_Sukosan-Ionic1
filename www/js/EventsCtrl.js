@@ -2,6 +2,7 @@
 angular.module('Sukosan')
     .controller('EventsCtrl', function ($scope, $rootScope, $http, $ionicPopup, $cordovaSQLite, $ionicPlatform, $state, $stateParams) {
          $ionicPlatform.ready(function () {
+             console.log("loada se eventsCtrl");
         $scope.events;
         $scope.events = [];
         $scope.myPopup;
@@ -61,9 +62,10 @@ angular.module('Sukosan')
 
                     }
                 }
+                
 
             });
-
+            
          
             $scope.myPopup.close();
             $state.go($state.current, {}, { reload: true });
@@ -80,8 +82,8 @@ angular.module('Sukosan')
       db = window.sqlitePlugin.openDatabase({ name: 'demo.db', location: 'default' });
       var query = "SELECT * FROM events";
       $cordovaSQLite.execute(db, query, []).then(function (res1) {
-        if (res1.rows.length > 0) { get=false;}});
-        if(get==true){
+        if (res1.rows.length > 0) { get=false;}
+        if(res1.rows.length == 0){
         var request = $http({
           method: "GET",
           url: 'http://www.sukosan.hr/rest/events.php',
@@ -89,11 +91,7 @@ angular.module('Sukosan')
         });
         request.success(function (data) {
 
-          $cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS events (id integer primary key, title text, date text, description text, favorit integer)").then(function (res) {
-            console.log("insertId: " + res.insertId);
-          }, function (err) {
-            console.error("DASD?" + err[0]);
-          });
+         
     
 
           for (var v = 0; v < data.length; v++) {
@@ -105,9 +103,10 @@ angular.module('Sukosan')
               console.error(err);
             });
           }
-        });
+             $state.go($state.current, {}, { reload: true }); 
+        });  
         }
-
+});
 
 
 

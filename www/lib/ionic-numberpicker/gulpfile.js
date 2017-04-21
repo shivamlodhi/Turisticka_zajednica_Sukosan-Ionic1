@@ -10,34 +10,31 @@ gulp.task('html2js', function () {
   return gulp.src(['./src/*.html'])
     .pipe(minifyHtml())
     .pipe(ngHtml2Js({
-      moduleName: "ionic-datepicker.templates"
+      moduleName: "ionic-numberpicker.templates"
     }))
     .pipe(concat("templates.js"))
-    //.pipe(uglify())
     .pipe(gulp.dest("./dist"));
 });
 
 gulp.task('css2js', function () {
   return gulp.src("./src/*.css")
     .pipe(css2js())
-    .pipe(uglify())
     .pipe(gulp.dest("./dist/"));
 });
 
 gulp.task('make-bundle', ['del', 'html2js', 'css2js'], function () {
-  return gulp.src(['./dist/*', './src/*.js'])
-    .pipe(concat('ionic-datepicker.bundle.min.js'))
+  return gulp.src(['dist/*', './src/*.js'])
+    .pipe(concat('ionic-numberpicker.bundle.min.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('./dist/'));
+    .pipe(gulp.dest('dist/'));
 });
 
 gulp.task('del-temp-files', ['make-bundle'], function () {
-  del(['./dist/templates.js', './dist/ionic-datepicker.styles.js']);
+  del(['dist/templates.js', 'dist/ionic-numberpicker.styles.js']);
 });
 
 gulp.task('del', function () {
-  del(['./dist/*']);
+  del(['dist/*']);
 });
 
 gulp.task('build', ['del-temp-files']);
-

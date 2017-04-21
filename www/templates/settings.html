@@ -3,8 +3,7 @@
        <h3  class="eventsP" style="width: 200px; margin:0 auto; padding-top: 5px"> Settings </p>
     </div>
 
-  <ion-content style="margin-top: 130px;"> 
-  
+  <ion-content style="margin-top: 130px;">  
     <div class="list list-inset settingsFirstDiv">   
         <p style="margin: 5px;"> Receive notifications</p>    
        <div style="width:140px; margin:0 auto;  ">
@@ -16,8 +15,9 @@
     <div class="list list-inset settingsSecondDiv">   
         <p style="margin: 5px;"> Show events between this dates</p>    
        <div style="width:240px; margin:0 auto;  ">
-        <label class="dateLabel" style="margin-left: -17px;">From : </label><button style="color: white;border-radius: 5px;" ng-click="openDatePicker()" class="settingsButtonsDate"> ---date Picker-- </button><br>
-        <label class="dateLabel">To : </label><button style="color: white;border-radius: 5px;" class="settingsButtonsDate">---date Picker--</button>
+        <label class="dateLabel" style="margin-left: -17px;">From : </label><button style="color: white;border-radius: 5px;" ng-click="openDatePicker()" class="settingsButtonsDate"> {{from}} </button><br>
+        <label class="dateLabel">To : </label><button ng-click="openDatePicker2()" style="color: white;border-radius: 5px;" class="settingsButtonsDate"> {{to}}</button>
+        
        </div>
       </div>
     </div>

@@ -113,7 +113,7 @@ angular.module('Sukosan')
 
 
             var db = window.sqlitePlugin.openDatabase({ name: 'demo.db', location: 'default' });
-            $cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS favorites (id integer primary key, title text, date text, description text)").then(function (res) {
+            $cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS favorites (id integer primary key, title text, date text, description text,notification integer)").then(function (res) {
                 console.log("favoriti uspjeli: " + res.insertId);
             }, function (err) {
                 console.error("DASD?" + err[0]);
@@ -197,6 +197,7 @@ angular.module('Sukosan')
             $scope.myPopup.close();
 
         }
+        
 
 
         $scope.go = function (id) {

@@ -10,3 +10,7 @@
     color: black; 
     background-color: #D3F4F5;
 }
+.selected_date{
+    color: red;
+    background-color: red;
+}

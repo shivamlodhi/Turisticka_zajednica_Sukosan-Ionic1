@@ -21,6 +21,8 @@
   <allow-navigation href="http://192.168.148.2:8101"/>
   <allow-navigation href="http://192.168.148.2:9100"/>
   <allow-navigation href="http://192.168.1.8:8100"/>
+  <allow-navigation href="http://192.168.42.107:8100"/>
+  <allow-navigation href="http://192.168.1.126:8100"/>
   <platform name="android">
     <preference name="loadUrlTimeoutValue" value="700000"/>
     <icon src="resources\android\icon\drawable-ldpi-icon.png" density="ldpi"/>

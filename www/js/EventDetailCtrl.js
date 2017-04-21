@@ -56,7 +56,10 @@ angular.module('Sukosan')
 
         }
 
+          $scope.cancel = function () {
+            $scope.myPopup.close();
 
+        }
 
         $scope.add = function () {
             var db = window.sqlitePlugin.openDatabase({ name: 'demo.db', location: 'default' }); 

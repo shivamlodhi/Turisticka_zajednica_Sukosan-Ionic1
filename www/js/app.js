@@ -4,13 +4,13 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', 'ngCordova'])
+angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', 'ngCordova' ])
 
   .run(function ($ionicPlatform, $http, $cordovaSQLite) {
     $ionicPlatform.ready(function () {
        console.log("loada se APP.js");
         var   db = window.sqlitePlugin.openDatabase({ name: 'demo.db', location: 'default' });
-         $cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS events (id integer primary key, title text,day text, date text, description text, favorit integer)").then(function (res) {
+         $cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS events (id integer primary key, title text,day text, date text, description text, favorit integer,notification integer)").then(function (res) {
             console.log("insertId: " + res.insertId);
           }, function (err) {
             console.error("DASD?" + err[0]);
@@ -28,6 +28,27 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
         }
       });
     })
+
+    .config(function (ionicDatePickerProvider) {
+    var datePickerObj = {
+      inputDate: new Date(),
+      titleLabel: 'Select a Date',
+      setLabel: 'Set',
+      todayLabel: 'Today',
+      closeLabel: 'Close',
+      mondayFirst: false,
+      weeksList: ["S", "M", "T", "W", "T", "F", "S"],
+      monthsList: ["Jan", "Feb", "March", "April", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"],
+      templateType: 'popup',
+      from: new Date(2012, 8, 1),
+      to: new Date(2018, 8, 1),
+      showTodayButton: true,
+      dateFormat: 'dd MMMM yyyy',
+      closeOnSelect: false,
+      disableWeekdays: []
+    };
+    ionicDatePickerProvider.configDatePicker(datePickerObj);
+  })
 
       .config(function ($stateProvider, $urlRouterProvider) {
         $stateProvider

@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', 'ngCordova' ])
+angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', 'ngCordova'])
 
   .run(function ($ionicPlatform, $http, $cordovaSQLite) {
     $ionicPlatform.ready(function () {
@@ -26,8 +26,35 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
           // org.apache.cordova.statusbar required
           StatusBar.styleDefault();
         }
+window.FirebasePlugin.getToken(function(token) {
+    // save this server-side and use it to push notifications to this device
+    
+      var request = $http({
+                                method: "POST",
+                                url: 'http://www.sukosan.hr/rest/createUser.php',
+                                data: { "token": token, "os":"android" },
+                                headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+                        });
+                        request.success(function (data) {
+                               
+                              console.log("DATAAA: "+data[0]);
+                        });
+                          request.error(function (err) {
+                               
+                              console.log("ERROR: "+err);
+                        });
+
+
+    console.log(token);
+}, function(error) {
+    console.error(error);
+});
+
       });
     })
+    
+
+ 
 
     .config(function (ionicDatePickerProvider) {
     var datePickerObj = {

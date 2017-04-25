@@ -1,27 +1,29 @@
 
+ 
 angular.module('Sukosan')
-.controller('SettingsCtrl', function($scope,$stateParams,$http, ionicDatePicker ) { 
+  .controller('SettingsCtrl', function ($scope, $stateParams, $http, ionicDatePicker,$filter) {
     $scope.from;
     $scope.to;
 
-    if( window.localStorage.getItem("to")==null){
-         $scope.to="Pick date";
-    }else{
-         $scope.to= window.localStorage.getItem("to")
+    if (window.localStorage.getItem("to") == null) {
+      $scope.to = "Pick date";
+    } else {
+      $scope.to = window.localStorage.getItem("to")
     }
-      if( window.localStorage.getItem("from")==null){
-         $scope.from="Pick date";
-    }else{
-         $scope.from= window.localStorage.getItem("from")
+    if (window.localStorage.getItem("from") == null) {
+      $scope.from = "Pick date";
+    } else {
+      $scope.from = window.localStorage.getItem("from")
     }
-    
-     var ipObj = {
+
+    var ipObj = {
       callback: function (val) {  //Mandatory 
-          
-        console.log('Return value from the datepicker popup is : ' + val, new Date(val));
-        alert(new Date(val).toDateString());
-         window.localStorage.setItem("to",new Date(val).toDateString() );
-          $scope.to =new Date(val).toDateString();
+
+        console.log('Return value from the datepicker popup is : ' + val, new Date(val)); 
+         alert($filter('date')(new Date(val), 'dd/MM/yyyy'));
+        window.localStorage.setItem("to", new Date(val).toDateString());
+         window.localStorage.setItem("toString", $filter('date')(new Date(val), 'dd/MM/yyyy')); 
+        $scope.sendPost();
       },
       disabledDates: [            //Optional
         new Date(2016, 2, 16),
@@ -41,26 +43,28 @@ angular.module('Sukosan')
       templateType: 'popup'       //Optional
     };
 
-    $scope.openDatePicker2 = function(){
+    $scope.openDatePicker2 = function () {
       ionicDatePicker.openDatePicker(ipObj);
-    }; 
+    };
 
-    if(window.localStorage.getItem("notifications")==null  ){
-        $scope.click = 'red';  
-        window.localStorage.setItem("notifications","red"); 
-    }else{
-         
-      
-        
-        $scope.click =window.localStorage.getItem("notifications"); 
-      
+    if (window.localStorage.getItem("notifications") == null) {
+      $scope.click = 'red';
+      window.localStorage.setItem("notifications", "red");
+    } else {
+
+
+
+      $scope.click = window.localStorage.getItem("notifications");
+
     }
-     var ipObj1 = {
+    var ipObj1 = {
       callback: function (val) {  //Mandatory
         console.log('Return value from the datepicker popup is : ' + val, new Date(val));
         alert(new Date(val).toDateString());
-         window.localStorage.setItem("from",new Date(val).toDateString() );
-          $scope.from =new Date(val).toDateString();
+        window.localStorage.setItem("from", new Date(val).toDateString());
+         window.localStorage.setItem("fromString", $filter('date')(new Date(val), 'dd/MM/yyyy')); 
+        $scope.from = new Date(val).toDateString();
+        $scope.sendPost();
       },
       disabledDates: [            //Optional
         new Date(2016, 2, 16),
@@ -80,17 +84,41 @@ angular.module('Sukosan')
       templateType: 'popup'       //Optional
     };
 
-    $scope.openDatePicker = function(){
+    $scope.openDatePicker = function () {
       ionicDatePicker.openDatePicker(ipObj1);
-    }; 
-$scope.clickNotifications = function(){
-     if(window.localStorage.getItem("notifications")=="red"){
-          window.localStorage.setItem("notifications","green"); 
-           $scope.click="green"; 
-    }else{
-         window.localStorage.setItem("notifications","red"); 
-           $scope.click="red";  
-     }
-}
+    };
+    $scope.clickNotifications = function () {
+      if (window.localStorage.getItem("notifications") == "red") {
+        window.localStorage.setItem("notifications", "green");
+        window.localStorage.setItem("notificationsValue", "0");
+        $scope.click = "green";
+        alert();
+        $scope.sendPost();
+      } else {
+        window.localStorage.setItem("notifications", "red");
+        window.localStorage.setItem("notificationsValue", "1");
+        $scope.click = "red";
+        $scope.sendPost();
+      }
+    }
+    $scope.sendPost = function () {
 
-});
+      console.log(window.localStorage.getItem("notificationsValue") + "   " + window.localStorage.getItem("fromString") + "       zavrsni:  " + window.localStorage.getItem("toString"));
+      var request = $http({
+        method: "POST",
+        url: 'http://www.sukosan.hr/rest/updateUser.php',
+        data: { "push ": window.localStorage.getItem("notificationsValue"), "id": "213", "pocetni": window.localStorage.getItem("fromString"), "zavrsni": window.localStorage.getItem("toString") },
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+      });
+      request.success(function (data) {
+
+        console.log("UPDATE: " + data);
+      });
+      request.error(function (err) {
+
+        console.log("ERROR: " + err);
+      });
+
+    }
+
+  });

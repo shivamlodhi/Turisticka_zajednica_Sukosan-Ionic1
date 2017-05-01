@@ -1,7 +1,7 @@
 
- 
+
 angular.module('Sukosan')
-  .controller('SettingsCtrl', function ($scope, $stateParams, $http, ionicDatePicker,$filter) {
+  .controller('SettingsCtrl', function ($scope, $stateParams, $http, ionicDatePicker, $filter) {
     $scope.from;
     $scope.to;
 
@@ -19,10 +19,11 @@ angular.module('Sukosan')
     var ipObj = {
       callback: function (val) {  //Mandatory 
 
-        console.log('Return value from the datepicker popup is : ' + val, new Date(val)); 
-         alert($filter('date')(new Date(val), 'dd/MM/yyyy'));
+        console.log('Return value from the datepicker popup is : ' + val, new Date(val));
+        alert($filter('date')(new Date(val), 'dd/MM/yyyy'));
         window.localStorage.setItem("to", new Date(val).toDateString());
-         window.localStorage.setItem("toString", $filter('date')(new Date(val), 'dd/MM/yyyy')); 
+        window.localStorage.setItem("toString",$filter('date')(new Date(val), 'yyyy-MM-dd') );
+          alert("ovo:  " +$filter('date')(new Date(val), 'yyyy-MM-dd') )
         $scope.sendPost();
       },
       disabledDates: [            //Optional
@@ -59,10 +60,10 @@ angular.module('Sukosan')
     }
     var ipObj1 = {
       callback: function (val) {  //Mandatory
-        console.log('Return value from the datepicker popup is : ' + val, new Date(val));
-        alert(new Date(val).toDateString());
+        console.log('Return value from the datepicker popup is : ' + val, new Date(val)); 
         window.localStorage.setItem("from", new Date(val).toDateString());
-         window.localStorage.setItem("fromString", $filter('date')(new Date(val), 'dd/MM/yyyy')); 
+        window.localStorage.setItem("fromString", $filter('date')(new Date(val), 'yyyy-MM-dd') );
+        alert("ovo:  " +$filter('date')(new Date(val), 'yyyy-MM-dd') )
         $scope.from = new Date(val).toDateString();
         $scope.sendPost();
       },
@@ -101,22 +102,25 @@ angular.module('Sukosan')
         $scope.sendPost();
       }
     }
+
+
+
     $scope.sendPost = function () {
 
-      console.log(window.localStorage.getItem("notificationsValue") + "   " + window.localStorage.getItem("fromString") + "       zavrsni:  " + window.localStorage.getItem("toString"));
       var request = $http({
         method: "POST",
         url: 'http://www.sukosan.hr/rest/updateUser.php',
-        data: { "push ": window.localStorage.getItem("notificationsValue"), "id": "213", "pocetni": window.localStorage.getItem("fromString"), "zavrsni": window.localStorage.getItem("toString") },
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
-      });
-      request.success(function (data) {
+        data: { push: window.localStorage.getItem("notificationsValue"), token: window.localStorage.getItem("token"), os: "android", pocetni: window.localStorage.getItem("fromString"), zavrsni: window.localStorage.getItem("toString") },
 
-        console.log("UPDATE: " + data);
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+
+      });
+      request.success(function (data) { 
+      console.log("DOBAR DATUM"+data);
       });
       request.error(function (err) {
 
-        console.log("ERROR: " + err);
+        console.log("ERRORiiii: " + err);
       });
 
     }

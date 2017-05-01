@@ -8,8 +8,8 @@
     <div class="list list-inset eventsItem"> 
         
       <div ng-click="go(event['id'])" class="leftBorder">
-        <p class="day">15. </p>
-        <p class="monyear">06.2017.</p>
+         <p class="day">{{ event['date'].slice(-2)}} </p>
+          <p class="monyear"> {{event['date'].substring(0, 7);}}</p>
       </div>
       <div ng-click="go(event['id'])">
        <p class="hour">18:00 </p>

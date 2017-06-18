@@ -19,11 +19,9 @@ angular.module('Sukosan')
     var ipObj = {
       callback: function (val) {  //Mandatory 
 
-        console.log('Return value from the datepicker popup is : ' + val, new Date(val));
-        alert($filter('date')(new Date(val), 'dd/MM/yyyy'));
+        console.log('Return value from the datepicker popup is : ' + val, new Date(val)); 
         window.localStorage.setItem("to", new Date(val).toDateString());
-        window.localStorage.setItem("toString",$filter('date')(new Date(val), 'yyyy-MM-dd') );
-          alert("ovo:  " +$filter('date')(new Date(val), 'yyyy-MM-dd') )
+        window.localStorage.setItem("toString",$filter('date')(new Date(val), 'yyyy-MM-dd') ); 
         $scope.sendPost();
       },
       disabledDates: [            //Optional
@@ -62,8 +60,7 @@ angular.module('Sukosan')
       callback: function (val) {  //Mandatory
         console.log('Return value from the datepicker popup is : ' + val, new Date(val)); 
         window.localStorage.setItem("from", new Date(val).toDateString());
-        window.localStorage.setItem("fromString", $filter('date')(new Date(val), 'yyyy-MM-dd') );
-        alert("ovo:  " +$filter('date')(new Date(val), 'yyyy-MM-dd') )
+        window.localStorage.setItem("fromString", $filter('date')(new Date(val), 'yyyy-MM-dd') ); 
         $scope.from = new Date(val).toDateString();
         $scope.sendPost();
       },
@@ -92,8 +89,7 @@ angular.module('Sukosan')
       if (window.localStorage.getItem("notifications") == "red") {
         window.localStorage.setItem("notifications", "green");
         window.localStorage.setItem("notificationsValue", "0");
-        $scope.click = "green";
-        alert();
+        $scope.click = "green"; 
         $scope.sendPost();
       } else {
         window.localStorage.setItem("notifications", "red");

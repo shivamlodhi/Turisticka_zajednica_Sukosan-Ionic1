@@ -10,12 +10,9 @@ text-align: center; padding-top: 0px;color:white
     height: 75px;
     background-color: #D3F4F5;
 }
-.leftBorder{ 
-    width: 70px;
-    margin-top: 6px; 
-    height: 84%; 
-    float:left;
-    border-right: solid 1px  #0094de;
+.mjesto{  
+  height: 34px;width: 150px;background-color: #0094de;
+  border-radius: 0 20px 20px 0;
 } 
 .favorit-button{
   background-color: Transparent;

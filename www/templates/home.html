@@ -1,34 +1,47 @@
 <ion-view class="wrapper" ng-controller="EventsCtrl">
-  <div style="margin-top: 130px;" class="bar bar-header eventsDiv ">
-    <h3 class="eventsP" style="width: 200px; margin:0 auto; padding-top: 7px;"> Events </p>
-  </div>
+ 
+  <ion-content style="background-color: grey"> 
 
-  <ion-content style="margin-top: 130px;">
     <a ng-repeat="event in events" >
-      <div class="list list-inset eventsItem">
+      <div ng-click="go(event['id'])" style="background-image: url('img/festice.jpg');height: 300px;width:100%">
+        <br/>
+        <div class="mjesto" style="margin-top:60px;"  > 
+         <p style="color:white;font-size: 20px;text-align: center;padding-top: 7px"> Sukošan</p> 
+        </div><br/> 
+        
+         <p style="color:white;font-size:20px; margin-left: 40px;font-weight: bold">{{event["title"]}}</p> 
 
-        <div class="leftBorder" ng-click="go(event['id'])" >
-          <p class="day">{{ event['date'].slice(-2)}} </p>
-          <p class="monyear"> {{event['date'].substring(0, 7);}}</p>
+          <img   style="height: 30px;width: 30px;margin-left: 40px   " src="img/calendar.png" title="original">
+          <p style="color:white;font-size:15px; font-weight: bold"> {{event['date'].substring(0, 7);}}
+          </p>
+            <img   style="height: 30px;width: 30px;margin-left: 40px;  " src="img/location.png" title="original">
+          <p style="color:white;font-size:15px; font-weight: bold;padding-top:4px "> {{event['location']}}
+          </p>
+      </div>
+      <div  style="margin-left: 20px;margin-right: 20px;height: 80px;background-color: white;border-radius: 3px;;
+">
+
+        <div style=" display:inline-block;height: 80px;width: 73px">
+           <img   style="height: 33px;width: 40px; margin-left: 30px;margin-top: 15px;  " src="img/save.png" title="original"><br><br/> 
+           <p style="margin-left: 35px;color: grey; position: absolute;margin-top: 10px ">Save</p>
         </div>
-        <div ng-click="go(event['id'])" style="height: auto;width: auto; word-wrap: break-word;padding-right: 50px;">
-          <p class="hour">18:00 </p>
-          <p class="title">{{event['title']}}</p>
+
+   <div style=" display:inline-block;height: 80px;width: 73px">
+           <img   style="height: 33px;width: 40px; margin-left: 30px;margin-top: 15px;  " src="img/remind.png" title="original"><br><br/> 
+           <p style="margin-left: 15px;color: grey; position: absolute;margin-top: 10px ">Remind me</p>
         </div>
-        <div class="rightBorder ">
-          <button class="favorit-button" ng-if=" event['favorit']!=1" style="  z-index:99999;" ng-click="addFavorit(event['id'],event['favorit']) ">
-        <img src="img/favorit.png"  class="favorit_icon">    
-        <p style="margin-top: 5px; margin-left: -3px;padding-left: 6px;
-    font-size: 9px;  overflow: visible;  ">Add to favorites</p>  
-        </button>
-          <button class="favorit-button" ng-if="event['favorit']==1" style="  z-index:99999;" ng-click="addFavorit(event['id'],event['favorit']) ">
-        <img src="img/empty_favorit.png" style=" width: 20px;height: 20px;"  class="favorit_icon">    
-        <p style="margin-top: 5px; margin-left: -3px;padding-left: 6px;
-    font-size: 9px;  overflow: visible;  ">Remove from favorite</p>  
-        </button>
+
+   <div style=" display:inline-block;height: 80px;width: 73px">
+           <img   style="height: 33px;width: 40px; margin-left: 30px;margin-top: 15px;  " src="img/share.png" title="original"><br><br/> 
+           <p style="margin-left: 35px;color: grey; position: absolute;margin-top: 10px ">Share</p>
+        </div>
+
+   <div style=" display:inline-block;height: 80px;width: 73px">
+           <img   style="height: 33px;width: 40px; margin-left: 30px;margin-top: 15px;  " src="img/navi.png" title="original"><br><br/> 
+           <p style="margin-left: 35px;color: grey; position: absolute;margin-top: 10px ">Navi</p>
+        </div>
 
 
-        </div>
       </div>
     </a>
   </ion-content>

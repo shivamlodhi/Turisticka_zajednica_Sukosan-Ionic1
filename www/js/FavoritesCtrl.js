@@ -8,8 +8,7 @@ angular.module('Sukosan')
         $scope.time;
         $scope.timePrikaz="CHOOSE";
         $scope.hourDefault;
-        $scope.minuteDefault;
-        var c = 1;
+        $scope.minuteDefault; 
 
         $scope.go = function (id) {
             $state.go('app.detail', { eventId: id })
@@ -17,8 +16,7 @@ angular.module('Sukosan')
         var ipObj1 = {
             callback: function (val) {      //Mandatory
                 if (typeof (val) === 'undefined') {
-                    console.log('Time not selected');
-                    alert();
+                    console.log('Time not selected'); 
                 } else {
                     
                     $scope.time = new Date(val * 1000);
@@ -80,16 +78,13 @@ angular.module('Sukosan')
 
         }
 
-        $scope.addNotification = function () {
-
-
+        $scope.addNotification = function () { 
             var query = "SELECT * from favorites where id = ?";
             $cordovaSQLite.execute(db, query, [$scope.id]).then(function (res) {
                 var alarmTime = new Date(res.rows.item(0).date);
 
                 alarmTime.setHours($scope.time.getUTCHours());
-                alarmTime.setMinutes($scope.time.getUTCMinutes());
-                alert(alarmTime);
+                alarmTime.setMinutes($scope.time.getUTCMinutes()); 
                 cordova.plugins.notification.local.schedule({
                     id: $scope.id,
                     date: alarmTime,
@@ -101,6 +96,8 @@ angular.module('Sukosan')
             }, function (err) {
                 console.error(err[0]);
             }); 
+
+
             $scope.myPopup.close();
 
 
@@ -133,8 +130,7 @@ angular.module('Sukosan')
 
                 if (res.rows.length > 0) {
                     console.log("SELECTED -> " + res.rows.item(0).id + " " + res.rows.item(0).s_id);
-                    for (var i = 0; i < res.rows.length; i++) {
-                        alert(res.rows.item(i).date);
+                    for (var i = 0; i < res.rows.length; i++) { 
                         $scope.favoriti.push({
                             id: res.rows.item(i).id,
                             title: res.rows.item(i).title,

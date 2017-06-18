@@ -11,7 +11,15 @@ angular.module('Sukosan')
             $scope.text;
             $scope.date;
             $scope.favorit = 3;
-            window.localStorage.setItem("page", "Events");
+            window.localStorage.setItem("page", "Events"); 
+                         $scope.events.push({
+                                        id: "1",
+                                        title:"Ribicke festice",
+                                        date:"12-2-1992",
+                                        text: "neki tekst od necemu",
+                                        location:"Trg, Gornja Vrata, center of Sukosan",
+                                        favorit: 2,
+                                    });
 
             $scope.addFavorit = function (id, favorit) {
                 $scope.id = id;
@@ -69,7 +77,7 @@ angular.module('Sukosan')
 
 
             }
-
+/**
             var get = true;
             db = window.sqlitePlugin.openDatabase({ name: 'demo.db', location: 'default' });
             
@@ -89,7 +97,7 @@ angular.module('Sukosan')
 
                     var query = "SELECT * FROM favorites";
                     $cordovaSQLite.execute(db, query, []).then(function (res1) {
-                        $scope.events = [];
+                      
                         if (res.rows.length > 0) {
                             console.log("SELECTEDaaaaaa -> " + res.rows.item(0).id + " " + res.rows.item(0).s_id);
                             for (var i = 0; i < res.rows.length; i++) {
@@ -148,11 +156,9 @@ angular.module('Sukosan')
                 console.error("error=>" + err);
             });
 
+ */
 
-
-        });
-
-
+        }); 
 
         $scope.cancel = function () {
             $scope.myPopup.close();

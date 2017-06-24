@@ -1,55 +1,39 @@
-<ion-side-menus   enable-menu-with-back-views="false">
+<ion-side-menus   enable-menu-with-back-views="true">
   <ion-side-menu-content>
-    <ion-nav-bar style="background: rgba(127,217,250,1);
-background: -moz-linear-gradient(left, rgba(127,217,250,1) 0%, rgba(120,212,245,1) 19%, rgba(120,212,245,1) 42%, rgba(52,130,247,1) 72%, rgba(24,110,240,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(127,217,250,1)), color-stop(19%, rgba(120,212,245,1)), color-stop(42%, rgba(120,212,245,1)), color-stop(72%, rgba(52,130,247,1)), color-stop(100%, rgba(24,110,240,1)));
-background: -webkit-linear-gradient(left, rgba(127,217,250,1) 0%, rgba(120,212,245,1) 19%, rgba(120,212,245,1) 42%, rgba(52,130,247,1) 72%, rgba(24,110,240,1) 100%);
-background: -o-linear-gradient(left, rgba(127,217,250,1) 0%, rgba(120,212,245,1) 19%, rgba(120,212,245,1) 42%, rgba(52,130,247,1) 72%, rgba(24,110,240,1) 100%);
-background: -ms-linear-gradient(left, rgba(127,217,250,1) 0%, rgba(120,212,245,1) 19%, rgba(120,212,245,1) 42%, rgba(52,130,247,1) 72%, rgba(24,110,240,1) 100%);
-background: linear-gradient(to right, rgba(127,217,250,1) 0%, rgba(120,212,245,1) 19%, rgba(120,212,245,1) 42%, rgba(52,130,247,1) 72%, rgba(24,110,240,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fd9fa', endColorstr='#186ef0', GradientType=1 );"   class=" mynavbar">
- 
-      <ion-nav-buttons side="left"> <button style="background-color: transparent;border: 0px"  menu-toggle="left"><img class="title-image" src="img/menu-icon.png" width="35px;"   style="margin-top: 10px" /> 
-       </button>
-        </ion-nav-buttons>
-      <ion-nav-buttons side="right">
-          
-        
-       
-        </button></div>
-      </ion-nav-buttons>
-    </ion-nav-bar>
+     
     <ion-nav-view  name="menuContent"></ion-nav-view>
     
   </ion-side-menu-content>
 
   <ion-side-menu style="background-color: white;" side="left">
-    <ion-header-bar style="height: 180px;  
-background: #a9cdc2; /* Old browsers */
-background: -moz-linear-gradient(top, #a9cdc2 0%, #37716e 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #a9cdc2 0%,#37716e 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #a9cdc2 0%,#37716e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9cdc2', endColorstr='#37716e',GradientType=0 ); /* IE6-9 */"  class="bar-stable">
-       <img style="  border-radius: 50%;margin-top:40px;width: 80px;margin-left: 80px;"  src="img/logoRound.jpg" width="80px;" height="80px"/>
+    <ion-header-bar style="height: 180px;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6ac1c4+0,375453+100 */
+background: #6ac1c4; /* Old browsers */
+background: -moz-linear-gradient(top,  #6ac1c4 0%, #375453 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #6ac1c4 0%,#375453 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #6ac1c4 0%,#375453 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ac1c4', endColorstr='#375453',GradientType=0 ); /* IE6-9 */
+"  class="bar-stable">
+       <img style="  border-radius: 50%;margin-top:40px;width: 80px;margin-left: 80px;"  src="img/logoRound.jpg" width="80px;" height="80px"/><br/>
+  <p style="position: absolute;  margin-top: 120px;color: white;margin-left: -77px; font-size: 18px">SUKOŠAN</p>
     </ion-header-bar>
     <ion-content style="margin-top: 160px">
       <ion-list  style="background-color:white;">
        
-        <ion-item  style="background-color:white;color:dimgrey;font-size: 22px;margin-top: 7px" menu-close ng-click="openState('bapp.info')">
-            <img class="grayscale" title="grayscale" style="height: 30px;width: 30px; margin-right:20px " src="img/settings.png" title="original"> Info
-        </ion-item  style="background-color:#0094de;color:dimgrey;font-size: 22px;margin-top: 7px" menu-close ng-click="openState('bapp.info')">
-        
-        <ion-item  style="background-color:white;color:dimgrey;font-size: 22px;margin-top: 7px" menu-close ng-click="openState('bapp.info')">
-            <img class="grayscale" title="grayscale" style="height: 30px;width: 30px; margin-right:20px " src="img/settings.png" title="original">    Activities
+        <ion-item  style="background-color:white;color:{{infoText}};font-size: 22px;margin-top: 0px;border: 0px white;" menu-close ng-click="openState('app.home')">
+            <img   class="{{info}}" title="grayscale" style="height: 30px;width: 30px; margin-right:20px;margin-top: -5px " src="img/settings.png" title="original"> Info
         </ion-item  >
-          <ion-item  style="background-color:white;color:dimgrey;font-size: 22px;margin-top: 7px" menu-close ng-click="openState('bapp.info')">
-            <img class="grayscale" title="grayscale" style="height: 30px;width: 30px; margin-right:20px " src="img/settings.png" title="original">   Food & Drink
+        
+        <ion-item  style="background-color:white;color:{{infoFavorit}};font-size: 22px;margin-top: 7px;border: 0px white;" menu-close ng-click="openState('app.favorites')">
+            <img class="{{favorit}}" class="grayscale" title="grayscale" style="height: 30px;width: 30px; margin-right:20px ;margin-top: -5px " src="img/settings.png" title="original">    Favorites
+        </ion-item  >
+          <ion-item  style="background-color:white;color:{{settings}};font-size: 22px;margin-top: 7px;border: 0px white;" menu-close ng-click="">
+            <img class="{{food}}"   title="grayscale" style="height: 30px;width: 30px; margin-right:20px ;margin-top: -5px" src="img/settings.png" title="original">   Food & Drink
         </ion-item>
-  <ion-item  style="background-color:white;color:dimgrey;font-size: 22px;margin-top: 7px" menu-close ng-click="openState('bapp.info')">
-            <img class="grayscale" title="grayscale" style="height: 30px;width: 30px; margin-right:20px " src="img/settings.png" title="original">Settings
+  <ion-item  style="background-color:white;color:dimgrey;font-size: 22px;margin-top: 7px;border: 0px white;" menu-close ng-click="">
+            <img class="{{settings}}"title="grayscale" style="height: 30px;width: 30px; margin-right:20px ;margin-top: -5px " src="img/settings.png" title="original">Settings
         </ion-item>
-          <ion-item  style="background-color:white;color:dimgrey;font-size: 22px;margin-top: 7px" menu-close ng-click="openState('bapp.info')">
-            <img class="grayscale" title="grayscale" style="height: 30px;width: 30px; margin-right:20px " src="img/settings.png" title="original">Settings
+          <ion-item  style="background-color:white;color:dimgrey;font-size: 22px;margin-top: 7px;border: 0px white;" menu-close ng-click="">
+            <img class="{{activities}}" title="grayscale" style="height: 30px;width: 30px; margin-right:20px; margin-top: -5px" src="img/settings.png" title="original">Settings
         </ion-item>
       </ion-list>
     </ion-content>

@@ -1,14 +1,14 @@
 /* Empty. Add your own CSS if you like */
 .mynavbar{
   height: 70px !important;
-  background: rgba(52,195,247,1);
-background: -moz-linear-gradient(left, rgba(52,195,247,1) 0%, rgba(52,130,247,1) 52%, rgba(24,110,240,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,195,247,1)), color-stop(52%, rgba(52,130,247,1)), color-stop(100%, rgba(24,110,240,1)));
-background: -webkit-linear-gradient(left, rgba(52,195,247,1) 0%, rgba(52,130,247,1) 52%, rgba(24,110,240,1) 100%);
-background: -o-linear-gradient(left, rgba(52,195,247,1) 0%, rgba(52,130,247,1) 52%, rgba(24,110,240,1) 100%);
-background: -ms-linear-gradient(left, rgba(52,195,247,1) 0%, rgba(52,130,247,1) 52%, rgba(24,110,240,1) 100%);
-background: linear-gradient(to right, rgba(52,195,247,1) 0%, rgba(52,130,247,1) 52%, rgba(24,110,240,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34c3f7', endColorstr='#186ef0', GradientType=1 );
+background: rgba(52,241,247,1);
+background: -moz-linear-gradient(left, rgba(52,241,247,1) 0%, rgba(39,147,230,1) 96%, rgba(39,109,230,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,241,247,1)), color-stop(96%, rgba(39,147,230,1)), color-stop(100%, rgba(39,109,230,1)));
+background: -webkit-linear-gradient(left, rgba(52,241,247,1) 0%, rgba(39,147,230,1) 96%, rgba(39,109,230,1) 100%);
+background: -o-linear-gradient(left, rgba(52,241,247,1) 0%, rgba(39,147,230,1) 96%, rgba(39,109,230,1) 100%);
+background: -ms-linear-gradient(left, rgba(52,241,247,1) 0%, rgba(39,147,230,1) 96%, rgba(39,109,230,1) 100%);
+background: linear-gradient(to right, rgba(52,241,247,1) 0%, rgba(39,147,230,1) 96%, rgba(39,109,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34f1f7', endColorstr='#276de6', GradientType=1 );
 }
 .logo {
     float:left  !important;
@@ -78,3 +78,29 @@ img {
 .sepia {-webkit-filter: sepia(100%); filter: sepia(100%);}
 .huerotate {-webkit-filter: hue-rotate(180deg); filter: hue-rotate(180deg);}
 .rss.opacity {-webkit-filter: opacity(50%); filter: opacity(50%);}
+
+
+.myButton {
+    border: solid 1px #00aee8;
+    margin-left: 52px;
+	background-color:#00aee8;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:12px 31px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+

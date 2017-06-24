@@ -1,6 +1,6 @@
 
 angular.module('Sukosan')
-    .controller('FavoritesCtrl', function ($scope, $rootScope, $http, $cordovaSQLite, $ionicPopup, $state, $cordovaLocalNotification, ionicTimePicker) {
+    .controller('FavoritesCtrl', function ($scope, $rootScope, $http, $cordovaSQLite, $ionicPopup, $state, $cordovaLocalNotification, ionicTimePicker, $ionicLoading) {
         console.log("asdasd");
         $scope.myPopup;
         $scope.id;
@@ -60,16 +60,18 @@ angular.module('Sukosan')
 
         }
         //remuva iz favorita event na koji je kliknut
-        $scope.remove = function () {
+        $scope.remove = function (id) { 
             var query = "DELETE from favorites where id = ?";
-            $cordovaSQLite.execute(db, query, [$scope.id]).then(function (res) {
+            $cordovaSQLite.execute(db, query, [id]).then(function (res) {
                 console.log("insertId: " + res.insertId);
+                 $state.go($state.current, {}, { reload: true });
             }, function (err) {
                 console.error(err[0]);
             });
 
             $scope.myPopup.close();
-            $state.go($state.current, {}, { reload: true });
+            $state.go($state.current, {}, { reload: true }); 
+             $ionicLoading.show({ template: 'Favorit izbrisan ', noBackdrop: true, duration: 3000 });
 
 
         }
@@ -120,23 +122,23 @@ angular.module('Sukosan')
 
 
 
-        $scope.favoriti = [];
+        $scope.events = [];
         $scope.items;
 
         document.addEventListener('deviceready', function () {
             var query = "SELECT * FROM favorites";
             db = window.sqlitePlugin.openDatabase({ name: 'demo.db', location: 'default' });
             $cordovaSQLite.execute(db, query, []).then(function (res) {
-
-                if (res.rows.length > 0) {
+                    console.log("komada: "+res.rows.length );
+                if (res.rows.length > 0) { 
                     console.log("SELECTED -> " + res.rows.item(0).id + " " + res.rows.item(0).s_id);
                     for (var i = 0; i < res.rows.length; i++) { 
-                        $scope.favoriti.push({
+                        $scope.events.push({
                             id: res.rows.item(i).id,
                             title: res.rows.item(i).title,
                             date: res.rows.item(i).date,
                         });
-                        console.log("ajdeee" + $scope.favoriti.length);
+                        console.log("ajdeee" + $scope.events.length);
                     }
                 } else {
                     console.log("No results found");

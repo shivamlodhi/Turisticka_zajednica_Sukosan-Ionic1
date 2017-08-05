@@ -1,37 +1,74 @@
 <ion-view class="wrapper" ng-controller="EventsCtrl">
- 
-  <ion-content  style="background-image: url('img/festice.jpg');text-align:center;"> <br>   <p style="font-size: 18px;font-weight: bold;color: white">
-              Dobrodošli
-          </p> 
-          <img style="  border-radius: 50%; width: 130px; margin-left: 30%;"  src="img/logoRound.jpg" width="80px;" height="130px"/>
-          <br> <br> <br> <br> <br> <br> <br>  
-          <h1 style="  border-radius: 50%;margin-top:40px;width: 180px ;margin:auto;color: white">SUKOŠAN</h1>
-          <p style="font-size: 18px;font-weight: bold;color: white">
-              Dogadjanja
-          </p><br> 
-<div style="height: 65px;width: 81%;margin-left:10%;background-color: white; box-shadow: 2px 2px 1px #1C1C1C;padding-top: 22px;" class="list list-inset">
-     <img   style="height: 29px;width: 28px; margin-left: 16px;margin-top: -2px;  " src="img/calendarB.png" title="original">
-      <p style="font-size: 16px;font-weight: bold ;color: #0094de">
-            Enter the dates
-          </p>
+
+  <ion-content style="background-image: url('img/festice.jpg');text-align:center;">
+    <img src="img/festice.jpg" style="height: 100%;width: 100%;position: absolute;left: 0px" />
+
+    <br>
+    <p style="position: absolute;font-size: 18px;font-weight: bold;color: white;  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;">
+      Dobrodošli
+    </p>
+    <img style="  border-radius: 50%; width: 130px; margin-left: 30%;position: absolute;  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;margin-top: 40px" src="img/logoRound.jpg" width="80px;" height="130px" />
+    <br> <br> <br> <br> <br> <br> <br>  
+
+    <h1 style=" position: absolute; border-radius: 50%;margin-top:40px;width: 180px ;margin:auto;color: white;  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;margin-top: 60px">SUKOŠAN</h1>
+
+    <p style="position: absolute;font-size: 18px;font-weight: bold;color: white;  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;margin-top: 100px">
+      Dogadjanja
+    </p><br> 
+    <div style="position: absolute;margin-top:100px;left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;"> 
+
+  <div ng-click="openDatePicker()" style="height: 65px;width: 100px;text-align: center; background-color: white; box-shadow: 2px 2px 1px #1C1C1C;padding-top: 22px;display:inline-block;margin-top:30px;margin-bottom:0px;"
+      class="list list-inset">  
+          <p style="color: #0094de;  margin-top: -20px; ">     from
+      </p>
+      <p style=" font-size: 16px;font-weight: bold ;color: #0094de; margin-top: -10px; ">
+        {{from}}
+      </p>
     </div> 
- <p style="font-size: 16px;color: white;padding-top: 10px">
-             Enter start and end date of your stay display of current events
-          </p> 
-          <a ng-click="openState('app.home')" style=" 
+      <div  ng-click="openDatePicker2()" style="height: 65px;width: 100px; background-color: white;margin-top:0px; box-shadow: 2px 2px 1px #1C1C1C;padding-top: 22px;display:inline-block;"
+      class="list list-inset"> 
+        <p style="color: #0094de;margin-left: 44px; margin-top: -20px;position: absolute">     to
+      </p>
+      <p style=" font-size: 16px;font-weight: bold ;color: #0094de; ">
+        {{to}}
+      </p>
+    </div> 
+    </div>
+    <p style="position: absolute;font-size: 16px;color: white;padding-top: 10px; margin-top: 200px">
+      Enter start and end date of your stay display of current events
+    </p>
+    <a ng-click="openState('app.home')" style="position: absolute; 
           float: right;
-	background-color:#007dc1;
+	background-color:#007dc1;margin-top: 230px;
 	-moz-border-radius:28px;
 	-webkit-border-radius:28px;
 	border-radius:28px;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+  color:#ffffff;
+  height: 30px;
 	font-family:Arial;
 	font-size:17px;
-	padding:11px 30px;
+  padding:6px 30px;
+  text-align: left;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #154682;
+  text-shadow:0px 1px 0px #154682;
+  right: 30px;bottom:30px; 
  
 ">SKIP</a>
   </ion-content>

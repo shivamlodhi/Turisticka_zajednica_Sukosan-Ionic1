@@ -26,30 +26,39 @@
          </p>
          <br/>
          <ng-map center="41,-87" zoom="3"></ng-map><br>
-         <div  style="margin-left: 20px;margin-right: 20px;height: 80px;background-color: white;border-radius: 3px;;
+         <div  style="margin-left: 20px;margin-right: 20px;height:auto;background-color: white;border-radius: 3px;text-align:center; padding: 0px 10px;
+   line-height: 20px;
+   overflow: hidden;word-wrap: break-word;height: 93px;
 ">
+ <div ng-if="favorit==1" style=" width: 60px;height: 80px;display: inline-block;text-align: center; ">
+    <img ng-click="addFavorits({{event['id']}})"     style="height: 29px;width: 32px;display: block;margin: 0 auto;margin-top: 12px;margin-left: 10px  " src="img/save.png" title="original"> 
+                       <p    style=" color: grey;width:60px; position: absolute;margin-top: 0px ;text-align: center;margin-top: 47px  ">{{"save" | translate}}</p>
+      </div>
 
-        <div style=" display:inline-block;height: 80px;width: 63px" >
-           <img   style="height: 33px;width: 35px; margin-left: 20px;margin-top: 15px;  " src="img/save.png" title="original"><br><br/> 
-           <p style="margin-left: 25px;color: grey; position: absolute;margin-top: 10px ">Save</p>
-        </div>
+      <div ng-if="favorit==2" style=" width: 60px;height: 80px;display: inline-block;text-align: center; ">
+    <img ng-click="remove({{event['id']}})"     style="height: 27px;width: 27px;display: block;margin: 0 auto;margin-top: 13px;margin-left:14px  "  src="img/remove.png" title="original"> 
+                       <p    style=" color: grey;width:60px; position: absolute;margin-top: 0px ;text-align: center;margin-top: 47px  ">{{"remove" | translate}}</p>
+      </div>
+ 
 
-   <div style=" display:inline-block;height: 80px;width: 63px" ng-click="addFavorit()">
-           <img   style="height: 33px;width: 35px; margin-left: 24px;margin-top: 15px;  " src="img/remind.png" title="original"><br><br/> 
-           <p style="margin-left: 9px;color: grey; position: absolute;margin-top: 10px ">Remind me</p>
-        </div>
+     <div ng-click="addFavorit({{event['id']}})" style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden;word-wrap: break-word">
+         <img       style="height: 37px;width: 34px;display: block;margin: 0 auto;margin-top: 5px; margin-left: 10px " src="img/remind.png" title="original"> 
+     <p    style=" color: grey;width:60px; position: absolute;margin-top: 10px ;text-align: center;margin-top: 47px  ">{{"remind" | translate}}</p>
+      </div>
 
-   <div style=" display:inline-block;height: 80px;width: 63px">
-           <img   style="height: 33px;width: 35px; margin-left: 30px;margin-top: 15px;  " src="img/share.png" title="original"><br><br/> 
-           <p style="margin-left: 35px;color: grey; position: absolute;margin-top: 10px ">Share</p>
-        </div>
-
-   <div style=" display:inline-block;height: 80px;width: 63px">
-           <img   style="height: 33px;width: 35px; margin-left: 30px;margin-top: 15px;  " src="img/navi.png" title="original"><br><br/> 
-           <p style="margin-left: 35px;color: grey; position: absolute;margin-top: 10px ">Navi</p>
-        </div>
+        <div ng-click="shareViaFacebook()"  style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden">
+         <img       style="height: 37px;width: 34px;display: block;margin: 0 auto;margin-top: 10px; margin-left: 10px " src="img/share.png" title="original"> 
+     <p    style=" color: grey;width:60px; position: absolute;margin-top: 6px ;text-align: center;margin-top: 47px  ">{{"Share" | translate}}</p>
+      </div>
 
 
+    <div  ng-click="showMapPath({{event['latitude']}},{{event['longitude']}})" style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden">
+         <img       style="height: 37px;width: 34px;display: block;margin: 0 auto;margin-top: 10px; margin-left: 10px " src="img/navi.png" title="original"> 
+     <p    style=" color: grey;width:60px; position: absolute;margin-top: 6px ;text-align: center;margin-top: 47px   ">Navi</p> 
+     
+      </div>
+
+  
       </div>
       <br>
   </ion-content>

@@ -9,8 +9,9 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
   .run(function ($ionicPlatform, $http, $cordovaSQLite, $state,$translate) {
     if (window.localStorage.getItem("language") == null || window.localStorage.getItem("language") == "") {
       window.localStorage.setItem("language", "en");
-      $translate.use(window.localStorage.getItem("language"));
+   
     }
+       $translate.use(window.localStorage.getItem("language"));
     $ionicPlatform.ready(function () {
       console.log("loada se APP.js");
 
@@ -34,8 +35,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       }, function (err) {
         console.error("DASD?" + err[0]);
       });
-
-
+ 
 
       // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
       // for form inputs)
@@ -77,6 +77,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       location: "lokacija",
       language: "Jezik",
       cancel:"Otkaži",
+      date: "Datum posjete",
 
       //notification
       notifications:"NOTIFIKACIJE",
@@ -241,7 +242,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
         cache: false,
         views: {
           'menuContent': {
-            templateUrl: 'templates/popupSettings.html',
+            templateUrl: 'templates/settings.html',
             controller: 'SettingsCtrl'
           }
         }

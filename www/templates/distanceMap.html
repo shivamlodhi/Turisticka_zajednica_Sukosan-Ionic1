@@ -1,0 +1,36 @@
+<ion-view  >
+   <style>.list .item-radio .item-content {
+   background-color: #b51879;     
+  color: white;
+}
+.list .item-radio .radio-icon {
+  float: left;
+  color: white;
+}
+.item-radio input:checked + .radio-content .item-content {
+    /* style the item content when its checked */
+    background-color: #b51879; 
+}
+ .myButton{
+        border:none;
+        margin-left:20px;
+ } </style>
+  <ion-content  data-tap-disabled="true"    scroll="false"  > 
+      
+    
+    <ng-map zoom="14"
+        center="{{pocetak}}"
+        style="height:100%" >
+        <directions
+          draggable="true"
+          panel="directions-panel"
+          travel-mode="DRIVING"
+          origin="{{pocetak}}"
+          destination="{{kraj}}">
+        </directions>
+         
+      </ng-map> 
+  
+    </ion-content>
+ 
+</ion-view>

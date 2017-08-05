@@ -1,26 +1,31 @@
-<ion-view  class="wrapper">
-   <div style="margin-top: 130px;" class="bar bar-header eventsDiv ">
-       <h3  class="eventsP" style="width: 200px; margin:0 auto; padding-top: 5px"> Settings </p>
-    </div>
+<ion-view  >
+<ion-content ng-controller="EventsCtrl" style="background: rgba(135,135,135,1);
+background: -moz-linear-gradient(45deg, rgba(135,135,135,1) 0%, rgba(135,130,116,1) 51%, rgba(153,143,113,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(135,135,135,1)), color-stop(51%, rgba(135,130,116,1)), color-stop(100%, rgba(153,143,113,1)));
+background: -webkit-linear-gradient(45deg, rgba(135,135,135,1) 0%, rgba(135,130,116,1) 51%, rgba(153,143,113,1) 100%);
+background: -o-linear-gradient(45deg, rgba(135,135,135,1) 0%, rgba(135,130,116,1) 51%, rgba(153,143,113,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(135,135,135,1) 0%, rgba(135,130,116,1) 51%, rgba(153,143,113,1) 100%);
+background: linear-gradient(45deg, rgba(135,135,135,1) 0%, rgba(135,130,116,1) 51%, rgba(153,143,113,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#878787', endColorstr='#998f71', GradientType=1 );height: 100%;margin-left:0 auto;margin-right:0 auto; background-color: transparent; border-radius: 5px;overflow: visible; " class="container">
+    
+    <div style="  background-color:#F7F7F7;height: auto;width: 270px;margin-top: 60px;overflow: visible;border-radius: 10px"    scroll="false"> 
+         <div style="height: 80px;width: 80px;border-radius: 50%;background-color: white ; margin-left:96px; ;margin-top: -30px;overflow: hidden;position: absolute">
+                <img   style="height: 45px;width: 50px; margin-left: 12px;margin-top: 14px;  " src="img/settings.png" title="original"><br>      
+         </div><br><br> <br>
+             <p style="color: grey; margin-top: 10px ;margin-left: 85px;font-size: 17px;font-weight: bold">{{"Setings" | translate}}</p>  
+        <ion-toggle  style="background-color: transparent;height: 60px;width: 95%;border:none"  >{{"rec_not" | translate}} </ion-toggle> 
+        <p> {{"date" | translate}}</p>
+        <ion-toggle  style="background-color: transparent;height: 60px;width: 95%;border:none"  >Gps  {{"location" | translate}} </ion-toggle> 
+             <p style="margin-left: 75px;color: grey; margin-top: 10px ;font-weight: bold">hours before event</p><br><br>
+             <a ng-click="openDatePicker();"> {{from.substring(4,15)}} </a>/ <a ng-click="openDatePicker2();"> {{to.substring(4,15)}} </a>
 
-  <ion-content style="margin-top: 130px;">  
-    <div class="list list-inset settingsFirstDiv">   
-        <p style="margin: 5px;"> Receive notifications</p>    
-       <div style="width:140px; margin:0 auto;  ">
-       <button style="border-radius: 5px;" ng-click="click = 'red';clickNotifications()"  ng-class="{'green': click == 'green' || click == '', 'grey': click == 'red'}" class="settingsButtons"> ON </button>
-        <button style="border-radius: 5px;"class="settingsButtons"  ng-click="click = 'green';clickNotifications()" ng-class="{'red': click == 'red' || click == '', 'grey': click == 'green'}">OFF</button>
-       </div>
-      </div>
+             <p> {{"language" | translate}}</p>
+               <label class="item item-input item-select select-godina" style="width: 260px; margin: 0px auto;height:60px;"> 
+              <select  ng-change="selectLanguage(smjer)"  style=" width: 90%;left: -34px; height: 60px; overflow: visible;max-width:none;text-align: left" ng-model="smjer" ng-options="color.title as color.id for color in smjerovi"  >
+  
+ </select></label>
+              <br><br>
+        </div>
     </div>
-    <div class="list list-inset settingsSecondDiv">   
-        <p style="margin: 5px;"> Show events between this dates</p>    
-       <div style="width:240px; margin:0 auto;  ">
-        <label class="dateLabel" style="margin-left: -17px;">From : </label><button style="color: white;border-radius: 5px;" ng-click="openDatePicker()" class="settingsButtonsDate"> {{from}} </button><br>
-        <label class="dateLabel">To : </label><button ng-click="openDatePicker2()" style="color: white;border-radius: 5px;" class="settingsButtonsDate"> {{to}}</button>
-        
-       </div>
-      </div>
-    </div>
-       
-  </ion-content>
-</ion-view>
+      </ion-content>
+     </ion-view>

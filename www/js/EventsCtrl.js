@@ -13,7 +13,7 @@ var app = angular.module('Sukosan')
         $scope.date;
         $scope.hour;
         $scope.favorit = 3;
- 
+
 
 $scope.shareViaFacebook = function() { 
      $ionicLoading.show({ template: 'Connecting with Facebook, please wait! ', noBackdrop: true, duration: 3000 });
@@ -158,7 +158,7 @@ $scope.shareViaFacebook = function() {
                 if(window.localStorage.getItem("gps")==null){
                     window.localStorage.setItem("gps","false");
                 }
-                  if(window.localStorage.getItem("gps")=="false"){ 
+                  if(window.localStorage.getItem("gps")=="true"){ 
                       alert("Turn on the gps in Settings");
                       return;
                   }
@@ -283,6 +283,7 @@ $scope.shareViaFacebook = function() {
 
 
         $scope.addNotification = function (id) {  
+            alert();
             var query = "SELECT * from events where id = ?";
             var db = window.sqlitePlugin.openDatabase({ name: 'demo.db', location: 'default' });
             $cordovaSQLite.execute(db, query, [$scope.id]).then(function (res) { 

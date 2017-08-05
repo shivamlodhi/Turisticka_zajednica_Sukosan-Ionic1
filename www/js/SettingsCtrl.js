@@ -1,9 +1,32 @@
 
 
 angular.module('Sukosan')
-  .controller('SettingsCtrl', function ($scope, $stateParams, $http, ionicDatePicker, $filter) {
-    $scope.from;
-    $scope.to;
+  .controller('SettingsCtrl', function ($scope, $stateParams, $http, ionicDatePicker, $translate,$filter) {  
+    $scope.smjer=window.localStorage.getItem("language");
+
+       $scope.smjerovi = [];
+        $scope.smjerovi.push({
+         title: "en",
+         id: "Engleski",
+        
+        })
+         $scope.smjerovi.push({
+         title: "hr",
+         id: "Hrvatski",
+        
+        })
+         $scope.smjerovi.push({
+         title: "it",
+         id: "Italiano",
+        
+        })
+         $scope.smjerovi.push({
+         title: "de",
+         id: "Deutsch",
+        
+        })
+
+
 
     if (window.localStorage.getItem("to") == null) {
       $scope.to = "Pick date";
@@ -21,7 +44,8 @@ angular.module('Sukosan')
 
         console.log('Return value from the datepicker popup is : ' + val, new Date(val)); 
         window.localStorage.setItem("to", new Date(val).toDateString());
-        window.localStorage.setItem("toString",$filter('date')(new Date(val), 'yyyy-MM-dd') ); 
+        window.localStorage.setItem("toString",$filter('date')(new Date(val), 'MM-dd') ); 
+        $scope.to= new Date(val).toDateString();
         $scope.sendPost();
       },
       disabledDates: [            //Optional
@@ -85,19 +109,12 @@ angular.module('Sukosan')
     $scope.openDatePicker = function () {
       ionicDatePicker.openDatePicker(ipObj1);
     };
-    $scope.clickNotifications = function () {
-      if (window.localStorage.getItem("notifications") == "red") {
-        window.localStorage.setItem("notifications", "green");
-        window.localStorage.setItem("notificationsValue", "0");
-        $scope.click = "green"; 
-        $scope.sendPost();
-      } else {
-        window.localStorage.setItem("notifications", "red");
-        window.localStorage.setItem("notificationsValue", "1");
-        $scope.click = "red";
-        $scope.sendPost();
-      }
-    }
+    $scope.selectLanguage = function (language) { 
+$translate.use(language);
+ window.localStorage.setItem("language", language);
+
+}
+     
 
 
 

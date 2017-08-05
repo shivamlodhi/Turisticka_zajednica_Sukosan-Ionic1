@@ -1,13 +1,13 @@
-<ion-view style="margin-top: -100px;height: 220px;background-color: transparent; border-radius: 5px;overflow: visible;margin-left:-10px  ">
+<ion-view ng-controller="EventsCtrl" style="margin-top: -100px;height: 220px;background-color: transparent; border-radius: 5px;overflow: visible;margin-left:-10px  ">
     
     <div style="  background-color:#F7F7F7;height: 380px;width: 270px;margin-top: -30px;overflow: visible;border-radius: 10px"    scroll="false"> 
          <div style="height: 80px;width: 80px;border-radius: 50%;background-color: white ; margin-left:96px; ;margin-top: -30px;overflow: hidden;position: absolute">
                 <img   style="height: 45px;width: 50px; margin-left: 12px;margin-top: 14px;  " src="img/remind.png" title="original"><br>      
          </div><br><br> 
              <p style="color: grey; position: absolute;margin-top: 10px ;margin-left: 85px;font-size: 17px;font-weight: bold">REMIND ME</p><br><br> 
-             <input style="height: 80px;margin-left: 85px;width: 100px;font-size: 40px;border-radius: 10px;border: 1px solid black"/><br>
+             <input id="hour" style="height: 80px;margin-left: 85px;width: 100px;font-size: 40px;border-radius: 10px;border: 1px solid black"/><br>
              <p style="margin-left: 75px;color: grey; position: absolute;margin-top: 10px ;font-weight: bold">hours before event</p><br><br>
-             <a href="#" class="myButton">SET NOTIFICICATION</a><br><br>
+             <a href="#" ng-click="addNotification(2)" class="myButton">SET NOTIFICICATION</a><br><br>
               <a href="#" class="myButton" style="background-color: white;color: grey;	padding:12px 64px;">REMOVE</a> <br><br>
         </div>
     </div>

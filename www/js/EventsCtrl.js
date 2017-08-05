@@ -230,7 +230,7 @@ $scope.shareViaFacebook = function() {
 
             //adding favorite in database
             $scope.addFavorits = function (id) {
-
+          
                 var request = $http({
                     method: "POST",
                     url: 'http://appeventnet.com/rest/events.php',
@@ -275,20 +275,24 @@ $scope.shareViaFacebook = function() {
             $scope.id = id;
             $scope.favorit = favorit; 
             $scope.myPopup = $ionicPopup.show({
-                templateUrl: 'templates/popup.html', 
+                templateUrl: 'templates/popup.html',  
                 scope: $scope,
             })
 
         }
 
 
-        $scope.addNotification = function (id) {  
-            alert();
+        $scope.addNotification = function (id) {   
+            
+            if($scope.hour<0 || $scope.hour>25){
+                    alert("error");
+                }
             var query = "SELECT * from events where id = ?";
             var db = window.sqlitePlugin.openDatabase({ name: 'demo.db', location: 'default' });
             $cordovaSQLite.execute(db, query, [$scope.id]).then(function (res) { 
                 var alarmTime =new Date(res.rows.item(0).date);  
-                 alarmTime.setHours(document.getElementById ( "hour" ).value);
+                 alarmTime.setHours($scope.hour);
+                 alert(alarmTime +"            "+$scope.hour);
                 cordova.plugins.notification.local.schedule({
                     id: $scope.id,
                     date: alarmTime,
@@ -298,14 +302,17 @@ $scope.shareViaFacebook = function() {
                 });
 
               var query = "INSERT INTO notifications (id, hour) VALUES (?,?)";
-                  $cordovaSQLite.execute(db, query, [$scope.id,alarmTime]).then(function (res) { });
+                  $cordovaSQLite.execute(db, query, [$scope.id,alarmTime]).then(function (res) { 
+                      console.error("uspjeloooo");
+                  });
             }, function (err) {
                 console.error(err[0]);
             });
 
-
+            alert()
             $scope.myPopup.close();
-
+            alert()
+            $state.go("app.home");
 
 
         }

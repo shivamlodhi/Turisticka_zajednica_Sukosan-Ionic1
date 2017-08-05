@@ -1,4 +1,20 @@
 <ion-view  >
+       <ion-header-bar title="DOGAĐANJA"   class=" mynavbar">
+ 
+     <button  style="background-color: transparent;border: 0px;width: 400px;margin-left: 12px;"  menu-toggle="left">
+       <img class="title-image img" src="img/menu-icon.jpg" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
+       " /> 
+       </button> 
+         <button ui-sref="app.notifications"  style="background-color: transparent;border: 0px;float: right"   >
+       <img class="title-image img" src="img/bell.png" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
+       " /> 
+       </button> 
+        <button ui-sref="app.favorites" style="background-color: transparent;border: 0px;float: right"  >
+       <img class="title-image img" src="img/heart-white.png" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
+       " /> 
+       </button> 
+        <p style="color:white;font-size: 21px;margin-top: 26px;left: 70px;position: absolute"> {{"Settings" | translate}}</p>
+    </ion-header-bar>
 <ion-content ng-controller="EventsCtrl" style="background: rgba(135,135,135,1);
 background: -moz-linear-gradient(45deg, rgba(135,135,135,1) 0%, rgba(135,130,116,1) 51%, rgba(153,143,113,1) 100%);
 background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(135,135,135,1)), color-stop(51%, rgba(135,130,116,1)), color-stop(100%, rgba(153,143,113,1)));

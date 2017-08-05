@@ -71,6 +71,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       favorites: "FAVORITI",
       favoritesMeni: "Favoriti",
       Setings: "Postavke",
+      Settings: "POSTAVKE",
 
       //settings
       rec_not: "Primanje notifikacija",
@@ -103,6 +104,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       favorites: "PREFERITI",
       favoritesMeni: "Preferiti",
       Setings: "Impostazioni",
+       Settings: "IMPOSTAZIONI",
 
       //settings
       rec_not: "Ricezione di notifiche",
@@ -130,6 +132,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       favorites: "FAVORITES",
       favoritesMeni: "Favorites",
       Setings: "Settings",
+       Settings: "SETTINGS",
 
       //settings
       rec_not: "Receiveing notifications",
@@ -156,6 +159,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       favorites: "FAVORITEN",
        favoritesMeni: "Favoriten",
       Setings: "Einstellungen",
+       Settings: "EINSTELLUNGEN",
 
       //settings
       rec_not: "Empfangen von Benachrichtigungen",
@@ -230,7 +234,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
         views: {
           'menuContent': {
             templateUrl: 'templates/notifications.html',
-            controller: 'NotificationsCtrl'
+            controller: 'NotificationCtrl'
           }
         }
       })

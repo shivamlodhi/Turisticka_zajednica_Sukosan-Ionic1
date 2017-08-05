@@ -3,7 +3,7 @@
 
     <ion-content  >  
      
-      <img src="img/festice.jpg" style="width: 100%;height: 200px;margin-bottom: 20px"/>
+        <img  src="http://appeventnet.com/images/medium/{{images[0]}}" style="width: 100%;height: 200px;margin-bottom: 20px"/>
         <br><br><br><br>
          <p style="color:black;font-size:20px; margin-left: 12px;font-weight: bold;margin-top:50px">{{title}}</p> 
 
@@ -12,36 +12,36 @@
           </p>
             <img   style="height: 20px;width: 20px;margin-left: 12px;margin-right: 20px;  " src="img/locationG.png" title="original">
           <p style="color:black;font-size:15px; font-weight: bold;padding-top:4px "> {{location}}
-          </p>
-          <h3  style=" margin-left: 12px;  ">Headline</h3>
+          </p> 
  
           <p style="margin: 10px;">
             {{description}}
          </p>
-            <img src="img/festice.jpg" style="margin:13px; width: 95%;height: 200px"/><br>
+            <img  src="http://appeventnet.com/images/medium/{{images[1]}}" ng-if="{{images[1]!=null}}" style="margin:13px; width: 95%;height: 200px"/><br>
             <spane style="font-size: 10px;font-weight: bold">Opisni tekst fotografije</spane> <br/>
             <hr><br/>
-             <p style="margin: 10px;">
-            {{description}}
+             <p style="margin: 10px;"> 
          </p>
          <br/>
-         <ng-map center="41,-87" zoom="3"></ng-map><br>
+         <ng-map center="{{latitude}},{{longitude}}" zoom="9">
+           <marker   id="aa" on-click="pinClicked({{hotel['id']}})"    position="{{latitude}},{{longitude}}"   > </marker>
+        </ng-map><br>
          <div  style="margin-left: 20px;margin-right: 20px;height:auto;background-color: white;border-radius: 3px;text-align:center; padding: 0px 10px;
    line-height: 20px;
    overflow: hidden;word-wrap: break-word;height: 93px;
 ">
  <div ng-if="favorit==1" style=" width: 60px;height: 80px;display: inline-block;text-align: center; ">
-    <img ng-click="addFavorits({{event['id']}})"     style="height: 29px;width: 32px;display: block;margin: 0 auto;margin-top: 12px;margin-left: 10px  " src="img/save.png" title="original"> 
+    <img ng-click="addFavorits(id)"     style="height: 29px;width: 32px;display: block;margin: 0 auto;margin-top: 12px;margin-left: 10px  " src="img/save.png" title="original"> 
                        <p    style=" color: grey;width:60px; position: absolute;margin-top: 0px ;text-align: center;margin-top: 47px  ">{{"save" | translate}}</p>
       </div>
 
       <div ng-if="favorit==2" style=" width: 60px;height: 80px;display: inline-block;text-align: center; ">
-    <img ng-click="remove({{event['id']}})"     style="height: 27px;width: 27px;display: block;margin: 0 auto;margin-top: 13px;margin-left:14px  "  src="img/remove.png" title="original"> 
+    <img ng-click="remove(id)"     style="height: 27px;width: 27px;display: block;margin: 0 auto;margin-top: 13px;margin-left:14px  "  src="img/remove.png" title="original"> 
                        <p    style=" color: grey;width:60px; position: absolute;margin-top: 0px ;text-align: center;margin-top: 47px  ">{{"remove" | translate}}</p>
       </div>
  
 
-     <div ng-click="addFavorit({{event['id']}})" style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden;word-wrap: break-word">
+     <div ng-click="addFavorit(id)" style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden;word-wrap: break-word">
          <img       style="height: 37px;width: 34px;display: block;margin: 0 auto;margin-top: 5px; margin-left: 10px " src="img/remind.png" title="original"> 
      <p    style=" color: grey;width:60px; position: absolute;margin-top: 10px ;text-align: center;margin-top: 47px  ">{{"remind" | translate}}</p>
       </div>
@@ -52,7 +52,7 @@
       </div>
 
 
-    <div  ng-click="showMapPath({{event['latitude']}},{{event['longitude']}})" style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden">
+    <div  ng-click="showMapPath(latitude,longitude)" style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden">
          <img       style="height: 37px;width: 34px;display: block;margin: 0 auto;margin-top: 10px; margin-left: 10px " src="img/navi.png" title="original"> 
      <p    style=" color: grey;width:60px; position: absolute;margin-top: 6px ;text-align: center;margin-top: 47px   ">Navi</p> 
      

@@ -3,6 +3,28 @@
 angular.module('Sukosan')
   .controller('SettingsCtrl', function ($scope, $stateParams, $http, ionicDatePicker, $translate,$filter) {  
     $scope.smjer=window.localStorage.getItem("language");
+    $scope.notification=window.localStorage.getItem("notification");
+    $scope.gps= window.localStorage.getItem("gps");
+     
+    if(window.localStorage.getItem("gps")=="true"){
+      $scope.gps=true;
+    }
+     if(window.localStorage.getItem("notification")=="true"){
+      $scope.notification=true;
+    }
+
+
+      $scope.notChange = function(){
+ if($scope.notification==true){
+        $scope.notification=false;
+         window.localStorage.setItem("notification","false");
+      }
+      else{
+          $scope.notification=true;
+           window.localStorage.setItem("notification","true");
+      }
+        alert($scope.notification);
+    }
 
        $scope.smjerovi = [];
         $scope.smjerovi.push({
@@ -37,6 +59,19 @@ angular.module('Sukosan')
       $scope.from = "Pick date";
     } else {
       $scope.from = window.localStorage.getItem("from")
+    }
+
+
+    $scope.gpsChange= function(){
+      if($scope.gps==true){
+        $scope.gps=false;
+         window.localStorage.setItem("gps","false");
+      }
+      else{
+          $scope.gps=true;
+           window.localStorage.setItem("gps","true");
+      }
+        alert($scope.gps);
     }
 
     var ipObj = {

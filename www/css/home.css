@@ -1,0 +1,62 @@
+.eventsDiv{
+     background-color: #0094de ; color:white;  height: 50px;
+}
+.eventsP{
+text-align: center; padding-top: 0px;color:white
+}
+.eventsItem{
+        color: black;
+
+    height: 75px;
+    background-color: #D3F4F5;
+}
+.mjesto{  
+  height: 34px;width: 150px;background-color: #0094de;
+  border-radius: 0 20px 20px 0;
+} 
+.favorit-button{
+  background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    
+}
+.rightBorder{ 
+     width: 80px;
+     float:right;
+    margin-top: 6px;  
+    height: 84%; 
+    border-left: solid 1px  #0094de;
+}
+.favorites{
+    padding-left: 4px;
+    font-size: 9px;    
+}
+.favorit_icon{
+    margin-top: 10px;
+    margin-left: 5px; 
+    height: 30px;
+    width: 30px;
+}
+.day{
+    font-weight: bold; 
+    padding-top: 10px;
+    text-align: center;    
+}
+.monyear{
+    text-align: center;
+}
+.title{
+    font-weight: bold; 
+    margin-left: 85px;
+    position: absolute;
+    margin-top: 30px; 
+    margin-right: 80px;
+}
+.hour{   
+    margin-top: 7px;
+    margin-left: 85px; 
+    position: absolute;
+}

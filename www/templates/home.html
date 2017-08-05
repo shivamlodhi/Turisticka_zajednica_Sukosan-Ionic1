@@ -1,0 +1,65 @@
+<ion-view  >
+     <ion-header-bar title="DOGAĐANJA"   class=" mynavbar">
+ 
+     <button style="background-color: transparent;border: 0px;width: 400px;margin-left: 12px;"  menu-toggle="left">
+       <img class="title-image" src="img/menu-icon.jpg" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
+       " /> 
+       </button> 
+         <button style="background-color: transparent;border: 0px;float: right"   >
+       <img class="title-image" src="img/bell.png" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
+       " /> 
+       </button> 
+        <button style="background-color: transparent;border: 0px;float: right"  >
+       <img class="title-image" src="img/heart-white.png" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
+       " /> 
+       </button> 
+        <p style="color:white;font-size: 22px;margin-top: 26px;left: 70px;position: absolute">DOGAĐANJA</p>
+    </ion-header-bar>
+  <ion-content style="background-color: #D6D6D6"> 
+
+    <a ng-repeat="event in events"   >
+      <div ng-click="go(event['id'])" style="background-image: url('img/festice.jpg');height: 300px;width:100%">
+        <br/>
+        <div class="mjesto" style="margin-top:60px;"  > 
+         <p style="color:white;font-size: 20px;text-align: center;padding-top: 7px"> Sukošan</p> 
+        </div><br/> 
+        
+         <p style="color:white;font-size:20px; margin-left: 40px;font-weight: bold">{{event["title"]}}</p> 
+
+          <img   style="height: 30px;width: 30px;margin-left: 40px   " src="img/calendar.png" title="original">
+          <p style="color:white;font-size:15px; font-weight: bold"> {{event['date'].substring(0, 7);}}
+          </p>
+            <img   style="height: 30px;width: 30px;margin-left: 40px;  " src="img/location.png" title="original">
+          <p style="color:white;font-size:15px; font-weight: bold;padding-top:4px "> {{event['location']}}
+          </p>
+      </div>
+      <div  style="margin-left: 20px;margin-right: 20px;height: 80px;background-color: white;border-radius: 3px;;
+">
+        <div ng-click="addFavorits({{event['id']}})" style=" display:inline-block;height: 80px;width: 63px" >
+           <img   style="height: 33px;width: 35px; margin-left: 20px;margin-top: 15px;  " src="img/save.png" title="original"><br><br/> 
+           <p style="margin-left: 25px;color: grey; position: absolute;margin-top: 10px ">Save</p>
+        </div>
+
+   <div style=" display:inline-block;height: 80px;width: 63px" ng-click="addFavorit()">
+           <img   style="height: 33px;width: 35px; margin-left: 24px;margin-top: 15px;  " src="img/remind.png" title="original"><br><br/> 
+           <p style="margin-left: 9px;color: grey; position: absolute;margin-top: 10px ">Remind me</p>
+        </div>
+
+   <div style=" display:inline-block;height: 80px;width: 63px">
+           <img   style="height: 33px;width: 35px; margin-left: 30px;margin-top: 15px;  " src="img/share.png" title="original"><br><br/> 
+           <p style="margin-left: 35px;color: grey; position: absolute;margin-top: 10px ">Share</p>
+        </div>
+
+   <div style=" display:inline-block;height: 80px;width: 63px">
+           <img   style="height: 33px;width: 35px; margin-left: 30px;margin-top: 15px;  " src="img/navi.png" title="original"><br><br/> 
+           <p style="margin-left: 35px;color: grey; position: absolute;margin-top: 10px ">Navi</p>
+        </div>
+
+
+      </div>
+       <br><br><br>
+    </a> 
+
+    <br><br><br>
+  </ion-content>
+</ion-view>

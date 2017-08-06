@@ -10,6 +10,7 @@ angular.module('Sukosan')
         $scope.latitude;
         $scope.longitude;
         $scope.images;
+        $scope.link;
          db = window.sqlitePlugin.openDatabase({ name: 'demo.db', location: 'default' });
         var query = "select * from favorites where id = " + $scope.id;
         $cordovaSQLite.execute(db, query, []).then(function (res) {
@@ -42,6 +43,7 @@ angular.module('Sukosan')
                         $scope.longitude = data[i]["longitude"];
                         $scope.latitude = data[i]["latitude"];
                         $scope.images = data[i]["images"];
+                         $scope.link = data[i]["link"];
 
                     }
                 }
@@ -125,7 +127,9 @@ angular.module('Sukosan')
                 });
 
               var query = "INSERT INTO notifications (id, hour) VALUES (?,?)";
-                  $cordovaSQLite.execute(db, query, [$scope.id,alarmTime]).then(function (res) {alert(res.insertId);});
+                  $cordovaSQLite.execute(db, query, [$scope.id,alarmTime]).then(function (res) {
+                      
+                  });
             }, function (err) {
                 console.error(err[0]);
             });

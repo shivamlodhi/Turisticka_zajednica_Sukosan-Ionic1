@@ -81,8 +81,7 @@ img {
 
 
 .myButton {
-    border: solid 1px #00aee8;
-    margin-left: 52px;
+    border: solid 1px #00aee8; 
 	background-color:#00aee8;
 	-moz-border-radius:42px;
 	-webkit-border-radius:42px;

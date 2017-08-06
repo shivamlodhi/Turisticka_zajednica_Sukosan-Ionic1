@@ -17,8 +17,7 @@
           <p style="margin: 10px;">
             {{description}}
          </p>
-            <img  src="http://appeventnet.com/images/medium/{{images[1]}}" ng-if="{{images[1]!=null}}" style="margin:13px; width: 95%;height: 200px"/><br>
-            <spane style="font-size: 10px;font-weight: bold">Opisni tekst fotografije</spane> <br/>
+           
             <hr><br/>
              <p style="margin: 10px;"> 
          </p>
@@ -46,15 +45,15 @@
      <p    style=" color: grey;width:60px; position: absolute;margin-top: 10px ;text-align: center;margin-top: 47px  ">{{"remind" | translate}}</p>
       </div>
 
-        <div ng-click="shareViaFacebook()"  style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden">
+        <div ng-click="shareViaFacebook(link)"  style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden">
          <img       style="height: 37px;width: 34px;display: block;margin: 0 auto;margin-top: 10px; margin-left: 10px " src="img/share.png" title="original"> 
      <p    style=" color: grey;width:60px; position: absolute;margin-top: 6px ;text-align: center;margin-top: 47px  ">{{"Share" | translate}}</p>
       </div>
 
 
     <div  ng-click="showMapPath(latitude,longitude)" style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden">
-         <img       style="height: 37px;width: 34px;display: block;margin: 0 auto;margin-top: 10px; margin-left: 10px " src="img/navi.png" title="original"> 
-     <p    style=" color: grey;width:60px; position: absolute;margin-top: 6px ;text-align: center;margin-top: 47px   ">Navi</p> 
+       <img       style="height: 37px;width: 38px;display: block;margin: 0 auto;margin-top: 12px; margin-left: 13px " src="img/navi.png" title="original"> 
+     <p    style=" color: grey;width:60px; position: absolute;margin-top: 6px ;text-align: center;margin-top: 48px   ">Navi</p> 
      
       </div>
 
@@ -63,3 +62,4 @@
       <br>
   </ion-content>
 </ion-view>
+ 

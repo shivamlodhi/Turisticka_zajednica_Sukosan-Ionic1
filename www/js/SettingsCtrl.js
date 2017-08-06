@@ -22,14 +22,13 @@ angular.module('Sukosan')
       else{
           $scope.notification=true;
            window.localStorage.setItem("notification","true");
-      }
-        alert($scope.notification);
+      } 
     }
 
        $scope.smjerovi = [];
         $scope.smjerovi.push({
          title: "en",
-         id: "Engleski",
+         id: "English",
         
         })
          $scope.smjerovi.push({
@@ -70,8 +69,7 @@ angular.module('Sukosan')
       else{
           $scope.gps=true;
            window.localStorage.setItem("gps","true");
-      }
-        alert($scope.gps);
+      } 
     }
 
     var ipObj = {

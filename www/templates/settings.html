@@ -31,13 +31,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#878787', end
               <div style="width:auto;text-align: center"> <p style="color: grey; margin-top: 10px ;margin-left: 2px;font-size: 17px;font-weight: bold">{{"Setings" | translate}}</p>  </div>
             
         <ion-toggle ng-change="notChange()"  style="background-color: transparent;height: 60px;width: 95%;border:none" ng-model="notification" >{{"rec_not" | translate}} </ion-toggle> 
-        <p style="font-size: 16px;margin-left: 17px;"> {{"date" | translate}}</p>
+        <p style="font-size: 16px;margin-left: 17px;color:#404040"> {{"date" | translate}}</p>
           <a style="margin-left: 17px" ng-click="openDatePicker();"> {{from.substring(4,15)}} </a>/ <a ng-click="openDatePicker2();"> {{to.substring(4,15)}} </a>
 
         <ion-toggle ng-change="gpsChange()" style="background-color: transparent;height: 60px;width: 95%;border:none" ng-model="gps"  >GPS  {{"location" | translate}} </ion-toggle>  
            
-             <p style="font-size: 16px;margin-left: 17px;"> {{"language" | translate}}</p>
-               <label class="item item-input item-select select-godina" style="width: 260px; margin: 0px auto;height:40px;"> 
+             <p style="font-size: 16px;margin-left: 17px;color:#404040"> {{"language" | translate}}</p>
+               <label class="item item-input item-select select-godina" style="width: 260px; margin: 0px auto;width: 89%; height:40px;"> 
               <select  ng-change="selectLanguage(smjer)"  style=" width: 90%;left: -34px; height: 40px; overflow: visible;max-width:none;text-align: left;border-radius: 5%;" ng-model="smjer" ng-options="color.title as color.id for color in smjerovi"  >
   
  </select></label>

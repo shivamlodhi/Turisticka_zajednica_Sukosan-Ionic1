@@ -14,11 +14,11 @@ var app = angular.module('Sukosan')
         $scope.hour;
         $scope.favorit = 3;
 
-
-$scope.shareViaFacebook = function() { 
+window.localStorage.setItem("start","")
+$scope.shareViaFacebook = function(link) { 
      $ionicLoading.show({ template: 'Connecting with Facebook, please wait! ', noBackdrop: true, duration: 3000 });
-         $cordovaSocialSharing.canShareVia("facebook", "null", null, "http://www.sukosan.hr/").then(function(result) {
-             $cordovaSocialSharing.shareViaFacebook("null", null, "http://www.sukosan.hr/");
+         $cordovaSocialSharing.canShareVia("facebook", "null", null,link).then(function(result) {
+             $cordovaSocialSharing.shareViaFacebook("null", null,link);
          }, function(error) {
               alert("Facebook connection is not possible!")
         });
@@ -46,8 +46,7 @@ $scope.shareViaFacebook = function() {
 
                              request.success(function (data) { 
 
-                    for (var v = 0; v < data.length; v++) {
-                      console.log(data[v]["id"]);
+                    for (var v = 0; v < data.length; v++) { 
                             var query = "INSERT INTO events (id, title,date,description,favorit) VALUES (?,?,?,?,?)";
                      
                             $cordovaSQLite.execute(db, query, [data[v]["id"], data[v]["title"], data[v]["date"], "",1]).then(function (res) {
@@ -109,6 +108,7 @@ $scope.shareViaFacebook = function() {
                                         images: data[v]["images"],
                                         latitude: data[v]["latitude"],
                                         longitude: data[v]["longitude"],
+                                        link: data[v]["link"],
                                         favorit: 2,
                                     });
                                     break;
@@ -126,6 +126,7 @@ $scope.shareViaFacebook = function() {
                                     images: data[v]["images"],
                                     latitude: data[v]["latitude"],
                                     longitude: data[v]["longitude"],
+                                    link: data[v]["link"],
                                     favorit: 1,
 
                                 });
@@ -158,7 +159,7 @@ $scope.shareViaFacebook = function() {
                 if(window.localStorage.getItem("gps")==null){
                     window.localStorage.setItem("gps","false");
                 }
-                  if(window.localStorage.getItem("gps")=="true"){ 
+                  if(window.localStorage.getItem("gps")=="false"){ 
                       alert("Turn on the gps in Settings");
                       return;
                   }
@@ -269,7 +270,7 @@ $scope.shareViaFacebook = function() {
     
 
 
-        });
+     
  
         $scope.addFavorit = function (id, favorit) {
             $scope.id = id;
@@ -277,8 +278,7 @@ $scope.shareViaFacebook = function() {
             $scope.myPopup = $ionicPopup.show({
                 templateUrl: 'templates/popup.html',  
                 scope: $scope,
-            })
-
+            }) 
         }
 
 
@@ -292,7 +292,7 @@ $scope.shareViaFacebook = function() {
             $cordovaSQLite.execute(db, query, [$scope.id]).then(function (res) { 
                 var alarmTime =new Date(res.rows.item(0).date);  
                  alarmTime.setHours($scope.hour);
-                 alert(alarmTime +"            "+$scope.hour);
+               
                 cordova.plugins.notification.local.schedule({
                     id: $scope.id,
                     date: alarmTime,
@@ -302,17 +302,12 @@ $scope.shareViaFacebook = function() {
                 });
 
               var query = "INSERT INTO notifications (id, hour) VALUES (?,?)";
-                  $cordovaSQLite.execute(db, query, [$scope.id,alarmTime]).then(function (res) { 
-                      console.error("uspjeloooo");
+                  $cordovaSQLite.execute(db, query, [$scope.id,alarmTime]).then(function (res) {  
                   });
             }, function (err) {
                 console.error(err[0]);
-            });
-
-            alert()
-            $scope.myPopup.close();
-            alert()
-            $state.go("app.home");
+            }); 
+            $scope.myPopup.close();  
 
 
         }
@@ -440,7 +435,7 @@ $scope.shareViaFacebook = function() {
         $scope.go = function (id) {
             $state.go('app.detail', { eventId: id })
         }
-
+   });
     });
 
 

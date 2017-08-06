@@ -6,12 +6,13 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', 'ngCordova', 'ionic-timepicker', 'ngMap', 'pascalprecht.translate'])
 
-  .run(function ($ionicPlatform, $http, $cordovaSQLite, $state,$translate) {
+  .run(function ($ionicPlatform, $http, $cordovaSQLite, $state, $translate) {
+    window.localStorage.setItem("start", 2)
     if (window.localStorage.getItem("language") == null || window.localStorage.getItem("language") == "") {
       window.localStorage.setItem("language", "en");
-   
+
     }
-       $translate.use(window.localStorage.getItem("language"));
+    $translate.use(window.localStorage.getItem("language"));
     $ionicPlatform.ready(function () {
       console.log("loada se APP.js");
 
@@ -24,7 +25,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       }, function (err) {
         console.error("DASD?" + err[0]);
       });
-      $cordovaSQLite.execute(db, "CREATE TABLE if not exists notifications (id integer primary key, hour text)").then(function (res) { 
+      $cordovaSQLite.execute(db, "CREATE TABLE if not exists notifications (id integer primary key, hour text)").then(function (res) {
       }, function (err) {
         console.error("DASD?" + err[0]);
       });
@@ -35,7 +36,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       }, function (err) {
         console.error("DASD?" + err[0]);
       });
- 
+
 
       // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
       // for form inputs)
@@ -77,13 +78,13 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       rec_not: "Primanje notifikacija",
       location: "lokacija",
       language: "Jezik",
-      cancel:"Otkaži",
-      date: "Datum posjete",
+      cancel: "Otkaži",
+      date: "Datumi posjete",
 
       //notification
-      notifications:"NOTIFIKACIJE",
+      notifications: "NOTIFIKACIJE",
       enter: "Postavi sate",
-      setnot:"Postavi notifikaciju",
+      setnot: "Postavi notifikaciju",
 
 
     });
@@ -104,17 +105,18 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       favorites: "PREFERITI",
       favoritesMeni: "Preferiti",
       Setings: "Impostazioni",
-       Settings: "IMPOSTAZIONI",
+      Settings: "IMPOSTAZIONI",
 
+      date: "Data della visita",
       //settings
       rec_not: "Ricezione di notifiche",
       location: "luogo",
       language: "Lingua",
-       //notification
-      notifications:"NOTIFICHE",
-        enter: "Ore set",
-      setnot:"Notifica set",
-      
+      //notification
+      notifications: "NOTIFICHE",
+      enter: "Ore set",
+      setnot: "Notifica set",
+
 
     });
 
@@ -132,16 +134,16 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       favorites: "FAVORITES",
       favoritesMeni: "Favorites",
       Setings: "Settings",
-       Settings: "SETTINGS",
-
+      Settings: "SETTINGS",
+      date: "Dates of visit",
       //settings
       rec_not: "Receiveing notifications",
       location: "location",
       language: "Language",
-       //notification
-      notifications:"NOTIFICATIONS",
+      //notification
+      notifications: "NOTIFICATIONS",
       enter: "Set the hours",
-      setnot:"Set notification",
+      setnot: "Set notification",
 
     });
 
@@ -157,18 +159,18 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
 
       //meni
       favorites: "FAVORITEN",
-       favoritesMeni: "Favoriten",
+      favoritesMeni: "Favoriten",
       Setings: "Einstellungen",
-       Settings: "EINSTELLUNGEN",
-
+      Settings: "EINSTELLUNGEN",
+      date: "Datum des Besuchs",
       //settings
-      rec_not: "Empfangen von Benachrichtigungen",
+      rec_not: "Empfangen von Benachr.",
       location: "Lage",
       language: "Sprache",
-       //notification
-      notifications:"BENACHRICH",
+      //notification
+      notifications: "BENACHRICH",
       enter: "set Stunden",
-      setnot:"set Benachrichtigung",
+      setnot: "set Benachrichtigung",
 
     });
 
@@ -228,7 +230,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
           }
         }
       })
-            .state('app.notifications', {
+      .state('app.notifications', {
         url: '/notifications',
         cache: false,
         views: {

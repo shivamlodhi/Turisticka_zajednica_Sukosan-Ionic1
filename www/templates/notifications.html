@@ -13,14 +13,14 @@
        <img class="title-image img" src="img/heart-white.png" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
        " /> 
        </button> 
-        <p style="color:white;font-size: 22px;margin-top: 26px;left: 70px;position: absolute"> {{"events" | translate}}</p>
+        <p style="color:white;font-size: 22px;margin-top: 26px;left: 70px;position: absolute"> {{"notifications" | translate}}</p>
     </ion-header-bar>
   <ion-content style="background-color: #D6D6D6"> 
 
     <a ng-repeat="event in events"   >
       <div ng-click="go(event['id'])" style="height: 300px;width:100%; position:relative;"> 
-        <img  src="http://appeventnet.com/images/medium/{{event['images'][0]}}" ng-if="event['images'][0]!=null" style="height: 300px;width:100%;position: absolute" />
-         <img   ng-if="event['images'][0]==null" style="height: 300px;width:100%;position: absolute;background: rgba(39,109,230,1);
+       
+         <img    style="height: 300px;width:100%;position: absolute;background: rgba(39,109,230,1);
 background: -moz-linear-gradient(left, rgba(39,109,230,1) 30%, rgba(39,109,230,1) 38%, rgba(57,207,245,1) 64%, rgba(57,207,245,1) 74%);
 background: -webkit-gradient(left top, right top, color-stop(30%, rgba(39,109,230,1)), color-stop(38%, rgba(39,109,230,1)), color-stop(64%, rgba(57,207,245,1)), color-stop(74%, rgba(57,207,245,1)));
 background: -webkit-linear-gradient(left, rgba(39,109,230,1) 30%, rgba(39,109,230,1) 38%, rgba(57,207,245,1) 64%, rgba(57,207,245,1) 74%);
@@ -39,8 +39,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#276de6', end
                <img   style="height: 30px;width: 30px;margin-left: 40px; margin-top: 160px;position: absolute " src="img/calendar.png" title="original">
       
           <p style="color:white;font-size:15px; font-weight: bold;margin-left: 80px; margin-top: 165px;position: absolute"> {{event['date']}}
-          </p>
-            <img   style="height: 30px;width: 30px;margin-left: 40px; margin-top: 200px;position: absolute " src="img/location.png" title="original">
+          </p> 
           <p style="color:white;font-size:15px;margin-left: 80px; margin-top: 200px; font-weight: bold;padding-top:4px;position: absolute "> {{event['address']}} 
           </p>
       </div>

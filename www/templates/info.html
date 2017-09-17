@@ -1,0 +1,61 @@
+<ion-view  >
+     <ion-header-bar title="DOGAĐANJA" style="height:  100px"  class=" mynavbar">
+ 
+     <button  style="background-color: transparent;border: 0px;width: 400px;margin-left: 12px;"  menu-toggle="left">
+       <img class="title-image img" src="img/menu-icon.jpg" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
+       " /> 
+       </button> 
+         <button ui-sref="app.notifications"  style="background-color: transparent;border: 0px;float: right"   >
+       <img class="title-image img" src="img/bell.png" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
+       " /> 
+       </button> 
+        <button ui-sref="app.favorites" style="background-color: transparent;border: 0px;float: right"  >
+       <img class="title-image img" src="img/heart-white.png" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
+       " /> 
+       </button> 
+        <p style="color:white;font-size: 22px;margin-top: 26px;left: 70px;position: absolute"> {{"events" | translate}}</p>
+    </ion-header-bar>
+ <ion-content  scroll="false" style=" background-image: url('img/festice.jpg');text-align:center;">
+        <img src="img/festice.jpg" style="height: 100%;width: 100%;position: absolute;left: 0px" />
+
+        <br>
+
+        <img style="  border-radius: 50%; width: 80px; margin-left: 30%;position: absolute;  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;margin-top: 30px" src="img/logoRound.jpg" width="80px;" height="80px" />
+        <br> <br> <br> <br> <br> <br>  
+        <h3 style=" position: absolute; border-radius: 50%;  margin:auto;color: white;  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; ">SUKOŠAN GUIDE</h3>
+
+       <br/> 
+        <div ng-click="openState('app.info')" style=" margin-top:40px; padding-left:20px;padding-right:20px;
+  margin-left: auto; 
+  margin-right: auto; ">
+   <div   style="padding-top:60px; background-image: url('img/festice.jpg'); height: 90px;width: 100%;background-size: 100% 100%;text-align: center;  display:inline-block;margin-top:10px;margin-bottom:0px;"
+      class="list  ">  
+        
+          <p style="color: white;text-align: left;margin-left:10px;font-size: 22px ">    Info
+      
+    </div> 
+        </div>
+<div style="text-align:center;">
+    
+</div>  
+
+              <div ng-click="openState('app.info')" style="   padding-left:20px;padding-right:20px;
+  margin-left: auto; 
+  margin-right: auto; ">
+   <div ng-click="openDatePicker()" style="  background-image: url('img/festice.jpg'); height: 90px;width: 100%;background-size: 100% 100%;text-align: center;  display:inline-block;margin-top:10px;margin-bottom:0px;"
+      class="list  ">  
+        
+       <div style="border:1px solid #000;height: 100%;width: 35%; display:inline-block;float:left">Div 1</div>
+    <div style="border:1px solid red; display:inline-block;height: 100%;width: 65%">Div 2</div>
+      
+    </div> 
+        </div>        
+
+    </ion-content>
+</ion-view>

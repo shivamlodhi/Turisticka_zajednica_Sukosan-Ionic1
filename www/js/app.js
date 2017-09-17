@@ -254,6 +254,28 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
         }
       })
 
+          .state('app.info', {
+        url: '/info',
+        cache: false,
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/info.html', 
+            controller: 'CalendarCtrl'
+          }
+        }
+      })
+
+
+         .state('app.guide', {
+        url: '/guide',
+        cache: false,
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/sukosan_guide.html', 
+            controller: 'CalendarCtrl'
+          }
+        }
+      })
 
       .state('app.home2', {
         url: '/home2',

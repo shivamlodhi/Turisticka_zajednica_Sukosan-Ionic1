@@ -209,6 +209,17 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
         }
       })
 
+           .state('app.beaches', {
+        url: '/beaches',
+        cache: false,
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/beaches_sights.html',
+            controller: 'BeachesAndSightsCtrl'
+          }
+        }
+      })
+
       .state('app.favorites', {
         url: '/favorit',
         cache: false,
@@ -260,11 +271,44 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
         views: {
           'menuContent': {
             templateUrl: 'templates/info.html', 
-            controller: 'CalendarCtrl'
+            controller: 'InfoCtrl'
           }
         }
       })
 
+         .state('app.food', {
+        url: '/food',
+        cache: false,
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/food_and_drinks.html', 
+            controller: 'InfoCtrl'
+          }
+        }
+      })
+
+            .state('app.bars', {
+        url: '/bars',
+        cache: false,
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/food_and_drinks.html', 
+            controller: 'FoodAndDrinksCtrl'
+          }
+        }
+      })
+
+             .state('app.restaurants', {
+        url: '/restaurants',
+        cache: false,
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/food_and_drinks.html', 
+            controller: 'FoodAndDrinksCtrl'
+          }
+        }
+      })
+ 
 
          .state('app.guide', {
         url: '/guide',

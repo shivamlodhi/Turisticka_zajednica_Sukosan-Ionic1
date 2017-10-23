@@ -4,22 +4,19 @@
      <button  style="background-color: transparent;border: 0px;width: 400px;margin-left: 12px;"  menu-toggle="left">
        <img class="title-image img" src="img/menu-icon.jpg" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
        " /> 
-       </button> 
-         <button ui-sref="app.notifications"  style="background-color: transparent;border: 0px;float: right"   >
-       <img class="title-image img" src="img/bell.png" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
-       " /> 
+       </button>         
        </button> 
         <button ui-sref="app.favorites" style="background-color: transparent;border: 0px;float: right"  >
        <img class="title-image img" src="img/heart-white.png" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
        " /> 
        </button> 
-        <p style="color:white;font-size: 22px;margin-top: 26px;left: 70px;position: absolute"> {{"favorites" | translate}}</p>
+        <p style="color:white;font-size: 22px;margin-top: 26px;left: 70px;position: absolute"> {{title_cover}}</p>
     </ion-header-bar>
   <ion-content style="background-color: #D6D6D6"> 
 
     <a ng-repeat="event in events"   >
-      <div ng-click="go(event['id'])" style="height: 300px;width:100%; position:relative;"> 
-        <img  src="http://appeventnet.com/images/medium/{{event['images'][0]}}" ng-if="event['images'][0]!=null" style="height: 300px;width:100%;position: absolute" />
+  <div ng-click="go(event['id'])" style="height: 300px;width:100%; position:relative;"> 
+        <img  src="http://appeventnet.com/images/medium/{{event['images'][0]}}" ng-if="event['images'][0]!=null" style="height: 300px;width:100%;position: absolute;" />
          <img   ng-if="event['images'][0]==null" style="height: 300px;width:100%;position: absolute;background: rgba(39,109,230,1);
 background: -moz-linear-gradient(left, rgba(39,109,230,1) 30%, rgba(39,109,230,1) 38%, rgba(57,207,245,1) 64%, rgba(57,207,245,1) 74%);
 background: -webkit-gradient(left top, right top, color-stop(30%, rgba(39,109,230,1)), color-stop(38%, rgba(39,109,230,1)), color-stop(64%, rgba(57,207,245,1)), color-stop(74%, rgba(57,207,245,1)));
@@ -35,40 +32,37 @@ background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.58) 5
 background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(0,0,0,0.58) 57%,rgba(0,0,0,0.6) 59%,rgba(0,0,0,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,0.58) 57%,rgba(0,0,0,0.6) 59%,rgba(0,0,0,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#b3000000',GradientType=0 ); /* IE6-9 */position:absolute; ">
-        <div class="mjesto" style="margin-top:60px;position: absolute;background-color:rgba(57,207,245,1);width: 150px;height: 36px; border-radius: 0px 20px 20px 0px"  > 
+     <div class="mjesto" style="margin-top:60px;position: absolute;background-color:rgba(57,207,245,1);width: 150px;height: 36px; border-radius: 0px 20px 20px 0px"  > 
          <p style="color:white;font-size: 20px;text-align: center;padding-top: 7px;margin-left: 39px;position: absolute"> Sukošan</p> 
         </div><br/> 
-        
-         <p style="color:white;font-size:20px; margin-left: 40px; margin-top: 90px;font-weight: bold;position: absolute">{{event["title"].substring(0,54)}}</p> 
- 
-               <img ng-if="event['category'] ==1"   style="height: 30px;width: 30px;margin-left: 40px; margin-top: 160px;position: absolute " src="img/calendar.png" title="original">
-      
-          <p style="color:white;font-size:15px; font-weight: bold;margin-left: 80px; margin-top: 165px;position: absolute"> {{event['date']}}
+            <p style="color:white;font-size:20px; margin-left: 40px; margin-top: 90px;font-weight: bold;position: absolute">{{event["title"].substring(0,54)}}</p>  
+              
           </p>
-            <img   style="height: 30px;width: 30px;margin-left: 40px; margin-top: 200px;position: absolute " src="img/location.png" title="original">
+            <img   style="height: 30px;width: 30px;margin-left: 40px; margin-top: 200px;position: absolute;" src="img/location.png" title="original">
           <p style="color:white;font-size:15px;margin-left: 80px; margin-top: 200px; font-weight: bold;padding-top:4px;position: absolute "> {{event['address']}} 
           </p>
-      </div></div>
-      <div  style="margin-left: 20px;margin-right: 20px;height:auto;background-color: white;border-radius: 3px;text-align:center; padding: 0px 10px;font-size: 12px;
+      </div> </div>
+    <div  style="margin-left: 20px;margin-right: 20px;height:auto;background-color: white;border-radius: 3px;text-align:center; padding: 0px 10px;font-size: 12px;
    line-height: 20px;
    overflow: hidden;word-wrap: break-word;height: 93px;
 ">
- <div   style=" width: 60px;height: 80px;display: inline-block;text-align: center; ">
-    <img ng-click="remove({{event['id']}})"     style="height: 27px;width: 27px;display: block;margin: 0 auto;margin-top: 13px;margin-left:14px  " src="img/remove.png" title="original"> 
+ <div ng-if="event['favorit']==1" style=" width: 60px;height: 80px;display: inline-block;text-align: center; ">
+    <img ng-click="addFavorits({{event['id']}})"     style="height: 29px;width: 32px;display: block;margin: 0 auto;margin-top: 12px;margin-left: 10px  " src="img/save.png" title="original"> 
+                       <p    style=" color: grey;width:60px; position: absolute;margin-top: 0px ;text-align: center;margin-top: 47px  ">{{"save" | translate}}</p>
+      </div>
+
+      <div ng-if="event['favorit']==2" style=" width: 60px;height: 80px;display: inline-block;text-align: center; ">
+    <img ng-click="remove({{event['id']}})"     style="height: 27px;width: 27px;display: block;margin: 0 auto;margin-top: 13px;margin-left:14px  "  src="img/remove.png" title="original"> 
                        <p    style=" color: grey;width:60px; position: absolute;margin-top: 0px ;text-align: center;margin-top: 47px  ">{{"remove" | translate}}</p>
       </div>
-  
-     <div  ng-if="event['category'] ==1" ng-click="addFavorit({{event['id']}})"  style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden;word-wrap: break-word">
-         <img       style="height: 37px;width: 34px;display: block;margin: 0 auto;margin-top: 5px; margin-left: 12px " src="img/remind.png" title="original"> 
-     <p    style=" color: grey;width:60px; position: absolute;margin-top: 10px ;text-align: center;margin-top: 47px  ">{{"remind" | translate}}</p>
-      </div> 
-      
-       <div ng-if="event['category'] ==4 || event['category'] ==5 || event['category'] ==6 || event['category'] ==7" ng-click="callNumber('{{phone}}')"    style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden;word-wrap: break-word">
-          <img       style="height: 30px;width: 34px;display: block;margin: 0 auto;margin-top: 10px; margin-left: 12px " src="img/phone.png" title="original"/> 
-               
-          <p    style=" color: grey;width:60px; position: absolute;margin-top: 10px ;text-align: center;margin-top: 47px  ">{{"Call" | translate}}</p> 
+ 
+
+     <div  ng-click="callNumber('{{event['phone']}}')"  style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden;word-wrap: break-word">
+         <img       style="height: 30px;width: 34px;display: block;margin: 0 auto;margin-top: 10px; margin-left: 12px " src="img/phone.png" title="original"> 
+     <p    style=" color: grey;width:60px; position: absolute;margin-top: 10px ;text-align: center;margin-top: 47px  ">{{"Call" | translate}}</p>
       </div>
-        <div ng-click="shareViaFacebook()"  style="width: 64px;height: 80px;display: inline-block;text-align: center;overflow: hidden">
+
+        <div ng-click="shareViaFacebook({{ event['link']}})"  style="width: 64px;height: 80px;display: inline-block;text-align: center;overflow: hidden">
          <img       style="height: 37px;width: 34px;display: block;margin: 0 auto;margin-top: 10px; margin-left: 15px " src="img/share.png" title="original"> 
      <p    style=" color: grey;width:64px; position: absolute;margin-top: 6px ;text-align: center;margin-top: 47px  ">{{"Share" | translate}}</p>
       </div>
@@ -79,7 +73,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
      <p    style=" color: grey;width:60px; position: absolute;margin-top: 6px ;text-align: center;margin-top: 48px   ">Navi</p> 
      
       </div>
-
 
   
       </div>

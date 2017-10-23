@@ -1,8 +1,8 @@
-<ion-side-menus   enable-menu-with-back-views="true">
+<ion-side-menus enable-menu-with-back-views="true">
   <ion-side-menu-content>
-     
-    <ion-nav-view  name="menuContent"></ion-nav-view>
-    
+
+    <ion-nav-view name="menuContent"></ion-nav-view>
+
   </ion-side-menu-content>
 
   <ion-side-menu style="background-color: white;" side="left">
@@ -12,23 +12,46 @@ background: -moz-linear-gradient(top,  #6ac1c4 0%, #375453 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  #6ac1c4 0%,#375453 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  #6ac1c4 0%,#375453 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ac1c4', endColorstr='#375453',GradientType=0 ); /* IE6-9 */
-"  class="bar-stable">
-       <img style="  border-radius: 50%;margin-top:40px;width: 80px;margin-left: 80px;"  src="img/logoRound.jpg" width="80px;" height="80px"/><br/>
-  <p style="position: absolute;  margin-top: 120px;color: white;margin-left: -77px; font-size: 18px">SUKOŠAN</p>
+" class="bar-stable">
+      <img style="  border-radius: 50%;margin-top:40px;width: 80px;margin-left: 80px;" src="img/logoRound.jpg" width="80px;" height="80px"
+      /><br/>
+      <p style="position: absolute;  margin-top: 120px;color: white;margin-left: -77px; font-size: 18px">SUKOŠAN</p>
     </ion-header-bar>
     <ion-content style="margin-top: 160px">
-      <ion-list  style="background-color:white;">
-       
-        <ion-item  style="background-color:white;color:{{infoText}};font-size: 22px;margin-top: 0px;border: 0px white;" menu-close ng-click="openState('app.home')">
-            <img   class="{{info}}" title="grayscale" style="height: 30px;width: 30px; margin-right:20px;margin-top: -5px " src="img/info.png" title="original"> Info
-        </ion-item  >
-        
-        <ion-item  style="background-color:white;color:{{infoFavorit}};font-size: 22px;margin-top: 7px;border: 0px white;" menu-close ng-click="openState('app.favorites')">
-            <img class="{{favorit}}" class="grayscale" title="grayscale" style="height: 30px;width: 30px; margin-right:20px ;margin-top: -5px " src="img/favorit.png" title="original">    Favorites
-        </ion-item  > 
-            <ion-item  style="background-color:white;color:{{infoSettings}};font-size: 22px;margin-top: 7px;border: 0px white;" menu-close ng-click="openState('app.settings')">
-            <img class="{{settings}}" class="grayscale" title="grayscale" style="height: 30px;width: 30px; margin-right:20px ;margin-top: -5px " src="img/settings.png" title="original">    Settings
-     
+      <ion-list style="background-color:white;">
+
+        <ion-item style="background-color:white;color:{{infoText}};font-size: 22px;margin-top: 0px;border: 0px white;" menu-close
+          ng-click="openState('app.info')">
+          <img class="{{info}}" title="grayscale" style="height: 30px;width: 30px; margin-right:20px;margin-top: -5px " src="img/info.png"
+            title="original"> Info
+        </ion-item>
+        <ion-item style="background-color:white;color:{{infoFood}};font-size: 22px;margin-top: 0px;border: 0px white;" menu-close
+          ng-click="openState('app.food')">
+          <img class="{{food}}" title="grayscale" style="height: 30px;width: 30px; margin-right:20px;margin-top: -5px " src="img/info.png"
+            title="original"> Food & Drinks
+        </ion-item>
+
+        <ion-item style="background-color:white;color:{{infoServices}};font-size: 22px;margin-top: 0px;border: 0px white;" menu-close
+          ng-click="openState('app.services_choice')">
+          <img class="{{services}}" title="grayscale" style="height: 30px;width: 30px; margin-right:20px;margin-top: -5px " src="img/info.png"
+            title="original"> Services
+        </ion-item>
+
+        <ion-item style="background-color:white;color:{{infoFavorit}};font-size: 22px;margin-top: 7px;border: 0px white;" menu-close
+          ng-click="openState('app.favorites')">
+          <img class="{{favorit}}" class="grayscale" title="grayscale" style="height: 30px;width: 30px; margin-right:20px ;margin-top: -5px "
+            src="img/favorit.png" title="original"> Favorites
+        </ion-item>
+        <ion-item style="background-color:white;color:{{infoSettings}};font-size: 22px;margin-top: 7px;border: 0px white;" menu-close
+          ng-click="openState('app.settings')">
+          <img class="{{settings}}" class="grayscale" title="grayscale" style="height: 30px;width: 30px; margin-right:20px ;margin-top: -5px "
+            src="img/settings.png" title="original"> Settings
+        </ion-item>
+
+
+
+
+
       </ion-list>
     </ion-content>
   </ion-side-menu>

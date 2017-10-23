@@ -39,14 +39,14 @@ $scope.shareViaFacebook = function(link) {
                 var request = $http({
                     method: "POST",
                     url: 'http://appeventnet.com/rest/events.php',
-                    data: { id: "11", jezik: window.localStorage.getItem("language") },
+                    data: { id: "11", jezik: window.localStorage.getItem("language"),category: window.localStorage.getItem("category") },
                     headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
 
                 }); 
 
-                             request.success(function (data) { 
-
+                             request.success(function (data) {  
                     for (var v = 0; v < data.length; v++) { 
+                     
                             var query = "INSERT INTO events (id, title,date,description,favorit) VALUES (?,?,?,?,?)";
                      
                             $cordovaSQLite.execute(db, query, [data[v]["id"], data[v]["title"], data[v]["date"], "",1]).then(function (res) {
@@ -70,7 +70,7 @@ $scope.shareViaFacebook = function(link) {
                 var request = $http({
                     method: "POST",
                     url: 'http://appeventnet.com/rest/events.php',
-                    data: { id: "11", jezik: window.localStorage.getItem("language") },
+                    data: { id: "11", jezik: window.localStorage.getItem("language"),category: window.localStorage.getItem("category") },
                     headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
 
                 });
@@ -235,7 +235,7 @@ $scope.shareViaFacebook = function(link) {
                 var request = $http({
                     method: "POST",
                     url: 'http://appeventnet.com/rest/events.php',
-                    data: { id: "11", jezik:  "hr" },
+                    data: { id: "11", jezik:  "hr",category: window.localStorage.getItem("category") },
                     headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
 
                 });

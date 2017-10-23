@@ -5,28 +5,23 @@
        <img class="title-image img" src="img/menu-icon.jpg" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
        " /> 
        </button>
-        <button ui-sref="app.notifications" style="background-color: transparent;border: 0px;float: right">
-       <img class="title-image img" src="img/bell.png" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
-       " /> 
-       </button>
+        
         <button ui-sref="app.favorites" style="background-color: transparent;border: 0px;float: right">
        <img class="title-image img" src="img/heart-white.png" width="145px;" height="45"  style="width: 31px;height: 31px;margin-top: 7px;
        " /> 
        </button>
-        <p style="color:white;font-size: 22px;margin-top: 26px;left: 70px;position: absolute">INFO </p>
+        <p style="color:white;font-size: 21px;margin-top: 26px;left: 70px;position: absolute;text-transform: uppercase;">{{"services" | translate}} </p>
     </ion-header-bar>
     <ion-content scroll="false" style=" background-image: url('img/festice.jpg');text-align:center;">
         <img src="img/pozadinska_slika.jpg" style="height: 100%;width: 100%;position: absolute;left: 0px" />
 
-        <br>
- 
-
+        <br> 
         <br/>
  <br/> <br/> <br/>
-        <div ng-click="openState('app.home2',1)" style="   padding-left:20px;padding-right:20px;
+        <div ng-click="openState('app.home_food',5)" style="   padding-left:20px;padding-right:20px;
   margin-left: auto; 
   margin-right: auto; ">
-            <div   style="  height: 90px;width: 100%;background-size: 100% 100%;text-align: center;  display:inline-block;margin-top:10px;margin-bottom:0px;"
+            <div   style="    height: 90px;width: 100%;background-size: 100% 100%;text-align: center;  display:inline-block;margin-top:10px;margin-bottom:0px;"
                 class="list  ">
 
                 <div style="padding-left:15px;padding-top:10px; height: 100%;width: 35%; display:inline-block;float:left; background: rgba(39,109,230,1);
@@ -37,17 +32,17 @@ background: -o-linear-gradient(45deg, rgba(39,109,230,1) 0%, rgba(52,241,247,1) 
 background: -ms-linear-gradient(45deg, rgba(39,109,230,1) 0%, rgba(52,241,247,1) 100%);
 background: linear-gradient(45deg, rgba(39,109,230,1) 0%, rgba(52,241,247,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#276de6', endColorstr='#34f1f7', GradientType=1 );">
-<img src="/android_asset/www/img/calendar_icon.png" style=" height:70px;width: 70px" />
+<img src="/android_asset/www/img/info_icon.png" style=" height:40px;width: 40px;margin-left:13px;margin-top:13px;" />
 </div>
                 <div style="background-color: white; display:inline-block;height: 100%;width: 65%;padding-top:60px;"> 
 
-                    <p style="text-align: right;padding-right: 10px;font-size: 22px;color:rgba(52,241,247,1)">{{"events_malo" | translate}}</p>
+                    <p style="text-align: right;padding-right: 10px;font-size: 22px;color:rgba(52,241,247,1)">{{"usefull_infos" | translate}}</p>
 
                 </div>
             
             </div>
         </div>
-             <div ng-click="openState('app.beaches',2)" style="   padding-left:20px;padding-right:20px;
+             <div ng-click="openState('app.home_food',6)" style="   padding-left:20px;padding-right:20px;
   margin-left: auto; 
   margin-right: auto; ">
             <div   style="   height: 90px;width: 100%;background-size: 100% 100%;text-align: center;  display:inline-block;margin-top:10px;margin-bottom:0px;"
@@ -61,40 +56,17 @@ background: -o-linear-gradient(45deg, rgba(39,109,230,1) 0%, rgba(52,241,247,1) 
 background: -ms-linear-gradient(45deg, rgba(39,109,230,1) 0%, rgba(52,241,247,1) 100%);
 background: linear-gradient(45deg, rgba(39,109,230,1) 0%, rgba(52,241,247,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#276de6', endColorstr='#34f1f7', GradientType=1 );">
-<img src="/android_asset/www/img/beach_icon.png" style=" height:70px;width: 70px; " />
+<img src="/android_asset/www/img/anchor_icon.png" style=" height:70px;width: 70px" />
 </div>
                 <div style="background-color: white; display:inline-block;height: 100%;width: 65%;padding-top:60px;"> 
 
-                    <p style="text-align: right;padding-right: 10px;font-size: 22px;color:rgba(52,241,247,1)">{{"beachs" | translate}}</p>
+                    <p style="text-align: right;padding-right: 10px;font-size: 22px;color:rgba(52,241,247,1)">{{"nautika" | translate}}</p>
 
                 </div>
             
             </div>
         </div>
-              <div ng-click="openState('app.beaches',3)" style="   padding-left:20px;padding-right:20px;
-  margin-left: auto; 
-  margin-right: auto; ">
-            <div   style="  height: 90px;width: 100%;background-size: 100% 100%;text-align: center;  display:inline-block;margin-top:10px;margin-bottom:0px;"
-                class="list  ">
-
-                <div style="padding-left:15px;padding-top:10px; height: 100%;width: 35%; display:inline-block;float:left; background: rgba(39,109,230,1);
-background: -moz-linear-gradient(45deg, rgba(39,109,230,1) 0%, rgba(52,241,247,1) 100%);
-background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(39,109,230,1)), color-stop(100%, rgba(52,241,247,1)));
-background: -webkit-linear-gradient(45deg, rgba(39,109,230,1) 0%, rgba(52,241,247,1) 100%);
-background: -o-linear-gradient(45deg, rgba(39,109,230,1) 0%, rgba(52,241,247,1) 100%);
-background: -ms-linear-gradient(45deg, rgba(39,109,230,1) 0%, rgba(52,241,247,1) 100%);
-background: linear-gradient(45deg, rgba(39,109,230,1) 0%, rgba(52,241,247,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#276de6', endColorstr='#34f1f7', GradientType=1 );">
-<img src="/android_asset/www/img/monument_icon.png" style=" height:70px;width: 70px" />
-</div>
-                <div style="background-color: white; display:inline-block;height: 100%;width: 65%;padding-top:60px;"> 
-
-                    <p style="text-align: right;padding-right: 10px;font-size: 22px;color:rgba(52,241,247,1)">{{"culture" | translate}}</p>
-
-                </div>
-            
-            </div>
-        </div>
+       
 
     </ion-content>
 </ion-view>

@@ -7,15 +7,14 @@
         <br><br><br><br>
          <p style="color:black;font-size:20px; margin-left: 12px;font-weight: bold;margin-top:50px">{{title}}</p> 
 
-          <img   style="height: 20px;width: 20px;margin-left: 12px ;margin-right: 20px;  " src="img/calendarG.png" title="original">
+          <img ng-if="category==1"  style="height: 20px;width: 20px;margin-left: 12px ;margin-right: 20px;  " src="img/calendarG.png" title="original">
           <p style="color:black;font-size:15px; font-weight: bold"> {{date}}
           </p>
             <img   style="height: 20px;width: 20px;margin-left: 12px;margin-right: 20px;  " src="img/locationG.png" title="original">
           <p style="color:black;font-size:15px; font-weight: bold;padding-top:4px "> {{location}}
           </p> 
  
-          <p style="margin: 10px;">
-            {{description}}
+          <p style="margin: 10px;color:black;" ng-bind-html="description"> 
          </p>
            
             <hr><br/>
@@ -38,12 +37,17 @@
     <img ng-click="remove(id)"     style="height: 27px;width: 27px;display: block;margin: 0 auto;margin-top: 13px;margin-left:14px  "  src="img/remove.png" title="original"> 
                        <p    style=" color: grey;width:60px; position: absolute;margin-top: 0px ;text-align: center;margin-top: 47px  ">{{"remove" | translate}}</p>
       </div>
- 
-
-     <div ng-click="addFavorit(id)" style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden;word-wrap: break-word">
-         <img       style="height: 37px;width: 34px;display: block;margin: 0 auto;margin-top: 5px; margin-left: 10px " src="img/remind.png" title="original"> 
+  
+      <div  ng-if="category==1" ng-click="addFavorit({{event['id']}})"  style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden;word-wrap: break-word">
+         <img       style="height: 37px;width: 34px;display: block;margin: 0 auto;margin-top: 5px; margin-left: 12px " src="img/remind.png" title="original"> 
      <p    style=" color: grey;width:60px; position: absolute;margin-top: 10px ;text-align: center;margin-top: 47px  ">{{"remind" | translate}}</p>
-      </div>
+      </div> 
+      
+       <a ng-if="category ==4 || category ==5 || category==6 || category ==7" ng-click="callNumber('{{phone}}')"   style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden;word-wrap: break-word">
+          <img       style="height: 30px;width: 34px;display: block;margin: 0 auto;margin-top: 10px; margin-left: 12px " src="img/phone.png" title="original"/> 
+               
+          <p    style=" color: grey;width:60px; position: absolute;margin-top: 10px ;text-align: center;margin-top: 47px  ">{{"Call" | translate}}</p> 
+      </a>
 
         <div ng-click="shareViaFacebook(link)"  style="width: 60px;height: 80px;display: inline-block;text-align: center;overflow: hidden">
          <img       style="height: 37px;width: 34px;display: block;margin: 0 auto;margin-top: 10px; margin-left: 10px " src="img/share.png" title="original"> 

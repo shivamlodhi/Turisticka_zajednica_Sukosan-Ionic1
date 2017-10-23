@@ -86,6 +86,18 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       enter: "Postavi sate",
       setnot: "Postavi notifikaciju",
 
+      events_malo: "Događanja",
+      beachs: "Plaže",
+      culture: "Znamenitosti",
+
+      restaurants: "Restorani",
+      bars: "Barovi",
+      usefull_infos: "Korisne info",
+      nautika: "Nautika",
+      food: "Hrana i pića",
+      services: "Servisi"
+
+
 
     });
 
@@ -117,6 +129,20 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       enter: "Ore set",
       setnot: "Notifica set",
 
+      events_malo: "Eventi",
+      beachs: "Spiaggia",
+      culture: "Viste",
+
+      restaurants: "Ristoranti",
+      bars: "Bar",
+      usefull_infos: "Utile info",
+      nautika: "navigazione",
+
+      food: "Cibi e bevande",
+      services: "Servizi"
+
+
+
 
     });
 
@@ -145,6 +171,20 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       enter: "Set the hours",
       setnot: "Set notification",
 
+      events_malo: "Events",
+      beachs: "Beaches",
+      culture: "Culture",
+
+      restaurants: "Restaurants",
+      bars: "Bars",
+      usefull_infos: "Useful infos",
+      nautika: "Navigation",
+
+      food: "Food and Drinks",
+      services: "Services"
+
+
+
     });
 
 
@@ -171,6 +211,20 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       notifications: "BENACHRICH",
       enter: "set Stunden",
       setnot: "set Benachrichtigung",
+
+      events_malo: "Geschehen",
+      beachs: "Strand",
+      culture: "Kultur",
+
+      restaurants: "Restaurants",
+      bars: "Bars",
+      usefull_infos: "Nützliche Infos",
+      nautika: "Navigation",
+
+      food: "Essen/Trink.",
+      services: "Dienstleist."
+
+
 
     });
 
@@ -209,7 +263,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
         }
       })
 
-           .state('app.beaches', {
+      .state('app.beaches', {
         url: '/beaches',
         cache: false,
         views: {
@@ -265,57 +319,69 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
         }
       })
 
-          .state('app.info', {
+      .state('app.info', {
         url: '/info',
         cache: false,
         views: {
           'menuContent': {
-            templateUrl: 'templates/info.html', 
+            templateUrl: 'templates/info.html',
             controller: 'InfoCtrl'
           }
         }
       })
 
-         .state('app.food', {
+      .state('app.food', {
         url: '/food',
         cache: false,
         views: {
           'menuContent': {
-            templateUrl: 'templates/food_and_drinks.html', 
+            templateUrl: 'templates/food_and_drinks.html',
             controller: 'InfoCtrl'
           }
         }
       })
 
-            .state('app.bars', {
+      .state('app.bars', {
         url: '/bars',
         cache: false,
         views: {
           'menuContent': {
-            templateUrl: 'templates/food_and_drinks.html', 
+            templateUrl: 'templates/food_and_drinks.html',
             controller: 'FoodAndDrinksCtrl'
           }
         }
       })
 
-             .state('app.restaurants', {
+      .state('app.services_choice', {
+        url: '/services_choice',
+        cache: false,
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/services_choice.html',
+            controller: 'InfoCtrl'
+          }
+        }
+      })
+
+
+      .state('app.restaurants', {
         url: '/restaurants',
         cache: false,
         views: {
           'menuContent': {
-            templateUrl: 'templates/food_and_drinks.html', 
+            templateUrl: 'templates/food_and_drinks.html',
             controller: 'FoodAndDrinksCtrl'
           }
         }
       })
- 
 
-         .state('app.guide', {
+
+      .state('app.guide', {
         url: '/guide',
         cache: false,
         views: {
           'menuContent': {
-            templateUrl: 'templates/sukosan_guide.html', 
+            templateUrl: 'templates/sukosan_guide.html',
             controller: 'CalendarCtrl'
           }
         }
@@ -332,8 +398,18 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
           }
         }
       })
+      .state('app.home_food', {
+        url: '/home_food',
+        cache: false,
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/homeFood.html',
+            controller: 'FoodAndDrinksCtrl',
+          }
+        }
+      })
 
 
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/home2');
+    $urlRouterProvider.otherwise('/guide');
   });

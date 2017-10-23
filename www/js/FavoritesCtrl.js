@@ -153,14 +153,16 @@ angular.module('Sukosan')
 
                     alert("Error, check your internet connection or gps device!" + err[0]);
                 })
-
-
+ 
             window.localStorage.setItem("lat", lat);
             window.localStorage.setItem("long", long);
 
         }
 
-
+               $scope.callNumber = function (number) {
+                    document.location.href = "tel:"+number;
+               
+                }
 
         $scope.addNotification = function (id) {
             var query = "SELECT * from events where id = ?";
@@ -215,15 +217,14 @@ angular.module('Sukosan')
                     console.log("SELECTED -> " + res.rows.item(0).id + " " + res.rows.item(0).latitude);
                     var request = $http({
                         method: "POST",
-                        url: 'http://appeventnet.com/rest/events.php',
+                        url: 'http://appeventnet.com/rest/allevents.php',
                         data: { id: "11", jezik: window.localStorage.getItem("language") },
                         headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
 
                     });
-                    request.success(function (data) {
-
+                    request.success(function (data) {  
                         for (var i = 0; i < res.rows.length; i++) {
-                            for (var v = 0; v < data.length; v++) {
+                            for (var v = 0; v < data.length; v++) { 
                                 if (data[v]["id"] == res.rows.item(i).id) {
 
                                     $scope.events.push({
@@ -232,7 +233,9 @@ angular.module('Sukosan')
                                         date: data[v]["date"],
                                         latitude: data[v]["latitude"],
                                         longitude: data[v]["longitude"],
-                                        images: data[v]["images"]
+                                        images: data[v]["images"],
+                                        phone: data[v]["phone"],
+                                        category: data[v]["category"],
                                     });
                                 }
 

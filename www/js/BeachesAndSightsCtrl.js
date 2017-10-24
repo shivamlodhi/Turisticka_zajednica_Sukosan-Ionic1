@@ -14,10 +14,18 @@ var app = angular.module('Sukosan')
         $scope.date;
         $scope.hour;
         $scope.favorit = 3;
-        if (window.localStorage.getItem("category") == 3) {
-            $scope.title_cover = "CULTURE";
+        if (window.localStorage.getItem("category") == 3) { 
+             $translate('SIGHTS').then(function (translation) {
+                $scope.title_cover = translation;
+                alert(translation);
+            });
+
         } else {
-            $scope.title_cover = "BEACHES";
+             $translate('BEACHES').then(function (translation) {
+                $scope.title_cover = translation;
+                alert(translation);
+            });
+ 
         }
 
         window.localStorage.setItem("start", "")

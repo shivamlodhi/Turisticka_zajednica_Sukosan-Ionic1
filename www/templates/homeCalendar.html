@@ -8,7 +8,7 @@
   right: 0; 
   margin-left: auto; 
   margin-right: auto;">
-			Dobrodošli
+			 {{"welcome" | translate}}
 		</p>
 		<img style="  border-radius: 50%; width: 130px; margin-left: 30%;position: absolute;  left: 0; 
   right: 0; 
@@ -25,7 +25,7 @@
   right: 0; 
   margin-left: auto; 
   margin-right: auto;margin-top: 100px">
-			Vodi
+			  {{"guide" | translate}}
 		</p><br>
 		<div style="position: absolute;margin-top:100px;left: 0; 
   right: 0; 
@@ -34,7 +34,7 @@
 
 			<div ng-click="openDatePicker()" style="height: 65px;width: 100px;text-align: center; background-color: white; box-shadow: 2px 2px 1px #1C1C1C; display:inline-block;margin-bottom:0px;"
 			 class="list list-inset">
-				<p style="color: #0094de;  "> from
+				<p style="color: #0094de;  ">  {{"from" | translate}}
 				</p>
 				<p style=" font-size: 14px;font-weight: bold ;color: #0094de; margin-top: -23px;    text-align: center;
     position: relative;
@@ -47,7 +47,7 @@
 			</div>
 			<div ng-click="openDatePicker2()" style="height: 65px;width: 100px; background-color: white;margin-top:0px; box-shadow: 2px 2px 1px #1C1C1C;padding-top: 22px;display:inline-block;"
 			 class="list list-inset">
-				<p style="color: #0094de;margin-left: 44px; margin-top: -20px;position: absolute"> to
+				<p style="color: #0094de;margin-left: 44px; margin-top: -20px;position: absolute"> {{"to" | translate}}
 				</p>
 				<p style=" font-size: 14px;font-weight: bold ;color: #0094de; ">
 					{{to}}
@@ -55,7 +55,7 @@
 			</div>
 		</div>
 		<p style="position: absolute;font-size: 16px;color: white;padding-top: 10px; margin-top: 200px">
-			Enter start and end date of your stay display of current events
+			 {{"enterDate" | translate}}
 		</p>
 		<a ng-click="openState('app.home')" style="position: absolute; 
           float: right;
@@ -75,6 +75,6 @@
   text-shadow:0px 1px 0px #154682;
   right: 30px;bottom:30px; 
  
-">SKIP</a>
+"> {{"skip" | translate}}</a>
 	</ion-content>
 </ion-view>

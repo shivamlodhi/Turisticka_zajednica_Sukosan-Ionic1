@@ -61,6 +61,12 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       events: "DOGAĐANJA",
       //events actions
 
+      guide: "Vodič",
+      enterDate: "Unesite početni i završni datum svog boravka kako bi se prikazala aktualna događanja",
+      from: "from",
+      to: "to",
+      skip: "PRESKOČI",
+      welcome: "Dobrodošli",
 
 
       remove: "Obriši",
@@ -70,9 +76,13 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
 
       //meni
       favorites: "FAVORITI",
-      favoritesMeni: "Favoriti",
+      favoritesMeni: "favoriti",
+      setings: "postavke",
       Setings: "Postavke",
       Settings: "POSTAVKE",
+      setings: "postavke",
+      food_drinks: "hrana&pića",
+      service: "usluge",
 
       //settings
       rec_not: "Primanje notifikacija",
@@ -80,6 +90,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       language: "Jezik",
       cancel: "Otkaži",
       date: "Datumi posjete",
+      call:"Zovi",
 
       //notification
       notifications: "NOTIFIKACIJE",
@@ -95,8 +106,19 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       usefull_infos: "Korisne info",
       nautika: "Nautika",
       food: "Hrana i pića",
-      services: "Servisi"
+      services: "Servisi",
 
+
+      RESTAURANTS: "RESTORANI",
+      BARS: "BAROVI",
+      USEFULL: "KORISNE INFO",
+      NAUTIKA: "NAUTIKA",
+      FOOD: "HRANA I PIĆE",
+      SERVICES: "SERVISI",
+
+
+      BEACHES: "PLAŽE",
+      SIGHTS: "ZNAMENITOSTI"
 
 
     });
@@ -106,18 +128,33 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       events: "EVENTI",
       //events actions
 
+      guide: "Guidare",
+      enterDate: "Inserisci le date di inizio e fine del tuo soggiorno per mostrare gli eventi attuali",
+      from: "da",
+      to: "a",
+      skip: "SALTA",
+      welcome: "Benvenuto",
+
+
+
+
 
 
       remove: "Rimuovere",
       save: "Salvare",
       remind: "Ricordami",
       Share: "Condividere",
+      call:"Chiamata",
 
       //meni
       favorites: "PREFERITI",
-      favoritesMeni: "Preferiti",
+      favoritesMeni: "preferiti",
       Setings: "Impostazioni",
       Settings: "IMPOSTAZIONI",
+
+      setings: "impostazioni",
+      food_drinks: "cibi e bevande",
+      service: "servizi",
 
       date: "Data della visita",
       //settings
@@ -139,7 +176,17 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       nautika: "navigazione",
 
       food: "Cibi e bevande",
-      services: "Servizi"
+      services: "Servizi",
+
+      RESTAURANTS: "RISTORANTI",
+      BARS: "BAR",
+      USEFULL: "UTILE INFO",
+      NAUTIKA: "NAVIGAZIONE",
+      FOOD: "CIBI E BEVANDE",
+      SERVICES: "SERVIZI",
+
+      BEACHES: "SPIAGGIA",
+      SIGHTS: "VISTE"
 
 
 
@@ -148,6 +195,14 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
 
 
     $translateProvider.translations('en', {
+
+
+      guide: "Guide",
+      enterDate: "Enter start and end date of your stay display of current events",
+      from: "from",
+      to: "to",
+      skip: "SKIP",
+      welcome: "Welcome",
 
       events: "EVENTS",
       remove: "Remove",
@@ -159,9 +214,13 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       //meni
       favorites: "FAVORITES",
       favoritesMeni: "Favorites",
+      setings: "settings",
       Setings: "Settings",
       Settings: "SETTINGS",
       date: "Dates of visit",
+      favoritesMeni: "favorites",
+      food_drinks: "food$drinks",
+      service: "services",
       //settings
       rec_not: "Receiveing notifications",
       location: "location",
@@ -170,6 +229,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       notifications: "NOTIFICATIONS",
       enter: "Set the hours",
       setnot: "Set notification",
+      call:"Call",
 
       events_malo: "Events",
       beachs: "Beaches",
@@ -181,7 +241,17 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       nautika: "Navigation",
 
       food: "Food and Drinks",
-      services: "Services"
+      services: "Services",
+
+      RESTAURANTS: "RESTAURANTS",
+      BARS: "BARS",
+      USEFULL: "USEFULL INFOS",
+      NAUTIKA: "NAVIGATION",
+      FOOD: "FOOD&DRINKS",
+      SERVICES: "SERVICES",
+
+      BEACHES: "BEACHES",
+      SIGHTS: "SIGHTS"
 
 
 
@@ -190,19 +260,34 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
 
     $translateProvider.translations('de', {
 
+
+
+
+      guide: "Führen",
+      enterDate: "Geben Sie das Start- und Enddatum Ihres Aufenthalts ein. Anzeige der aktuellen Ereignisse",
+      from: "von",
+      to: "nach",
+      skip: "ÜBERSPRINGEN",
+      welcome: "Willkommen",
+
       events: "GESCHEHEN",
       remove: "Entfernen",
       save: "Sparen",
       remind: "Erinnere mich",
       Share: "Aktie",
-
+      call:"Anruf",
 
       //meni
       favorites: "FAVORITEN",
-      favoritesMeni: "Favoriten",
+      favoritesMeni: "favoriten",
       Setings: "Einstellungen",
       Settings: "EINSTELLUNGEN",
       date: "Datum des Besuchs",
+
+
+      setings: "einstellungen",
+      food_drinks: "essen&trinken",
+      service: "dienstleist",
       //settings
       rec_not: "Empfangen von Benachr.",
       location: "Lage",
@@ -222,7 +307,17 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       nautika: "Navigation",
 
       food: "Essen/Trink.",
-      services: "Dienstleist."
+      services: "Dienstleist.",
+
+      RESTAURANTS: "RESTAURANTS",
+      BARS: "BARS",
+      USEFULL: "NUTZLICHE INFOS",
+      NAUTIKA: "NAVIGATION",
+      FOOD: "ESSEN&TRINKEN",
+      SERVICES: "DIENSTLEIST",
+
+      BEACHES: "STRAND",
+      SIGHTS: "KULTUR"
 
 
 

@@ -14,17 +14,29 @@ var app = angular.module('Sukosan')
         $scope.hour;
         $scope.favorit = 3;
         if (window.localStorage.getItem("category") == 4) {
-            $scope.title_cover = "RESTAURANTS";
+
+            $translate('RESTAURANTS').then(function (translation) {
+                $scope.title_cover = translation; 
+            });
+
         }
         if (window.localStorage.getItem("category") == 7) {
-            $scope.title_cover = "BARS";
+            $translate('BARS').then(function (translation) {
+                $scope.title_cover = translation; 
+            });
         }
         if (window.localStorage.getItem("category") == 5) {
-            $scope.title_cover = "USEFUL INFO";
+            $translate('USEFULL').then(function (translation) {
+                $scope.title_cover = translation; 
+            });
         }
         if (window.localStorage.getItem("category") == 6) {
-            $scope.title_cover = "SAILING";
+            $translate('NAUTIKA').then(function (translation) {
+                $scope.title_cover = translation; 
+            });
         }
+
+
 
         window.localStorage.setItem("start", "")
         $scope.shareViaFacebook = function (link) {
@@ -104,7 +116,7 @@ var app = angular.module('Sukosan')
                                         images: data[v]["images"],
                                         latitude: data[v]["latitude"],
                                         longitude: data[v]["longitude"],
-                                        phone:  data[v]["phone"],
+                                        phone: data[v]["phone"],
                                         link: data[v]["link"],
                                         address: data[v]["address"],
                                         favorit: 2,
@@ -125,7 +137,7 @@ var app = angular.module('Sukosan')
                                     latitude: data[v]["latitude"],
                                     longitude: data[v]["longitude"],
                                     link: data[v]["link"],
-                                    phone:  data[v]["phone"],
+                                    phone: data[v]["phone"],
                                     address: data[v]["address"],
                                     favorit: 1,
 
@@ -158,10 +170,10 @@ var app = angular.module('Sukosan')
 
             //leads to distance beetween user and event
 
-                $scope.callNumber = function (number) {
-                    document.location.href = "tel:"+number;
-               
-                }
+            $scope.callNumber = function (number) {
+                document.location.href = "tel:" + number;
+
+            }
 
 
             $scope.showMapPath = function (lat, long) {

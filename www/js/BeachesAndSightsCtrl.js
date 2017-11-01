@@ -16,14 +16,12 @@ var app = angular.module('Sukosan')
         $scope.favorit = 3;
         if (window.localStorage.getItem("category") == 3) { 
              $translate('SIGHTS').then(function (translation) {
-                $scope.title_cover = translation;
-                alert(translation);
+                $scope.title_cover = translation; 
             });
 
         } else {
              $translate('BEACHES').then(function (translation) {
-                $scope.title_cover = translation;
-                alert(translation);
+                $scope.title_cover = translation; 
             });
  
         }

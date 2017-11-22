@@ -103,16 +103,7 @@ angular.module('Sukosan')
       ionicDatePicker.openDatePicker(ipObj);
     };
 
-    if (window.localStorage.getItem("notifications") == null) {
-      $scope.click = 'red';
-      window.localStorage.setItem("notifications", "red");
-    } else {
-
-
-
-      $scope.click = window.localStorage.getItem("notifications");
-
-    }
+   
     var ipObj1 = {
       callback: function (val) {  //Mandatory
         console.log('Return value from the datepicker popup is : ' + val, new Date(val)); 

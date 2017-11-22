@@ -53,8 +53,7 @@ $scope.shareViaFacebook = function(link) {
                                 console.log("insertId: " + res.insertId);
                             }, function (err) {
                                 console.error(err);
-                            });
- 
+                            }); 
                     }
 
 

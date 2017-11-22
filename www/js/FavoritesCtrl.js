@@ -13,7 +13,7 @@ angular.module('Sukosan')
         $scope.go = function (id) {
             $state.go('app.detail', { eventId: id })
         }
-        var ipObj1 = {
+        var ipObj1 = {  
             callback: function (val) {      //Mandatory
                 if (typeof (val) === 'undefined') {
                     console.log('Time not selected');

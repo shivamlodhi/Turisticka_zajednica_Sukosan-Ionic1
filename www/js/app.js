@@ -59,13 +59,16 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
 
     $translateProvider.translations('hr', {
       events: "DOGAĐANJA",
+      dolazak:"Dolazak",
+      odlazak:"Odlazak",
       //events actions
 
       guide: "Vodič",
       enterDate: "Unesite početni i završni datum svog boravka kako bi se prikazala aktualna događanja",
-      from: "from",
-      to: "to",
+      from: "Od",
+      to: "Do",
       skip: "PRESKOČI",
+      next: "Nastavi",
       welcome: "Dobrodošli",
 
 
@@ -81,7 +84,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       Setings: "Postavke",
       Settings: "POSTAVKE",
       setings: "postavke",
-      food_drinks: "hrana&pića",
+      food_drinks: "hrana & pića",
       service: "usluge",
 
       //settings
@@ -126,12 +129,14 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
 
     $translateProvider.translations('it', {
       events: "EVENTI",
+      dolazak:"Arrivo",
+      odlazak:"Partenza",
       //events actions
 
       guide: "Guidare",
       enterDate: "Inserisci le date di inizio e fine del tuo soggiorno per mostrare gli eventi attuali",
-      from: "da",
-      to: "a",
+      from: "Da",
+      to: "A",
       skip: "SALTA",
       welcome: "Benvenuto",
 
@@ -195,13 +200,15 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
 
 
     $translateProvider.translations('en', {
-
+      dolazak:"Dolazak",
+      odlazak:"Odlazak",
 
       guide: "Guide",
       enterDate: "Enter start and end date of your stay display of current events",
-      from: "from",
-      to: "to",
+      from: "From",
+      to: "To",
       skip: "SKIP",
+      next: "NEXT",
       welcome: "Welcome",
 
       events: "EVENTS",
@@ -219,7 +226,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
       Settings: "SETTINGS",
       date: "Dates of visit",
       favoritesMeni: "favorites",
-      food_drinks: "food$drinks",
+      food_drinks: "food & drinks",
       service: "services",
       //settings
       rec_not: "Receiveing notifications",
@@ -245,7 +252,7 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
 
       RESTAURANTS: "RESTAURANTS",
       BARS: "BARS",
-      USEFULL: "USEFULL INFOS",
+      USEFULL: "USEFUL INFOS",
       NAUTIKA: "NAVIGATION",
       FOOD: "FOOD&DRINKS",
       SERVICES: "SERVICES",
@@ -262,11 +269,12 @@ angular.module('Sukosan', ['ionic', 'ionic-datepicker', 'starter.controllers', '
 
 
 
-
+      dolazak:"Kommen",
+      odlazak:"Abfahrt",
       guide: "Führen",
       enterDate: "Geben Sie das Start- und Enddatum Ihres Aufenthalts ein. Anzeige der aktuellen Ereignisse",
-      from: "von",
-      to: "nach",
+      from: "Von",
+      to: "Nach",
       skip: "ÜBERSPRINGEN",
       welcome: "Willkommen",
 

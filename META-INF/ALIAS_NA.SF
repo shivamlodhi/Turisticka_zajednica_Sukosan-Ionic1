@@ -1,0 +1,3023 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: zaYrXSBLVjo7lwWGLorIZfCoEAA=
+SHA1-Digest-Manifest: eoArH82c+GjGALCBMbCrS6J9LbE=
+Created-By: 1.8.0_144 (Oracle Corporation)
+
+Name: assets/www/templates/info.html
+SHA1-Digest: ScUxGYO4nxqxAYd8TTJVA4OL/Ik=
+
+Name: assets/www/lib/ngmap/build/docs/fusion-tables-layer.html
+SHA1-Digest: ipXoZchctMVgaYMx4VBdQJBNHfg=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png
+SHA1-Digest: pj+V2r2pJOgJwGGNpeqxnykl0Nc=
+
+Name: assets/www/lib/ngmap/testapp/scripts/markerclusterer_packed.js
+SHA1-Digest: pJwKT7xfzjvi4GEeGI9xbIHMfqY=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/README.md
+SHA1-Digest: r4YPocGtOPYDtLiHn5cOTjcR5qo=
+
+Name: assets/www/lib/ionic-timepicker/package.json
+SHA1-Digest: zCLqrFn5qojiAeiCZd6QQHUFt0U=
+
+Name: assets/www/lib/angular-animate/index.js
+SHA1-Digest: Q6qT1ALjybJqwRiYhtQMinKTsYc=
+
+Name: res/color-v23/abc_btn_colored_text_material.xml
+SHA1-Digest: QfOopQVyGBK5764AtyzCeSxgY30=
+
+Name: assets/www/lib/ionic/scss/_menu.scss
+SHA1-Digest: e5e/sQ+i16hHnx2HwHQpcxyDz74=
+
+Name: assets/www/lib/angular-ui-router/CHANGELOG.md
+SHA1-Digest: ods3qJmyHvaGREoLkNA5R+1Jo6o=
+
+Name: assets/www/lib/ngmap/spec/services/attr2_options_spec.js
+SHA1-Digest: YOseoy1gn3wJ6X/jCp5CWdtXphQ=
+
+Name: assets/www/lib/angular-ui-router/CONTRIBUTING.md
+SHA1-Digest: lA0zE3YkxE8w8ihYe6NSrMRMwDE=
+
+Name: res/drawable/notification_bg_low.xml
+SHA1-Digest: WfsSeXv0GePW4VEprES9FQi4/Ck=
+
+Name: res/drawable-xhdpi-v4/abc_ic_star_black_48dp.png
+SHA1-Digest: FtlphNkBunKHFyn4YCJf+uB9r5Y=
+
+Name: res/drawable/abc_list_selector_background_transition_holo_light.
+ xml
+SHA1-Digest: GmT6IMAyeHMrj3HfwELKNXx7GjY=
+
+Name: assets/www/lib/angular-sanitize/angular-sanitize.min.js.map
+SHA1-Digest: vuAWpX9X6pqtYyFvVKlaURkE+KM=
+
+Name: res/color/abc_primary_text_disable_only_material_dark.xml
+SHA1-Digest: JtdwnAw14fSDWtjEvvkyFawT1Qs=
+
+Name: assets/www/lib/ionic/scss/_backdrop.scss
+SHA1-Digest: m07hEvSWLEogySDspWPT4LAatOE=
+
+Name: assets/www/lib/ngmap/testapp/map_options.html
+SHA1-Digest: icXJFRgTkW/+Xo770+ZqhliPeuo=
+
+Name: assets/www/lib/ngmap/testapp/layer-heatmap.html
+SHA1-Digest: JQ2YoO/lfpxpHrMg1YkDEBg9jZ0=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
+SHA1-Digest: n+HinWLESEjbz+LSJ3hFDhs1hsI=
+
+Name: assets/www/lib/angular-sanitize/index.js
+SHA1-Digest: VdQoSa6DZh4XnREo+6kByGycVz4=
+
+Name: assets/www/lib/ionic-numberpicker/package.json
+SHA1-Digest: sgG1+NGh6BqLXs328ldqM9ALwjU=
+
+Name: assets/www/lib/ngmap/testapp/all-examples.json
+SHA1-Digest: 0eE/ZcA3euvCJ+VvwX4Tuzmb2XU=
+
+Name: assets/www/templates/eventDetail.html
+SHA1-Digest: G5JMAjPljvPUqB/IBEhUTmKkImM=
+
+Name: assets/www/lib/ionic/scss/_items.scss
+SHA1-Digest: ZvQR66Z6Cf1mBjLdNci7eajFY9s=
+
+Name: res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest: JjQKi93lV1YYH5MBZnohvbiJq3o=
+
+Name: assets/www/cordova-js-src/android/nativeapiprovider.js
+SHA1-Digest: 38WtpiAj5vmsHOuyTUe8kYOXH14=
+
+Name: assets/www/lib/angular/angular.js
+SHA1-Digest: dzZXRYlWWaaYqb3RqRKM4KmlkLE=
+
+Name: res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest: XUUeghiBJli27nxrwf5sxQ8N90c=
+
+Name: assets/www/lib/ngmap/spec/directives/street_view_panorama_spec_b
+ ak.js
+SHA1-Digest: aL2tdhpa80Ezk8Q5ze/qKaJ+9Hs=
+
+Name: res/drawable/abc_cab_background_top_material.xml
+SHA1-Digest: Z+2EBs+zMxbPCCEkmiGm2pj627E=
+
+Name: assets/www/lib/ngmap/build/docs/streetview-panorama.html
+SHA1-Digest: clNI3aYeDqGTgSse7FQAKghSaDw=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: prowKilSHEAkLy2yRWje7IyMm2k=
+
+Name: res/color/abc_primary_text_material_light.xml
+SHA1-Digest: KgCae2TixXkAHK8niE5zcHAlg5U=
+
+Name: assets/www/lib/ngmap/spec/services/navigator_geolocation_spec.js
+SHA1-Digest: TWCBorIOseNxVzsviaP7hG7fJ9E=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/method.tmpl
+SHA1-Digest: F7SaOrfVldj5JZz40IAicIMKI28=
+
+Name: assets/www/lib/ngmap/testapp/layer-traffic.html
+SHA1-Digest: vGjt9v2SXKtYYw62y1E0f7x6Lw4=
+
+Name: assets/www/lib/ngmap/testapp/icon-simple.html
+SHA1-Digest: TSCvTsMblF0x+V5UXOlOOwD6Bf0=
+
+Name: assets/www/lib/ionic/scss/ionicons/_ionicons-variables.scss
+SHA1-Digest: BltFMSeoISfXfVgNOaF5rJhh5FQ=
+
+Name: assets/www/plugins/cordova-plugin-screen-orientation/www/screeno
+ rientation.js
+SHA1-Digest: JMVsFoQ1J9OGtQ6a7FsLK7kkYRU=
+
+Name: res/color/abc_primary_text_disable_only_material_light.xml
+SHA1-Digest: cNB1IhhoYLZjHdK7F5ZlMnYEl10=
+
+Name: assets/www/lib/angular-sanitize/angular-sanitize.min.js
+SHA1-Digest: yS/PC5eyWZaF3lat0cNlBywDU9k=
+
+Name: assets/www/lib/ionic/js/ionic-angular.js
+SHA1-Digest: HtGzCUzxSZjLn9z77jPPSyydjhg=
+
+Name: res/anim/abc_popup_exit.xml
+SHA1-Digest: JvgCk8VHCQlxqvFRY379gAuLQS0=
+
+Name: res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: HFivDekYna/HGttXT/KmXBD3Fmk=
+
+Name: assets/www/lib/ngmap/testapp/map-initialized-callback.html
+SHA1-Digest: XO2Rl0+CP+VxEfCLrciTAI2w5YQ=
+
+Name: assets/www/img/restaurant_icon.png
+SHA1-Digest: GYh0V9fxVcInYvn/2oDgYE2jJqo=
+
+Name: assets/www/lib/ngmap/testapp/polygon-draggable.html
+SHA1-Digest: 7SU5FZHN5S5EbiGP+BJ+X5uFM5o=
+
+Name: assets/www/lib/ngmap/testapp/map_with_current_position.html
+SHA1-Digest: Y42qLoxxiOZloKoyyK5i8JGZhX0=
+
+Name: res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png
+SHA1-Digest: thKivdtNhA6Rr/l43Nn1hXPM3hg=
+
+Name: assets/www/lib/ngmap/build/docs/source/ngMap.ng-map.html
+SHA1-Digest: cWtWxo5EDFxGV2omlp+FYbeBi3w=
+
+Name: assets/www/lib/ngmap/testapp/layer-data-dynamic.html
+SHA1-Digest: yUE9KndCQ3vEDz5BPledM6J/+6c=
+
+Name: assets/www/templates/distanceMap.html
+SHA1-Digest: evQUUAJsd+dILD/pHRevCrcQs8k=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/static/scripts/pretti
+ fy/Apache-License-2.0.txt
+SHA1-Digest: CN+uIhFsCul0hjDpdQpjNxHxTPg=
+
+Name: res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest: M5x5yhIyfAE00veLbT8o+OstFp0=
+
+Name: res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.
+ png
+SHA1-Digest: ZV+bRJxAcgFQ6LcFfSQS0pjmxiI=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/params.tmpl
+SHA1-Digest: m9eHpEtfvEupAVjmxE9W+FFl/pE=
+
+Name: assets/www/lib/ngmap/testapp/infowindow_compile.html
+SHA1-Digest: XAke6wgqHTYZ73TNAbeZb/DDk48=
+
+Name: res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.p
+ ng
+SHA1-Digest: hzjpkT1X7DDbbnWVWCVeingW0Rs=
+
+Name: res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_light.p
+ ng
+SHA1-Digest: LleVLIYRudbFAD34tHNTJEZxhXw=
+
+Name: assets/www/lib/ngmap/CONTRIBUTORS.md
+SHA1-Digest: /WiLpSHO/WU+gZ0Mh7HtZMKF1+A=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png
+SHA1-Digest: QX+e7+1s5MHT2dUAaC7VUR+efz4=
+
+Name: res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+SHA1-Digest: bKDAz/GvMsK2qKIXXjfzdAwCtG4=
+
+Name: res/drawable/abc_ic_voice_search_api_material.xml
+SHA1-Digest: 4L86pnFWyw/APhXCi8H5VgGtwcU=
+
+Name: res/drawable/abc_ic_ab_back_material.xml
+SHA1-Digest: kPtU5aMFDNgxW5GD07fmKKhFNnM=
+
+Name: res/drawable-hdpi-v4/abc_ic_star_black_36dp.png
+SHA1-Digest: 5eU75xlD5NF9nxHXpUHFwQBWZc4=
+
+Name: assets/www/lib/ionic/scss/_mixins.scss
+SHA1-Digest: dqik4xYKb1k7IZy0LYeyJMg/eVo=
+
+Name: res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_light.pn
+ g
+SHA1-Digest: w8Uc/kI2V1M3yMQqT3OQtJzclbo=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+SHA1-Digest: yapGdXFczOwfYLF7DNP0aaN/cJs=
+
+Name: res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+SHA1-Digest: BZJDbJr+DqrwOb7xOhkTBDzBHlg=
+
+Name: assets/www/cordova-js-src/android/promptbasednativeapi.js
+SHA1-Digest: JIRUfP79NI5t078vJIq/tww/QEA=
+
+Name: assets/www/lib/ionic/version.json
+SHA1-Digest: mNZd8CLmQ7st31jrdS4zmCntMNE=
+
+Name: assets/www/lib/platform.js/platform.js
+SHA1-Digest: pQL+bv48aI8HYv1Rc0NGTPg9V4Q=
+
+Name: assets/www/lib/ngmap/build/docs/maps-engine-layer.html
+SHA1-Digest: 3TEOqowcV8hnDE1TdfTHCibcZOc=
+
+Name: assets/www/img/share.png
+SHA1-Digest: JRIHWZprhxO8sk6CgrnpvguHaDI=
+
+Name: assets/www/lib/ngmap/build/docs/ngMap.ng-map.html
+SHA1-Digest: RHByEQFcPmuthDhEfgokyK9x8ns=
+
+Name: assets/www/css/home.css
+SHA1-Digest: Ds3P5M391PGzYSbor2C3/Ej1Gys=
+
+Name: assets/www/lib/ionic/scss/_button.scss
+SHA1-Digest: LOO5m7er5rkZgnm6YjwKCdva+Lw=
+
+Name: assets/www/lib/ionic/scss/_toggle.scss
+SHA1-Digest: eZEExU4QnIRJIyPW4rBpeG5l51o=
+
+Name: res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+SHA1-Digest: 0Pl9UW/jK8MjxYht0b46LIt5W8w=
+
+Name: assets/www/lib/ionic/scss/_form.scss
+SHA1-Digest: zge3PsG48KuzgVaeuSq4aMk9Kig=
+
+Name: res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_light.pn
+ g
+SHA1-Digest: flcizXeMrBA+Puf2HkSGneGeqXI=
+
+Name: res/anim/abc_popup_enter.xml
+SHA1-Digest: ZUSJbCRfanvdu88KKmal8k6Vams=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/static/scripts/pretti
+ fy/lang-css.js
+SHA1-Digest: qIVxv9VPXHF5yYzYiyAQCwvR88M=
+
+Name: res/color/abc_tint_switch_track.xml
+SHA1-Digest: 8QWD1t6V48n4t9I9EzptlAGBeS8=
+
+Name: assets/www/lib/ngmap/spec/e2e/testapp_spec.js
+SHA1-Digest: +FypQc/1Jx083WRfULte4CDGd+8=
+
+Name: res/color/abc_hint_foreground_material_light.xml
+SHA1-Digest: AgoJgfub7wQWMk3qir8LxtY5vwQ=
+
+Name: assets/www/templates/popupSettings.html
+SHA1-Digest: TmBK6tUH/50EDYAklPwg9l1oCLs=
+
+Name: assets/www/img/menu-icon.jpg
+SHA1-Digest: Dcp9szG8Ipl4MoDxD8nxql485Dg=
+
+Name: assets/www/lib/ngmap/testapp/street-view-panorama.html
+SHA1-Digest: MgBKiPITnvRnLVQ1MKh2j74FEfE=
+
+Name: assets/www/img/remove.png
+SHA1-Digest: VVrNSm87t25bNZMwxbP9W/4fDHI=
+
+Name: assets/www/lib/ngmap/testapp/street-view-panorama_container2.htm
+ l
+SHA1-Digest: qxS6BE4XIChV4ZcsX0FnPQ4kpWc=
+
+Name: assets/www/css/settings.css
+SHA1-Digest: IEsedHTru4iwP1gedn8a8W5jf4s=
+
+Name: assets/www/lib/ionic/js/ionic-angular.min.js
+SHA1-Digest: VxndRQkXYhVmr0UjMUPuLe9r0m8=
+
+Name: assets/www/plugins/cordova-sqlite-storage/www/SQLitePlugin.js
+SHA1-Digest: bUdLJlH1HUQKMs71PpA3GaJYLtM=
+
+Name: assets/www/lib/ngmap/directives/marker.js
+SHA1-Digest: BdEKYuZb4x5Pv68NsjJVmIhDOp8=
+
+Name: assets/www/img/settingsWhite.png
+SHA1-Digest: uwrz0rqecE+gh26HK+N6b+K3T8E=
+
+Name: assets/www/lib/ionic/scss/_variables.scss
+SHA1-Digest: n3Wcw5KYiBXtL/j7TPTeIoKwJu4=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest: Syjf1WOGXYnoSy9XVDy49z2PpVc=
+
+Name: assets/www/lib/ngmap/testapp/aerial-rotate.html
+SHA1-Digest: dvE4tFghQc1AEIXkWAThy+pedzc=
+
+Name: assets/www/lib/ngmap/testapp/polyline-remove.html
+SHA1-Digest: bo8GijTaoCF5TypnQ7tYVnJWays=
+
+Name: assets/www/lib/ionic-numberpicker/src/ionic-numberpicker-whole.h
+ tml
+SHA1-Digest: vzAOuLbtCjCK0Uo/sNueIahiT2E=
+
+Name: assets/www/lib/ionic/scss/_refresher.scss
+SHA1-Digest: xKCrYRdQ9Al/SZ90HiEYNw0y35E=
+
+Name: assets/www/lib/platform.js/yarn.lock
+SHA1-Digest: U/G6K3qdwYjAsoP7MEFD3/qQsR0=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest: 6HHq6ho9WzMHZQyJ3+YbSbrpNCk=
+
+Name: res/drawable-v21/abc_ratingbar_small_material.xml
+SHA1-Digest: wPrz0/gmu9ygjwoOdEMFAq9SO+E=
+
+Name: res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest: u7p4+i+MbX5Isql4KGmTM6mrhJ8=
+
+Name: res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+SHA1-Digest: qCddjZI8yABkWFvWCWlg+bQVD7M=
+
+Name: assets/www/lib/ionic/js/ionic.bundle.min.js
+SHA1-Digest: sXrFoBY6fz8H1vUUYWjJj27ufO8=
+
+Name: res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest: iHSmoed/iXLMYG1Wapa0CvCYopQ=
+
+Name: assets/www/lib/ngmap/build/docs/NgMap.html
+SHA1-Digest: mq1vi8KE91wMbMt3uQqWBsBTrKs=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/static/styles/jsdoc-d
+ efault.css
+SHA1-Digest: 1Qvi/N0CJj4a4OWLpOWP3WEtCEk=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/publish.js
+SHA1-Digest: rzkNeZwu8IvVCnnhsuaa86rbwQo=
+
+Name: assets/www/lib/ngmap/build/docs/source/heatmap-layer.html
+SHA1-Digest: /xNBoeb2yno9gmDlx4RLR87w55Q=
+
+Name: assets/www/js/app.js
+SHA1-Digest: UIyY4oENLIOj8TRMaFxDzdjcEa0=
+
+Name: assets/www/lib/ngmap/testapp/ui-router.html
+SHA1-Digest: 9nTDDBV3cEFJrgVI9LPzcgA2Khg=
+
+Name: assets/www/lib/ionic-timepicker/README.md
+SHA1-Digest: 0j9ynAROp6gXpPWI5fKsjO1cbss=
+
+Name: assets/www/lib/ionic/js/angular/angular-sanitize.js
+SHA1-Digest: nUZ0Yi1D41H5i7/AAhs4xMv8cnM=
+
+Name: assets/www/lib/ngmap/config/protractor.conf.js
+SHA1-Digest: vgHEdAEdhTFeQHhGYFGmurbnU3k=
+
+Name: res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.p
+ ng
+SHA1-Digest: xmNf1ImJ9zRw/jShIY6T+TQEFiI=
+
+Name: assets/www/lib/ngmap/services/google-maps-api.js
+SHA1-Digest: 95snzaBiGSWdBxRI9avATVYXDhQ=
+
+Name: assets/www/lib/angular/angular-csp.css
+SHA1-Digest: vhUFqsvr1+UczpvpxC1PNpn4RTU=
+
+Name: assets/www/lib/ngmap/testapp/event-properties.html
+SHA1-Digest: szfReej8Q0x0w/uOnE6LY7o+fNk=
+
+Name: res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: IiQ92KKKcRVz1q2BpPfR0GMDdtA=
+
+Name: res/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png
+SHA1-Digest: EmJpVhbB6cz/PQADmxVzyVNMusw=
+
+Name: assets/www/lib/ngmap/build/docs/source/info-window.html
+SHA1-Digest: qnn2g+sg27QCjpnjjLM0unhmvz8=
+
+Name: res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.pn
+ g
+SHA1-Digest: 1Z/j1p/Oxn+dx4ArUNCWfP80d1M=
+
+Name: res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+SHA1-Digest: 6LMTm1InS590S2d/jvEnjLlAl54=
+
+Name: res/layout/abc_popup_menu_item_layout.xml
+SHA1-Digest: NnmbKI4kN89UvkzNKaYHaoOdxnM=
+
+Name: assets/www/lib/ngmap/testapp/map-gulp-usemin/map-gulp-usemin.htm
+ l
+SHA1-Digest: A8QlYOH0+bWK7FaPuQfVmgBzWhA=
+
+Name: res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: mmQqcznq/m4DDsuC52g4NiTzwA0=
+
+Name: assets/www/lib/angular-translate/angular-translate.js
+SHA1-Digest: 6+Wu/UhDB+i83p1G+cDKzUNirk0=
+
+Name: res/drawable/abc_ic_clear_material.xml
+SHA1-Digest: hNXfXMnO+BN4zeXc8YOOlgSfMRQ=
+
+Name: res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest: kXL/oF0Wug/Gk2tR7sFuSTOQNZU=
+
+Name: assets/www/img/glass_icon.png
+SHA1-Digest: G86ViW1sH5FqDrc0vmb9800xJdc=
+
+Name: assets/www/lib/ngmap/filters/jsonize.js
+SHA1-Digest: hIrwiaHw45H5SSg8tcxLnVAMIPo=
+
+Name: res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: noUbrA0YTfnyTN3qU6nIC6HIi2Y=
+
+Name: assets/www/lib/ionic/scss/ionicons/ionicons.scss
+SHA1-Digest: CczuSD9VLH3UG+mlrlyvwWYQmVY=
+
+Name: res/color-v23/abc_tint_switch_thumb.xml
+SHA1-Digest: SoUk4cB5uRaSqjuYq9LH+vSloR0=
+
+Name: res/layout/abc_alert_dialog_material.xml
+SHA1-Digest: QHxed0vHF6AR2Z2J6vRWHqakXsM=
+
+Name: assets/www/templates/home.1.html
+SHA1-Digest: sHdMhoW8z9KQlN97ZouIT3BbsO8=
+
+Name: res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_dark.pn
+ g
+SHA1-Digest: yfAguILD5aQrWq/KdWarpxXTKb0=
+
+Name: res/color/abc_tint_default.xml
+SHA1-Digest: Wc2ts66cuza8pyq/WEmYw3Msv5U=
+
+Name: res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest: I0mWJRAs02Uqa4cRGnhl0DCYnV8=
+
+Name: assets/www/lib/angular/angular.min.js.gzip
+SHA1-Digest: HWBxftRjdZBFSWK28Vob9arRc5g=
+
+Name: assets/www/lib/ngmap/spec/lib/angular.js
+SHA1-Digest: fJDj3WcphlS/ryxoyctLyQDmFlI=
+
+Name: assets/www/lib/ngmap/directives/heatmap-layer.js
+SHA1-Digest: CtbIV8KZRz1IH/ucrYyu2PlPKQs=
+
+Name: res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+SHA1-Digest: wxS5Do9e7cCh/fgOCbgTwd/ZeDE=
+
+Name: assets/www/img/anchor_icon.png
+SHA1-Digest: dLo9mMo1qXtnxUBtQcHPltUEP7E=
+
+Name: res/drawable-mdpi-v4/abc_ic_star_black_16dp.png
+SHA1-Digest: Qgvko8tYzI3XirPVbeipvcFF07I=
+
+Name: assets/www/lib/ionic-timepicker/dist/ionic-timepicker.bundle.min
+ .js
+SHA1-Digest: vPhbptpa5H0p6rFe5qhJ2pJd1c4=
+
+Name: res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.
+ 9.png
+SHA1-Digest: XhJt+0uemfensB5jPL5pYEy1IQs=
+
+Name: assets/www/lib/ionic-numberpicker/gulpfile.js
+SHA1-Digest: XT6R5LpbVQE+wkOo1l2yiWCdU3k=
+
+Name: assets/www/templates/homeFood.html
+SHA1-Digest: 56FGusKAQQ+nXlPWsXUJdPWrX88=
+
+Name: assets/www/img/location.png
+SHA1-Digest: XRLo8BchYKiinnZ3AVoIJ5/LW5M=
+
+Name: assets/www/lib/ngmap/testapp/polyline-simple.html
+SHA1-Digest: cdmdTzsfMtEkFUG7Xcb7Hh5rnaQ=
+
+Name: res/drawable-port-mdpi-v4/screen.png
+SHA1-Digest: eC51lnu4P0JU+iJxAFEOjFGwApA=
+
+Name: assets/www/js/FavoritesCtrl.js
+SHA1-Digest: RmKpZYhLSU+hhf5gqm0ra0hxE6M=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/static/scripts/linenu
+ mber.js
+SHA1-Digest: AjUBY/ehthDd/eM5Up+K2iyZE14=
+
+Name: assets/www/lib/ngmap/directives/traffic-layer.js
+SHA1-Digest: nJ4pDmtEvpIPbarkq3jE4CAo6lE=
+
+Name: res/drawable-v21/notification_action_background.xml
+SHA1-Digest: FrhhWcfSlDmQ5esVtkha8VX77aI=
+
+Name: assets/www/img/save.png
+SHA1-Digest: jr/+K1m6hMM/tduTKEJIfDhu0gg=
+
+Name: res/anim/abc_slide_out_bottom.xml
+SHA1-Digest: QE0YUwjYdedmgPyovw3+5mmYlYE=
+
+Name: assets/www/lib/ngmap/testapp/mapsenginelayer-noauth-layerid.html
+SHA1-Digest: wAASrlAleCqJ/s9botpwb7fHNlw=
+
+Name: assets/www/lib/ionic/scss/_badge.scss
+SHA1-Digest: EzEoFDV56Rfi8nzbSshkA9J9O7k=
+
+Name: assets/www/lib/ngmap/favicon.ico
+SHA1-Digest: F33zxGqqV6rVvNRNwKHY3/Pzu74=
+
+Name: assets/www/lib/ngmap/directives/bicycling-layer.js
+SHA1-Digest: /nYypndBrDL6P+VjvBCdtf1ix4M=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+SHA1-Digest: inKiiAaRqdYVz1OEfHB1GSgHGIg=
+
+Name: assets/www/img/calendarB.png
+SHA1-Digest: 8Pb0opgH5ilt4aO2NMUIv0PPcr8=
+
+Name: assets/www/lib/ionic-numberpicker/src/ionic-numberpicker.directi
+ ve.js
+SHA1-Digest: Xbp8icb5KuozzUCtEtKZyctYDSQ=
+
+Name: res/color/abc_btn_colored_borderless_text_material.xml
+SHA1-Digest: b7wPrNylDvitdSMynO+/yKEf1Nk=
+
+Name: res/drawable/abc_item_background_holo_light.xml
+SHA1-Digest: ku9bJ9xYD07lS3GZhes5DH5hi7U=
+
+Name: res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: P6e0iLoIQdVv5zYT47sluTSi/8U=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest: UscVpd7V3jMjLzVpfsG2IbdRqvY=
+
+Name: assets/www/lib/ngmap/directives/drawing-manager.js
+SHA1-Digest: c+/B0bChlOIXLfFPtGAPUfxMtCg=
+
+Name: res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+SHA1-Digest: /HDLqKYSwxPWi6ihR75E/oot/mo=
+
+Name: assets/www/lib/ngCordova/bower.json
+SHA1-Digest: jcqMI8nECzPCamijtt0mDQ7s8oY=
+
+Name: assets/www/lib/ngmap/build/docs/NavigatorGeolocation.html
+SHA1-Digest: 4nvaQ2zzHEchuQ7RJe6P7QpTNU4=
+
+Name: assets/www/templates/beaches_sights.html
+SHA1-Digest: CjW5fi9WeSTVpGLmFnZt7HSEoVU=
+
+Name: res/drawable/abc_text_cursor_material.xml
+SHA1-Digest: j7vrPa0Diwit3eZnv21AEhEOiLU=
+
+Name: assets/www/lib/ngmap/testapp/lib/angular.min.js
+SHA1-Digest: dGt1nDXYMU8TWQ7CMCuuLkP8ltg=
+
+Name: res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: ZMcwudVDoUT8fuUQX58XOmOX7Qk=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png
+SHA1-Digest: 9nUV5uGG9nx8q07XftbT3Na7NqM=
+
+Name: res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: M5uPxBtgV+CMfjCXzk/6+os9DZs=
+
+Name: res/drawable/notification_tile_bg.xml
+SHA1-Digest: rLQlwzDwZTJPDqZLUgvNLYWeC6g=
+
+Name: res/layout/abc_list_menu_item_layout.xml
+SHA1-Digest: aUPgB/NvxGJ2PWdDhn94F1lFpEI=
+
+Name: assets/www/lib/ngmap/directives/fusion-tables-layer.js
+SHA1-Digest: hoVzu8P45IE4Ny3AK52VFbMIY8Q=
+
+Name: res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+SHA1-Digest: +pi/Z1BDTC/eHcG86xxdoFAyukA=
+
+Name: res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+SHA1-Digest: Fjutt+gOkVGWRcWFLVw0yec4eGI=
+
+Name: res/drawable/abc_btn_colored_material.xml
+SHA1-Digest: 5in2GRrYzWn1M5K8rINJqJPTOtg=
+
+Name: assets/www/lib/ngmap/testapp/map_geo_fallback_center.html
+SHA1-Digest: hhnKlAPsnchi8fhzl8dKVPJJi5o=
+
+Name: res/layout/abc_list_menu_item_radio.xml
+SHA1-Digest: 9EvNZHxSl3Xd1CU/P6bwmxNCU/U=
+
+Name: assets/www/img/empty_favorit.png
+SHA1-Digest: KXl9GFHA6Md+CXUJJFfMkulKPu8=
+
+Name: assets/www/lib/ngmap/testapp/control-positioning.html
+SHA1-Digest: TRE6ijHi4bIK/jw56C72CBadv2s=
+
+Name: assets/www/lib/ngmap/build/docs/source/Attr2MapOptions.html
+SHA1-Digest: iu3x9hqw57lf8ey3Ndb81+G5rX0=
+
+Name: assets/www/lib/ngmap/testapp/event-domlistener.html
+SHA1-Digest: 9euKOTVv78nSz8Zf0SKswts/xXc=
+
+Name: assets/www/lib/ngmap/testapp/layer-style-event.html
+SHA1-Digest: /QyIIqHiQry2aTMtaHO2GBzXfss=
+
+Name: res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+SHA1-Digest: EYD0L7FYlUYj4vZvX1mmqzIwLBE=
+
+Name: assets/www/lib/ngmap/build/scripts/ng-map.min.js
+SHA1-Digest: /CHGqScEHQx7yUUc1XU2xMooQ/A=
+
+Name: assets/www/lib/ngmap/services/street-view.js
+SHA1-Digest: /QkuBvaY6hHOQJ1DcVfOyejOwY4=
+
+Name: assets/www/lib/ngmap/testapp/geojson.html
+SHA1-Digest: Bhv+4s2pojNB2OEiBB+mNHEfJdU=
+
+Name: assets/www/img/monument_icon.png
+SHA1-Digest: yeeJreHMYHly1/YwqXbdlzVTmmM=
+
+Name: assets/www/lib/ngmap/testapp/layer-fusiontables-query.html
+SHA1-Digest: iiCeUYXSe5A+mbjWJUlWcFpghXA=
+
+Name: assets/www/lib/angular-translate/angular-translate.min.js
+SHA1-Digest: T3OHHPVYN8pFftjvsfP5q2i7Fkw=
+
+Name: assets/www/lib/ngmap/testapp/infowindow-template.html
+SHA1-Digest: M7RpbQ9GQ27b5xRLlpQ6LHLdPG4=
+
+Name: res/color/abc_hint_foreground_material_dark.xml
+SHA1-Digest: zWzWx8TcXuf0LkcVO3+eB5ggpXM=
+
+Name: assets/www/lib/ngmap/build/docs/ngmap.custom-marker.html
+SHA1-Digest: bGjLy4n0z0ogV1BPCCELPM3u3pw=
+
+Name: assets/www/img/arrow-right.png
+SHA1-Digest: TEaOp+5//C/w3S8NHZChq5rrDYY=
+
+Name: res/color/abc_tint_switch_thumb.xml
+SHA1-Digest: ekJen1SJXlzsIu7ip/h7SUWYFbI=
+
+Name: assets/www/img/phone.jpg
+SHA1-Digest: Rh7QNnfNhqPkFyPgNiVFbOMgZDM=
+
+Name: res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_light.png
+SHA1-Digest: zwcMW0GH3RqmlBghFwMH6OEhqXQ=
+
+Name: res/layout/abc_action_menu_layout.xml
+SHA1-Digest: g5qhZF/MjNjTuohYSyeE++KZl0Y=
+
+Name: res/layout/abc_list_menu_item_icon.xml
+SHA1-Digest: UVfHTlz1MhY6YleTY4dkApBzTdU=
+
+Name: assets/www/lib/angular-animate/bower.json
+SHA1-Digest: opYCgIDdx9VWkdLyLM85Owkia2k=
+
+Name: res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.p
+ ng
+SHA1-Digest: bfZIl6CVmkC/rfSoxwLRIE9yYeY=
+
+Name: res/layout/notification_action.xml
+SHA1-Digest: 3shUbJCz1UKttVvlkNPG8mnOrVY=
+
+Name: assets/www/lib/ngmap/testapp/places-auto-complete.html
+SHA1-Digest: mFEGw+6zfr63iQOkqK6rP5z6MrQ=
+
+Name: assets/www/lib/ngmap/spec/directives/marker_spec_bak.js
+SHA1-Digest: ggSlSmw+6BuMkTUQlDlVukdOAfc=
+
+Name: assets/www/lib/ngmap/bower.json
+SHA1-Digest: viOzYftFHby8LNbEKsubDHJNf/Q=
+
+Name: res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.p
+ ng
+SHA1-Digest: IKTGIARYbmam8Kefq6089z/0k98=
+
+Name: assets/www/img/info.png
+SHA1-Digest: CRbKUIDCaykKlGxWQs5Q/+cUoRo=
+
+Name: assets/www/lib/ngmap/build/docs/source/drawing-manager.html
+SHA1-Digest: RAYBrc05xqdnEV2BY1rFL5Ac6Is=
+
+Name: assets/www/lib/ngmap/CHANGELOG.md
+SHA1-Digest: cPekznbUz+cnvGrQofTJFtkeW+8=
+
+Name: res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_light.pn
+ g
+SHA1-Digest: rzBEG5E2MZ8ThruZL2oRv/S33oo=
+
+Name: assets/www/lib/angular-ui-router/src/viewScroll.js
+SHA1-Digest: K+et+1N2JiH4ywwdlZmMMTKC+jE=
+
+Name: res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.pn
+ g
+SHA1-Digest: /HAj2ZcakO1w66fyAe8GERxXwXk=
+
+Name: assets/www/lib/ngmap/gulpfile.js
+SHA1-Digest: GYyaeSDAAPM7SokWDPEez1r/QYI=
+
+Name: assets/www/lib/ionic/js/ionic.bundle.js
+SHA1-Digest: XjorwcMLrF1czxzyYgLQU+dpmBA=
+
+Name: assets/www/lib/ngmap/testapp/icon-complex.html
+SHA1-Digest: MewB03UeigQjEgUHgQtXWtRha9E=
+
+Name: res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: IsziyF2OBzAviNmnk3+DRoNCmAA=
+
+Name: assets/www/lib/ngmap/build/docs/css/prettify.css
+SHA1-Digest: FIuRHojfhUwKfe/Wo6uoybNkILI=
+
+Name: assets/www/lib/ngmap/directives/map-lazy-load.js
+SHA1-Digest: BirFpWfs4W31DaPl4R6TdHyCLQA=
+
+Name: res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png
+SHA1-Digest: y9fFL7ZwxVmqnnOis/943Gj9mHg=
+
+Name: assets/www/lib/ionic/js/angular/angular.min.js
+SHA1-Digest: 10mRvaf5dZBP44u1msUqnEdJX5s=
+
+Name: res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.pn
+ g
+SHA1-Digest: ku1x+FSTuug9J98a2Pyp41uY6hU=
+
+Name: res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest: xe5aMoZuNGwGdXksGOYPSE3NVpk=
+
+Name: assets/www/lib/ngmap/testapp/map_fit_bounds.html
+SHA1-Digest: x8LVLIlxz0oZlVS3hnTbx5rebt8=
+
+Name: res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest: 3fhmc4V2nmgfmXePbvfRvhgIwJY=
+
+Name: assets/www/js/FoodAndDrinksCtrl.js
+SHA1-Digest: YQfwLQdj8mbnLvOSguGy85rK6Fs=
+
+Name: res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
+SHA1-Digest: QmeO4XUWQssq7UOePsOcCnXMg80=
+
+Name: res/layout/abc_action_bar_view_list_nav_layout.xml
+SHA1-Digest: z7aDaGWFeDyBUqpEbU7iFLyuISg=
+
+Name: assets/www/lib/ngmap/build/docs/source/places-auto-complete.html
+SHA1-Digest: 9eNoviu/+StSTXCRAJfg88I5xu4=
+
+Name: assets/www/lib/ionic/scss/_slides.scss
+SHA1-Digest: TTo9JIgYXMcmbX2d5Rh1UPZptpU=
+
+Name: res/anim/abc_slide_in_bottom.xml
+SHA1-Digest: 6SIMoqi7/LVEqpyfDSSCRJ9qRR4=
+
+Name: res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+SHA1-Digest: QAKVB+ymS1bLJVZt/mVSPtEVFH4=
+
+Name: assets/www/lib/ngmap/testapp/map-gulp-usemin/myapp.min.js
+SHA1-Digest: ZndC1AZaXAKou87n1QtLfuCeWX0=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/properties.tmpl
+SHA1-Digest: JCrvA+ma3ucHdG5TggLNMoNOGqU=
+
+Name: res/layout/notification_template_part_chronometer.xml
+SHA1-Digest: zTT53PjX0TTQknBUSYQQnhJFv/I=
+
+Name: res/drawable-hdpi-v4/abc_ic_star_black_48dp.png
+SHA1-Digest: QbDpX67R5eyTWuNm150bgcl3Sgw=
+
+Name: assets/www/lib/angular-animate/angular-animate.min.js
+SHA1-Digest: cDK4CrEjA2gfrdC9Loimtm4gg5I=
+
+Name: assets/www/lib/ngmap/testapp/rectangle-event.html
+SHA1-Digest: qaDH0x05Bk1g01vTHri420PREvI=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/container.tmpl
+SHA1-Digest: uAKhyQ0nnjJEvUVjV+0Zz0IpCjI=
+
+Name: res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png
+SHA1-Digest: ahL1IX+Xa3VHwxUrKeuJQsGU4Rs=
+
+Name: assets/www/lib/angular-ui-router/src/urlMatcherFactory.js
+SHA1-Digest: VFttyIXr7Y0+8FrOmIxFvnzgBqI=
+
+Name: res/drawable-land-mdpi-v4/screen.png
+SHA1-Digest: +6kH5NtukEeQFGG4d89kRw+q9H4=
+
+Name: res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+SHA1-Digest: I+f9Vf8JVX6hz0eqBuaNI+f4Rtc=
+
+Name: assets/www/lib/ngmap/directives/info-window.js
+SHA1-Digest: pCqt329WKI+D2MtZ9xwpSRXuBAc=
+
+Name: AndroidManifest.xml
+SHA1-Digest: QthqpWUO5A+HDXRRqbO3Vpoe1uk=
+
+Name: assets/www/lib/ngmap/config/karma.conf.js
+SHA1-Digest: nw0eYDJJqx3yrl6FhKEOUVKk6Og=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
+SHA1-Digest: 4JsTvfBdbaRSqVTy3mD7njRhb4s=
+
+Name: assets/www/lib/ngmap/testapp/layer-fusiontables-styling.html
+SHA1-Digest: 9l1kxZJntJPxpLQwJG+CkgacyH0=
+
+Name: res/layout/abc_search_dropdown_item_icons_2line.xml
+SHA1-Digest: Tdt9jSs0BeVJ33lcitlxxzSNLTM=
+
+Name: assets/www/lib/ionic-datepicker/src/ionic-datepicker.provider.js
+SHA1-Digest: 5omXKnDZEtQdsAxIfFUENSXGFsQ=
+
+Name: assets/www/lib/ngmap/build/docs/places-auto-complete.html
+SHA1-Digest: GIsaHVGP+nDRL806bG6931d5kVE=
+
+Name: res/color-v11/abc_background_cache_hint_selector_material_dark.x
+ ml
+SHA1-Digest: u0sKCajT3EFCbtQvAHK95uxCzkI=
+
+Name: assets/www/lib/ionic-timepicker/src/ionic-timepicker.module.js
+SHA1-Digest: Ng0E53YtK7ajzmXYwIiQScM9QI4=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png
+SHA1-Digest: m00Wj6Inxz/EKEeNQdJaHcF1hy8=
+
+Name: assets/www/lib/ngCordova/dist/ng-cordova-mocks.js
+SHA1-Digest: t+snYmrOwNnHBgkWC2oQN8xhJfQ=
+
+Name: res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+SHA1-Digest: Iz14YLSRp9C85A2InSd7OO4Ga6U=
+
+Name: assets/www/js/EventDetailCtrl.js
+SHA1-Digest: xhLSun54gTntRR+r56pzbl426UE=
+
+Name: assets/www/lib/ngmap/testapp/rectangle-zoom.html
+SHA1-Digest: 3ekG8NcwJwoAehiCnymcFSAr/74=
+
+Name: assets/www/lib/ngmap/LICENSE
+SHA1-Digest: N+0bAS830ChgmYx3pao90ONvRlc=
+
+Name: assets/www/lib/ngmap/testapp/heatmap.json
+SHA1-Digest: gtenloyBZI64qaTxu6Tu7iluY9g=
+
+Name: assets/www/manifest.json
+SHA1-Digest: Q1B+Ml0vc6EbSvQLKa6WS6UyYsw=
+
+Name: assets/www/lib/ngmap/testapp/infowindow-simple-max.html
+SHA1-Digest: BLcqMNVjBv2/QZYyAPTYxqkwzVE=
+
+Name: assets/www/lib/ngmap/testapp/taxi-data.js
+SHA1-Digest: XRoR0xVWXn3B9Bxi+gwBdzcxcVo=
+
+Name: res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+SHA1-Digest: skfmh8AKXvj2Y90RQYRWGn6cYvs=
+
+Name: assets/www/plugins/cordova-plugin-x-socialsharing/www/SocialShar
+ ing.js
+SHA1-Digest: lhyaew1U/nNc2URPqbVp/aQU9H4=
+
+Name: res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_light.p
+ ng
+SHA1-Digest: Q0JBWav3MG5gImPSBRDnr4igoT8=
+
+Name: res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: 4I3x9UHH+eskJQGXDUb2z+F6rrA=
+
+Name: assets/www/lib/ngmap/build/docs/source/fusion-tables-layer.html
+SHA1-Digest: 0+0I5ylW2fXj3Ncg2FldgkvNZWY=
+
+Name: assets/www/plugins/es6-promise-plugin/www/promise.js
+SHA1-Digest: aUDDkzJeer8KB7dDCLCMnpZCY1k=
+
+Name: res/layout/notification_template_lines_media.xml
+SHA1-Digest: a286EhK5kdlgp39TOIVO58lCOn4=
+
+Name: assets/www/lib/ionic/fonts/ionicons.ttf
+SHA1-Digest: 4N8ZcikRufBkLWw63l8S6gQH2SU=
+
+Name: assets/www/lib/ionic/js/angular/angular.js
+SHA1-Digest: TtzSHzNhuFmpCZ8Jm4vbFLZaXEo=
+
+Name: assets/www/lib/ngmap/build/docs/source/marker.html
+SHA1-Digest: XgP9sSC/CznWKb18oa7VELdblIo=
+
+Name: assets/www/lib/ngmap/filters/escape-regexp.js
+SHA1-Digest: s/B+yjsM8Ud7ZShnlGN2kDyU+Lo=
+
+Name: res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest: zfh5PyI9Lqjbn44yzO7hvkJSsfk=
+
+Name: res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest: pIyZCVrTOqpTmBSlPcfEpBjoxJ8=
+
+Name: res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_light.png
+SHA1-Digest: jEtv5fNe5zMTwAdDEwTqqcIg9Bo=
+
+Name: res/drawable/notification_bg.xml
+SHA1-Digest: n2ywwpf65QQ2EbViDw3dHTOyHro=
+
+Name: assets/www/cordova.js
+SHA1-Digest: pIfjamTemzFJi9x1wEgDXkUJ4UQ=
+
+Name: res/mipmap-ldpi-v4/icon.png
+SHA1-Digest: WaMeJ/RTCEdJbBJFEI8htZs++44=
+
+Name: assets/www/lib/ngmap/testapp/street-view-panorama_container.html
+SHA1-Digest: jj8/F7wkURGROmPxzvDquDXDm2k=
+
+Name: res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest: VW+74R1Hvl4mKIUXFrQ1+5K+/cE=
+
+Name: assets/www/lib/angular-ui-router/api/angular-ui-router.d.ts
+SHA1-Digest: nckiduGwuTEBP2X3oZ2dKocJIK8=
+
+Name: res/drawable/abc_ic_arrow_drop_right_black_24dp.xml
+SHA1-Digest: ANZ0ETqVG91hIHt3UGiGrFncEk4=
+
+Name: res/drawable/abc_list_selector_holo_light.xml
+SHA1-Digest: 97+5PTkiP0Ok/P9371JlRcH0xnQ=
+
+Name: res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png
+SHA1-Digest: ingvV99yU8o+utOuZ5On3REh0eY=
+
+Name: assets/www/lib/ionic/scss/ionic.scss
+SHA1-Digest: 80B6xNbKZoQ1ZNBjEP+VQGVDo20=
+
+Name: res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest: Es6oBCiowN0wRwOhe4WNu1jjzYI=
+
+Name: assets/www/lib/ngmap/testapp/layer-kml-features.html
+SHA1-Digest: /e9rzBIxnxoKdbcojPZxQAAbcs0=
+
+Name: assets/www/lib/angular-ui-router/release/angular-ui-router.js
+SHA1-Digest: 3KP3cwkX12vR4IgfSuTfb3uVhA0=
+
+Name: assets/www/lib/ngmap/spec/TODO
+SHA1-Digest: VrICDZ5xrq6D6l6FGgrBwj1mlXI=
+
+Name: res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+SHA1-Digest: Odk0wSbJp0hyQ3RZGhgf+2IXqBU=
+
+Name: res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest: 0/qHVKsPWinDgoCSCJ2tYnOQHDk=
+
+Name: assets/www/lib/ngmap/services/navigator-geolocation.js
+SHA1-Digest: PsJLkb1Yj3ur7ssvDCTXQ0JRK9Y=
+
+Name: assets/www/lib/ionic-numberpicker/src/ionic-numberpicker.app.js
+SHA1-Digest: w38+1dT0idiykg8ojizvSKmORM8=
+
+Name: assets/www/lib/ionic-timepicker/src/ionic-timepicker.html
+SHA1-Digest: dPfD0slE+gfk70yMPAyyBWkb4LI=
+
+Name: assets/www/lib/ngmap/testapp/aerial-simple.html
+SHA1-Digest: KHyL0MU8wr2yt7Yjd3eCsQu3EHk=
+
+Name: lib/arm64-v8a/libsqlc-native-driver.so
+SHA1-Digest: 9jAAONQGJ6nVKj9d9zqwag/nvHA=
+
+Name: assets/www/lib/ionic-numberpicker/dist/templates.js
+SHA1-Digest: fsURmiGt/gu8XUr06jssTRcIWGQ=
+
+Name: assets/www/plugins/cordova-plugin-device/www/device.js
+SHA1-Digest: px3MV6AYWn9rdTxcFkfk+kwIZEM=
+
+Name: res/layout/select_dialog_multichoice_material.xml
+SHA1-Digest: epxjy3H3KCP4wUYIRG7QMXhqa2I=
+
+Name: res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest: hd7Xhf7r8tiMaj3TA7e8mD5AaWk=
+
+Name: res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+SHA1-Digest: ZbFwYRiDS6lC6psf14qui2W4zQQ=
+
+Name: assets/www/img/heart-white.png
+SHA1-Digest: i5aul5W1MnpwPL331PXcRJDzeDw=
+
+Name: res/layout/abc_action_mode_bar.xml
+SHA1-Digest: 8CowlJ0QK1scMC8bm+IZMiJobS8=
+
+Name: assets/www/templates/homeCalendar.html
+SHA1-Digest: W6ShZcwxD25TzKP6XkmMfrwCUiY=
+
+Name: res/drawable-land-hdpi-v4/screen.png
+SHA1-Digest: bobmJ3Pz1mRu2iSgXCkm6ZnNzTQ=
+
+Name: assets/www/lib/ngmap/testapp/maptype-styled-simple.html
+SHA1-Digest: ih4UtiygMqXI3loBMDXMQHwKBcI=
+
+Name: assets/www/lib/ngmap/testapp/control-options.html
+SHA1-Digest: 5ljTjTGB1Z+XjCuiBeX+uyduWx4=
+
+Name: res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha
+ .9.png
+SHA1-Digest: WQ8PqUvvH8nOnzNH5uPMzVsVa+Q=
+
+Name: assets/www/lib/ngmap/testapp/custom-control.html
+SHA1-Digest: 1qO5LteW4vc6Jl6DVIsrhiw1KO8=
+
+Name: res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA1-Digest: nuld1RomiGBKqE5EsGnC+AbnNZ4=
+
+Name: res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png
+SHA1-Digest: ax5FNeazE4MliK4rtD/ZdnnN0e4=
+
+Name: assets/www/lib/angular-animate/README.md
+SHA1-Digest: xLcygj0KgL1qaEwMIaUru0Hodb0=
+
+Name: res/color/abc_tint_seek_thumb.xml
+SHA1-Digest: foYv1xEIPJBb9myTdheZ6brtjww=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest: 3cGsKipfgybfWKKMdG932/zCITU=
+
+Name: res/mipmap-mdpi-v4/icon.png
+SHA1-Digest: IV1ZRi1Zu8Ei0Q4VrLAZmHj00QE=
+
+Name: assets/www/templates/food_and_drinks.html
+SHA1-Digest: pnQSGZnxHF5wysxSLcAIjHxRZzc=
+
+Name: res/layout/abc_list_menu_item_checkbox.xml
+SHA1-Digest: KXUnKu3bdxU8C4+wriPlVetbpCY=
+
+Name: assets/www/lib/ngmap/directives/map-type.js
+SHA1-Digest: /LGYp06mUoQJn3cOKQV5bytqI3k=
+
+Name: assets/www/lib/ngmap/testapp/directions.html
+SHA1-Digest: +JwcyTRkZ4W3BaXhXL9bFkSPwIM=
+
+Name: res/color/abc_secondary_text_material_dark.xml
+SHA1-Digest: tkBOFM69aiZ76YxP0OFthS/4+Pk=
+
+Name: res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest: Sd1OkxgWYvHeM4ODIZu3S1hWhJQ=
+
+Name: assets/www/lib/ngmap/testapp/overlay-hideshow.html
+SHA1-Digest: +srBB5uQ0j79uUodoOW3PvCQCUI=
+
+Name: assets/www/img/logoRound.jpg
+SHA1-Digest: xDFq5JssYvq3Sjevf27qkhjjRDA=
+
+Name: assets/www/lib/ngmap/testapp/custom-marker-clusterer.html
+SHA1-Digest: qpZUCx7xBxfjDil5Kepgh3tMKBE=
+
+Name: assets/www/lib/ngmap/services/ng-map-pool.js
+SHA1-Digest: QY2DLzCCUpf07mJeo/Ia8eJi9r4=
+
+Name: res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest: ehXR0id2qmpKXDOMM66scpMAeFg=
+
+Name: res/drawable-port-xhdpi-v4/screen.png
+SHA1-Digest: WDVKC0Ru1z29IRC2TFZZVvSEbAw=
+
+Name: assets/www/img/calendar_icon.png
+SHA1-Digest: vpScRBM//N+Lx/4CMPjixjnujTA=
+
+Name: res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+SHA1-Digest: OdP7A+E6BkFvIe4CYZ3B3GbAUlU=
+
+Name: res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+SHA1-Digest: nM7eMb1IwRTSPeCUiRnPcn3CGRw=
+
+Name: assets/www/lib/ionic/js/ionic.min.js
+SHA1-Digest: hcJyJNePm1HxLPLyYEnpmMFByFA=
+
+Name: res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+SHA1-Digest: gLcFerBxZUHHCrWZLH3iEvl0WT0=
+
+Name: assets/www/lib/ngmap/testapp/custom-marker-ng-repeat.html
+SHA1-Digest: cvvLs1js9MVJHjlprGdedRfnpIg=
+
+Name: assets/www/lib/ngmap/build/scripts/ng-map.debug.js
+SHA1-Digest: szW2XfvSOP3NofAVwVoLl+qT2GA=
+
+Name: res/layout/notification_template_media.xml
+SHA1-Digest: C/5lcSR5gqKux/lUjQ0NI7H161w=
+
+Name: assets/www/lib/ngmap/testapp/map_no_default_style.html
+SHA1-Digest: KYQ/Szd5m8paYZTDqXaM5gYCWcw=
+
+Name: res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+SHA1-Digest: rSfiuPx2H1NYOeY4GaO1qwFYRjE=
+
+Name: assets/www/lib/ngmap/build/docs/map-data.html
+SHA1-Digest: 51T+FIiapGOKUW4b2owcd0AKVdg=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: MMbSz4/uGhdnvziZg4e9XLvFodM=
+
+Name: res/anim/abc_slide_in_top.xml
+SHA1-Digest: ps83fDCN37hSi5vdARGgPEjdET8=
+
+Name: res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+SHA1-Digest: BY8cHWBjISmMI2i+RFH96y5MQfc=
+
+Name: assets/www/lib/ngmap/build/docs/js/prettify.js
+SHA1-Digest: kcAXlvz0fQUeZ3IIodhK0LoVWPs=
+
+Name: assets/www/lib/ngmap/testapp/marker-remove.html
+SHA1-Digest: dRGgaFyWyVi9j4VpmT0D3P66myY=
+
+Name: assets/www/lib/angular-ui-router/src/stateDirectives.js
+SHA1-Digest: BmtRSCvFJoZ9QwaS388AK5lK64U=
+
+Name: res/color/abc_primary_text_material_dark.xml
+SHA1-Digest: asSxhazw6dEahnC36KkVoJh9+4M=
+
+Name: assets/www/lib/ionic/scss/_platform.scss
+SHA1-Digest: uqID4z7V9GC22A0RvtTgfChkWWE=
+
+Name: assets/www/lib/ionic/scss/_progress.scss
+SHA1-Digest: npZTveMYYKigfOOYhCDGPw/PEl8=
+
+Name: assets/www/lib/ngmap/testapp/rectangle-simple.html
+SHA1-Digest: n8X/NUGMV+4Bif0mVgIp/+BaG7k=
+
+Name: res/color-v11/abc_background_cache_hint_selector_material_light.
+ xml
+SHA1-Digest: 5nmBhXQ+Hh8xUjpUv07YCF/pnLY=
+
+Name: res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.pn
+ g
+SHA1-Digest: MUn5sC0GfdFC4B7Ip1/TmztPQtg=
+
+Name: res/layout-v16/notification_template_custom_big.xml
+SHA1-Digest: 7OR5P2/GZEClAwMY/341J507zYI=
+
+Name: assets/www/lib/ngmap/testapp/directions-with-ng-repeat-panels.ht
+ ml
+SHA1-Digest: vckNfrF95ooraB8MFwrJ8V9Gmj4=
+
+Name: res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest: Bj6BC2+QG7pc8RQwt/bo9WgmUR0=
+
+Name: res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
+SHA1-Digest: l6V40h1Kq8Tu3O9lUBPWpUqJtoc=
+
+Name: res/drawable-v21/abc_ratingbar_indicator_material.xml
+SHA1-Digest: TaCO4rsv95JHS3RML2c940eQ9U8=
+
+Name: assets/www/lib/ionic-timepicker/src/ionic-timepicker.provider.js
+SHA1-Digest: Wy71rUPxTl6v5nogavQAPfOK/L4=
+
+Name: res/drawable/abc_textfield_search_material.xml
+SHA1-Digest: bM0IEUILe0kaxvEswIAwKoEyJP0=
+
+Name: assets/www/lib/ngmap/testapp/overlay-symbol-custom.html
+SHA1-Digest: nr/4waO4xSvtO28szhIh+w+ECk0=
+
+Name: assets/www/lib/ionic-timepicker/gulpfile.js
+SHA1-Digest: hU+m0S82DoyVm1S6+9JhwP85FGo=
+
+Name: res/drawable-v23/abc_control_background_material.xml
+SHA1-Digest: qc5iI5AHlXdd9lpGk/SFG7VlYxs=
+
+Name: assets/www/lib/ionic/scss/_button-bar.scss
+SHA1-Digest: QQhQcveMUd8pDCzL5sanSokYR/8=
+
+Name: assets/www/lib/ngmap/package.js
+SHA1-Digest: DptVS5bbTAuNmThOqMHMKPzPByE=
+
+Name: res/drawable-v21/abc_btn_colored_material.xml
+SHA1-Digest: coBSG1jwh5XxrOfed9LP0RQhQcc=
+
+Name: res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA1-Digest: Jrc7Wnxi6R1ydjCdOBfCkiBqY5s=
+
+Name: assets/www/lib/ngmap/testapp/maptype-image.html
+SHA1-Digest: CRfzuhJGk3Gkal5OfByFHcA0Jsg=
+
+Name: res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+SHA1-Digest: jaCqE8RSPyJL2tSTf5ctOZ8Wkp8=
+
+Name: res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png
+SHA1-Digest: jz/B6EDUP81CMkk6OyDhBLizPLY=
+
+Name: assets/www/lib/ngmap/build/docs/js/site.js
+SHA1-Digest: dFLU2cdlEmKlAsU6Ox8Okr0T7jg=
+
+Name: res/color-v23/abc_tint_default.xml
+SHA1-Digest: cbi2lyh529iG8r/Lw0F1WfCaesg=
+
+Name: assets/www/lib/ionic/fonts/ionicons.eot
+SHA1-Digest: DQ9yqCPdIE3LxZi52GEt4kCOrkA=
+
+Name: assets/www/lib/ngmap/testapp/layer-data-simple.html
+SHA1-Digest: of4qSC6fddEA85+jRuH6uBbZv54=
+
+Name: assets/www/lib/ngmap/testapp/marker_with_address.html
+SHA1-Digest: PnzroXObBs/W1ZBih6Ut9Rvf4dc=
+
+Name: assets/www/js/InfoCtrl.js
+SHA1-Digest: z8LTMRGkxx1Qhq+8NYJ9Ct2iy/Y=
+
+Name: assets/www/lib/ngmap/testapp/marker_with_ng_repeat_no_watcher.ht
+ ml
+SHA1-Digest: Zr2wpyKsZtIhlUfB3leO3LXVzQE=
+
+Name: res/layout/abc_action_bar_up_container.xml
+SHA1-Digest: l2m+dKNygRbye2dwtvb9jYLjhqk=
+
+Name: assets/www/lib/ngmap/testapp/mapsenginelayer-noauth-layerkey.htm
+ l
+SHA1-Digest: OC68Bd3TGbxgrZ9s3e7iY/NTSN4=
+
+Name: assets/www/lib/ngmap/testapp/lib/prettify.js
+SHA1-Digest: 2O4W/wGt4EV5WNAQR0nHdfAaJdY=
+
+Name: res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: 65aQz5QMXj+UAVHCsbn073ly7KA=
+
+Name: res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: nXZ4V1mFaOHaCmrZgjirnAh+5fg=
+
+Name: assets/www/lib/angular-ui-router/src/common.js
+SHA1-Digest: x0Mn0M1dJRqek4vtoxMby5i2AJY=
+
+Name: assets/www/lib/ionic-datepicker/dist/ionic-datepicker.bundle.min
+ .js
+SHA1-Digest: 1swqCmtsAHpvHbwtTR9K34W23+E=
+
+Name: assets/www/lib/ngmap/testapp/marker_with_parent_controller.html
+SHA1-Digest: TVUzSmuJI3pnqJm9BU0OyUa05ro=
+
+Name: res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.pn
+ g
+SHA1-Digest: 3qnimsnK10WL03+kpBN2qzg7V1Y=
+
+Name: res/drawable/abc_ic_search_api_material.xml
+SHA1-Digest: B/bS82dBts6SPo17E6TSjZQj7o4=
+
+Name: assets/www/cordova-js-src/exec.js
+SHA1-Digest: aQoFWERyto3dl5kdyl5DhdiZOk8=
+
+Name: res/drawable/abc_ic_menu_overflow_material.xml
+SHA1-Digest: ubJ0wEU5bc5hRFFouwKZtpxtY30=
+
+Name: assets/www/lib/ngmap/testapp/layer-data-style.html
+SHA1-Digest: iJ6V3UVS35L+ZczBRos7wTwOeZI=
+
+Name: assets/www/lib/ionic-numberpicker/dist/ionic-numberpicker.bundle
+ .min.js
+SHA1-Digest: ISfNVO5daGaC8uti2j1gX84BC5w=
+
+Name: assets/www/lib/ngmap/testapp/maptype-base.html
+SHA1-Digest: NBlQlpql8Gu1DGYgLb5ZZOzDgkc=
+
+Name: assets/www/lib/ionic-datepicker/src/ionic-datepicker-modal.html
+SHA1-Digest: 2slBT0lJ+f+Hxm2MosBKyO0pBcg=
+
+Name: res/drawable-port-ldpi-v4/screen.png
+SHA1-Digest: sL/g2oNG9uGxiy7q+Cd9PwdzbUA=
+
+Name: assets/www/lib/ngmap/testapp/layer-mapsengine.html
+SHA1-Digest: 7Zy9XXG3vyJ45U5hRm6hsb5wELE=
+
+Name: assets/www/lib/ngmap/testapp/maptype-styled-complex.html
+SHA1-Digest: Adgmh71LZnvraV3JqId4tbKtniQ=
+
+Name: res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+SHA1-Digest: boG5dcozMnSrJdbSbLX0TBOMATU=
+
+Name: assets/www/lib/ngmap/build/docs/js/angular.min.js
+SHA1-Digest: vQ+uBRId1oLgaYAKpQcchd+2R5g=
+
+Name: res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+SHA1-Digest: sNds9Ym0phYx3ALXo+MZX8xlc30=
+
+Name: assets/www/lib/ngmap/build/docs/source/custom-control.html
+SHA1-Digest: CGGjKnzPnYaZDgA4tggJG1z632Q=
+
+Name: res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+SHA1-Digest: QT06M8jIu5PbB6orRZr5qtxv3oI=
+
+Name: assets/www/lib/angular-ui-router/bower.json
+SHA1-Digest: QkFNHXJNNFfDXlabdHLgy+t2rTI=
+
+Name: res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+SHA1-Digest: lqY9vuhB2Y6PNyO4cqhGHU3U5oE=
+
+Name: res/drawable/abc_edit_text_material.xml
+SHA1-Digest: uhESQZIHJwbi5KGBVHTpeHo5gPI=
+
+Name: res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest: lhisDaprlUhlQTH+gRzBgtywArM=
+
+Name: res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_dark.p
+ ng
+SHA1-Digest: bgS7Y9u7G+otDRLOCvvqXphgw98=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/mainpage.tmpl
+SHA1-Digest: CaMOTat4n47DQoWXROS5l6fnl/g=
+
+Name: res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest: 6jnEZnvF6Wf/iso9scq8BExu9D4=
+
+Name: assets/www/lib/ngmap/build/docs/source/GeoCoder.html
+SHA1-Digest: TImlcfI3CRS+9YR2jDvKCWa64g8=
+
+Name: assets/www/img/beach_icon.png
+SHA1-Digest: uEap4Ju81+40eQ3rb8FPq6ybCaI=
+
+Name: assets/www/lib/ngmap/build/docs/directions.html
+SHA1-Digest: VxCutnsTMtPWk5vnQ5qNMw6LBZ8=
+
+Name: assets/www/lib/ngmap/spec/services/street_view_spec.js
+SHA1-Digest: 2x5EVCwTofDBx3DactWxdFb1FZo=
+
+Name: res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png
+SHA1-Digest: qfvO9I4x0UCtfyxe9QDR8Aj93fU=
+
+Name: res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+SHA1-Digest: VAWAgM1S6jdrYNnzjAk62DbHpA8=
+
+Name: res/drawable-v21/abc_ratingbar_material.xml
+SHA1-Digest: lmjnTB/yh4tmiAkHkeKcav4nFGA=
+
+Name: res/anim/abc_grow_fade_in_from_bottom.xml
+SHA1-Digest: irrCceljT/DO/lUyPAslCTqh3v8=
+
+Name: res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+SHA1-Digest: +VIFOUvUwxbnTdHmmjA8LWrUN0k=
+
+Name: res/color/switch_thumb_material_dark.xml
+SHA1-Digest: EjWimvQhAtZ8Ih3liNOZJ6q8E10=
+
+Name: assets/www/img/ionic.png
+SHA1-Digest: zZmk8+xkiaoXp3isKCjryZUhqLA=
+
+Name: assets/www/lib/ngmap/testapp/marker-animations.html
+SHA1-Digest: oLvAa85C87G6gJS3UWBsqpxZ/gc=
+
+Name: assets/www/lib/ngmap/testapp/ui-bootstrap.html
+SHA1-Digest: o03DVLvLXAY5L6wlFecX4jf8NGM=
+
+Name: res/layout-v21/notification_action.xml
+SHA1-Digest: dAYUcGa/ClWZ62K5xqg5GFpHE2c=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/returns.tmpl
+SHA1-Digest: FXrDb0sCur/tv01UseUMmLPasjA=
+
+Name: res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest: qohFhg6cHeSRc5iV72L4bfUwcjM=
+
+Name: assets/www/lib/angular-ui-router/release/angular-ui-router.min.j
+ s
+SHA1-Digest: UerTROl+UVRzfUFCK2AOyRzFmUA=
+
+Name: assets/www/lib/ionic/scss/_checkbox.scss
+SHA1-Digest: Z1XhBpu6cFF2fwcr3erypnG7SW8=
+
+Name: assets/www/lib/ngmap/directives/transit-layer.js
+SHA1-Digest: DlTNbUXfjrMRFhkS9CeDhzkPn/Q=
+
+Name: res/layout/notification_template_media_custom.xml
+SHA1-Digest: ZicvyjjxOqa0zos3k/qyemgFlik=
+
+Name: res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png
+SHA1-Digest: +WaWq164+JEgAS3SD7a6bgQZgMc=
+
+Name: res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest: EJcEC6U7l1ByKjRFT4I+NP5SA+w=
+
+Name: assets/www/lib/angular-animate/angular-animate.js
+SHA1-Digest: 7D8NDiyttRgg+q3TqaX/sluD7TA=
+
+Name: assets/www/lib/angular-ui-router/src/urlRouter.js
+SHA1-Digest: 16Z5WOPADoW8uuUfV3pHzgpIq3E=
+
+Name: assets/www/img/phone.png
+SHA1-Digest: zTUfUyQMh3A4V2O6EXHuh2s27C4=
+
+Name: assets/www/lib/ngmap/build/docs/source/overlay-map-type.html
+SHA1-Digest: hiwfxbOv9IpBJc73Uan1aXYZE8k=
+
+Name: res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png
+SHA1-Digest: QHQgoF3m7FlwHEI02KkUv35XO4k=
+
+Name: assets/www/img/info.jpg
+SHA1-Digest: 0OrACf8ksrIiFcF09DHQTyHux14=
+
+Name: assets/www/lib/ngmap/contributors.js
+SHA1-Digest: W8n0cD8d0N6TvNa9xmY5UPOl7T4=
+
+Name: assets/www/plugins/cordova.plugins.diagnostic/www/android/diagno
+ stic.js
+SHA1-Digest: 5bUEnRA04AZhwEBpQGBSsThjLYA=
+
+Name: res/layout/abc_action_mode_close_item_material.xml
+SHA1-Digest: Yc8pAh1Tq0ymuhOrDGaHQG2MsVM=
+
+Name: assets/www/lib/angular-ui-router/src/viewDirective.js
+SHA1-Digest: w3d7zyz/Cs+0GBYaJyACfs9Dyms=
+
+Name: assets/www/lib/ngmap/build/docs/traffic-layer.html
+SHA1-Digest: rtUt1YwaO1p0vv+0nmTTdx5KBUU=
+
+Name: res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+SHA1-Digest: P0wooDvrgcWxD6FuObhOb0leW5c=
+
+Name: res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+SHA1-Digest: AYI75XDJNXJcd4t4N9dhUkz5G4U=
+
+Name: res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+SHA1-Digest: oXhMxqCdTU9FU0k6ZW87SKaXIv4=
+
+Name: assets/www/lib/ionic/js/angular-ui/angular-ui-router.min.js
+SHA1-Digest: 0joIdDs5tZvEmsKS0VzgY+NoF90=
+
+Name: assets/www/lib/ionic/scss/_util.scss
+SHA1-Digest: p6Hhl60eyvQ7uiXwlOoktivUjsk=
+
+Name: assets/www/lib/ngmap/testapp/lib/prettify-tomorrow.css
+SHA1-Digest: hCwKba0rN5uZYD7OIvplxi81zNY=
+
+Name: assets/www/js/CalendarCtrl.js
+SHA1-Digest: 3FA/3/gn8AoZGxxkb6avL+nt5jY=
+
+Name: assets/www/lib/ngmap/directives/street-view-panorama.js
+SHA1-Digest: WqaOCRMN3P52Vr8VHJ8BLvkAWQw=
+
+Name: res/layout/abc_activity_chooser_view.xml
+SHA1-Digest: B6JDv1nLP4UDeUmgt3KwPpNhuOo=
+
+Name: assets/www/img/calendar.png
+SHA1-Digest: L257nom+dc64G6KICo/Wp3cG+B0=
+
+Name: assets/www/lib/ngmap/package.json
+SHA1-Digest: ZW1pai1fbUPEoygZ6IEAzEu/fHA=
+
+Name: assets/www/lib/ngmap/testapp/map_with_address.html
+SHA1-Digest: c/dx+s4DeLuzoqYujBWCJuACnQM=
+
+Name: res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png
+SHA1-Digest: zE/R5xsR97x8GBTk7wQpVwZn2kA=
+
+Name: assets/www/img/pozadinska_slika.jpg
+SHA1-Digest: u5OLSJP4n61d8AFVEJZ7pure/AM=
+
+Name: assets/www/lib/ngmap/testapp/maptype-overlay.html
+SHA1-Digest: n/dFZKBxYIo5SD0D+HkqynsDwLI=
+
+Name: assets/www/lib/ionic/scss/_scaffolding.scss
+SHA1-Digest: N1nkIzAAoHG4p+i1Vx7/xkumFh4=
+
+Name: assets/www/lib/ngmap/directives/places-auto-complete.js
+SHA1-Digest: QUqpTY6a9x1k5fjJ+xiLfkL97zc=
+
+Name: res/drawable-mdpi-v4/abc_ic_star_black_48dp.png
+SHA1-Digest: FaUwj2ktP/Mx8BZm5lDgykR/aVk=
+
+Name: assets/www/lib/ngmap/build/docs/source/NgMap.html
+SHA1-Digest: rzTq1GhXUQpyQJd6+4W+qGst3HU=
+
+Name: assets/www/img/festice.jpg
+SHA1-Digest: PlovrxBP94KbtIDqSZxzsEKXIBE=
+
+Name: res/drawable-hdpi-v4/notification_bg_low_pressed.9.png
+SHA1-Digest: hlGgjwCibYSJn0dDvquLScOoXss=
+
+Name: assets/www/lib/ionic/js/angular/angular-resource.js
+SHA1-Digest: /rZuffxtV+8+oXD5C2dnT8j9a4Q=
+
+Name: assets/www/lib/ngmap/build/docs/source/StreetView.html
+SHA1-Digest: KxyxgBjbjhP8jLP9+0y5DI1bUY8=
+
+Name: classes.dex
+SHA1-Digest: SspXgsQRuipNu5VrKSfbtLpHy3A=
+
+Name: assets/www/lib/ngmap/testapp/drawing-manager.html
+SHA1-Digest: fY76kq6Av3SYrtHAtJJgtsfKgt0=
+
+Name: assets/www/lib/ngmap/testapp/map-projection-simple.html
+SHA1-Digest: 0Qe6LLIj7X/qWJ3MH7zjmi+LdYw=
+
+Name: assets/www/lib/ngmap/testapp/map_with_dynamic_center.html
+SHA1-Digest: 6RLsgNp71c4xgDCd7vakAqDcCM0=
+
+Name: res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+SHA1-Digest: xcQ0bHWRc+R9tuxQ3wgY1a2eY0k=
+
+Name: assets/www/lib/ngmap/testapp/polygon-autoclose.html
+SHA1-Digest: hr5jrDy+fBgxV5DfjcDdk+0H3KQ=
+
+Name: assets/www/img/info_sukosan.jpg
+SHA1-Digest: IdMG8oZjmxRdkswOSNe+kd4CAWY=
+
+Name: assets/www/lib/ionic-timepicker/src/ionic-timepicker.styles.css
+SHA1-Digest: 1oTFHERRqCZRo3r1kvbyuT5fU0A=
+
+Name: assets/www/lib/ngmap/build/scripts/ng-map.no-dependency.js
+SHA1-Digest: qFFkmty+JiFwLIJ8ZnCRrr3gF7M=
+
+Name: assets/www/lib/ngmap/testapp/infowindow_geolookup.html
+SHA1-Digest: leu56AcXV+TdlAftC5eTyC0u7OQ=
+
+Name: res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+SHA1-Digest: OOefFpggagskOSa29mfgruzOhPQ=
+
+Name: res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest: DqYT/YomMpTVjcgLxNiWd75/E14=
+
+Name: assets/www/lib/ngmap/build/docs/drawing-manager.html
+SHA1-Digest: yM0RF35TsYkja8jeLktK49SEkDU=
+
+Name: assets/www/lib/ionic-datepicker/bower.json
+SHA1-Digest: v00mPeGrnMvk5lpAs+f3TQ0s2kk=
+
+Name: assets/www/lib/ngmap/testapp/map_zoom_to_include_markers.html
+SHA1-Digest: hQlhugQVO2h4t1cazB2ENm5YjzQ=
+
+Name: assets/www/cordova-js-src/plugin/android/app.js
+SHA1-Digest: DyNoltEL4yj1M0KRnp7t1ESe+Fo=
+
+Name: assets/www/img/logo.jpg
+SHA1-Digest: e18754sa7JJ60hFmBTCW9eMbJlI=
+
+Name: assets/www/lib/ngmap/testapp/layer-transit.html
+SHA1-Digest: Yn3xcS+8+T5G0ZYR78HvyA3u/og=
+
+Name: assets/www/lib/ngmap/testapp/lib/bootstrap.min.css
+SHA1-Digest: HAI6w9ZsyT31z8c/vN4EbikdZag=
+
+Name: assets/www/lib/ngmap/testapp/scripts/starbucks.json
+SHA1-Digest: H814n662rY8ChGo7oQUwArILEg0=
+
+Name: res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9
+ .png
+SHA1-Digest: shUg8eUw5YmR+wQVpcO99B+3lpc=
+
+Name: res/layout-v11/notification_media_action.xml
+SHA1-Digest: CFX5CYKtLsT88Ha9nK4vZTyzoGc=
+
+Name: assets/www/lib/ngmap/testapp/marker-clusterer.html
+SHA1-Digest: pFMX3vZJmhYIvF5SW4LUM5yT3A4=
+
+Name: assets/www/lib/ngmap/testapp/overlay-remove.html
+SHA1-Digest: j6+4wCT1v8N1s2oy6mYTA6w2hNs=
+
+Name: assets/www/lib/angular-ui-router/src/state.js
+SHA1-Digest: 59LQ7dTP6S3KwDvTTQD2clzsMzk=
+
+Name: assets/www/lib/ngmap/directives/maps-engine-layer.js
+SHA1-Digest: 1Fyi1KmGtC6SR4k1a5rkxy0mFCE=
+
+Name: res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png
+SHA1-Digest: ITuAj9GLxIU8m+qyHDgR794ap3w=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/type.tmpl
+SHA1-Digest: mbED/CSUYo5q0fEouWoUcOioRkk=
+
+Name: res/layout/abc_alert_dialog_button_bar_material.xml
+SHA1-Digest: jImLv73yT5ghNhUrvrfmA1HAwQE=
+
+Name: res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+SHA1-Digest: eF/LuENYUMfZZS3fHrJi1byAVZU=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: HYDPd61Ck9Ifum3cvWl+fOfD9xk=
+
+Name: resources.arsc
+SHA1-Digest: KsBzect+dDfBAIwLEWrFnl3IUVM=
+
+Name: assets/www/lib/angular-ui-router/src/resolve.js
+SHA1-Digest: 8/XkO8ntOBKQBc7CtAYlD6gQYpM=
+
+Name: res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.pn
+ g
+SHA1-Digest: 55f4pDcLSMwJ2///c7EjaRD4TtY=
+
+Name: res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+SHA1-Digest: o79LWrpVg8mMdhT8PFdC/uVHnB4=
+
+Name: res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+SHA1-Digest: o0rLAcxJ1uf5HaqOAfX0y2STqh8=
+
+Name: res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+SHA1-Digest: LdyLROvWFgig9Vsgsaypd9fZOJY=
+
+Name: res/drawable/abc_list_selector_background_transition_holo_dark.x
+ ml
+SHA1-Digest: fAkCuPln1zmCTatmP9A40U4lWak=
+
+Name: res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: 9HmgRLugE7XLFQSCcDKTHa0FfIU=
+
+Name: assets/www/lib/ngmap/services/attr2-map-options.js
+SHA1-Digest: GHuibXFQc5/AbCqrNKB/A8EfQno=
+
+Name: res/color/abc_tint_spinner.xml
+SHA1-Digest: +x/TIjcbLR+3p6KHnsFV9S65Oe8=
+
+Name: res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest: J3SGWA4N2NBzGxZuD1OYrO+kvSg=
+
+Name: assets/www/lib/ngmap/build/docs/source/transit-layer.html
+SHA1-Digest: ek6trvfkAJKTtdqDXosEfxUjCNs=
+
+Name: assets/www/lib/ionic-datepicker/src/ionic-datepicker.module.js
+SHA1-Digest: lkpBvmcruKF4PpPZg5opjLpi/Oc=
+
+Name: assets/www/lib/ngmap/build/docs/source/kml-layer.html
+SHA1-Digest: VlZw7Is7ZgaS/Fded/n5zVrJs+Y=
+
+Name: assets/www/lib/ngmap/testapp/layer-data-quakes-default.html
+SHA1-Digest: X6FOYgP7TGZXAapTMAOaSPUEbd8=
+
+Name: res/layout/abc_screen_simple_overlay_action_mode.xml
+SHA1-Digest: zKkLvD9a4eu1Ce4cW0Y6kZrCbNQ=
+
+Name: assets/www/lib/ionic-timepicker/LICENSE.MD
+SHA1-Digest: OCmo9CB+hEu7FiLGbC48dDSNn50=
+
+Name: assets/www/lib/ngmap/testapp/map-gulp-usemin.html
+SHA1-Digest: CEIAQUiQ2Q9GjD7bJ9hF55S5/1U=
+
+Name: res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png
+SHA1-Digest: qZTXDPkLdLdgn9U7jvOCObBW7aU=
+
+Name: res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+SHA1-Digest: fWFzmRTvlhVZBzFAxTslbjQMJB4=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png
+SHA1-Digest: 3Enw5tpILSKRTE47u38wsuHunBw=
+
+Name: assets/www/lib/ngmap/testapp/USGSOverlay.js
+SHA1-Digest: e4lOIz06pYkkJ54zgurfefDmWvo=
+
+Name: assets/www/lib/ngmap/testapp/event-simple.html
+SHA1-Digest: jNMOdIUa1ZGEJnrCeFN8awt0Kiw=
+
+Name: assets/www/lib/ngmap/testapp/map_app.html
+SHA1-Digest: 8mn/k8F+DG3WvBp9U1C8w1s8uS0=
+
+Name: res/anim/abc_fade_in.xml
+SHA1-Digest: wE1QEZhFkLBWMw4TRtxPdsiMRtA=
+
+Name: lib/x86_64/libsqlc-native-driver.so
+SHA1-Digest: bpWqFgMBDxw50cuV6sy+AgRQps8=
+
+Name: res/drawable-land-ldpi-v4/screen.png
+SHA1-Digest: vr/hsJp03942wD143qOQhnLJOt0=
+
+Name: assets/www/lib/ngmap/testapp/shape.html
+SHA1-Digest: /ZRa8YRvKKORcC+l4X6QSz7dFjo=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest: r/h/FWdsW/T/8uq+xHKyl+iJKz0=
+
+Name: assets/www/lib/ngmap/testapp/custom-marker-two-way-binding.html
+SHA1-Digest: 6oly+/wqtcQ4AtDebx/HJyWi8hE=
+
+Name: assets/www/lib/ngmap/testapp/marker-symbol-custom.html
+SHA1-Digest: OwoTS5z7dwv55nFasH/Ao2BvQTM=
+
+Name: assets/www/lib/ionic/css/ionic.css
+SHA1-Digest: B7i6CaclgkypWzRSt7qsg6j9IS0=
+
+Name: res/color/abc_search_url_text.xml
+SHA1-Digest: WQ+Cdie7VI8biS/xJ7UJweOtNsU=
+
+Name: assets/www/lib/ngmap/testapp/map_control.html
+SHA1-Digest: QFwDkdaaeRTk6UkjoDFxFp/dpsc=
+
+Name: assets/www/lib/ionic/js/angular/angular-resource.min.js
+SHA1-Digest: ziFD8/TxtSK0N0h8sH07JsKIhbE=
+
+Name: assets/www/lib/ngmap/testapp/marker_with_ng_repeat_dynamic.html
+SHA1-Digest: t1YQnLvCkbfyh9uWzDRDsKXZryo=
+
+Name: assets/www/lib/ngmap/build/docs/source/dynamic-maps-engine-layer
+ .html
+SHA1-Digest: t1s7nGobKENQoUhMLxhH9Iou9wk=
+
+Name: res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png
+SHA1-Digest: JweLCjivdDkQIw/RDW237ctDdhA=
+
+Name: res/layout-v11/notification_template_big_media.xml
+SHA1-Digest: IGb3pxNiRp/+YDYttY9ClnIw8PQ=
+
+Name: res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+SHA1-Digest: /UEK2xt/qrP3cCJflXSymHBKVrQ=
+
+Name: res/drawable/notification_icon_background.xml
+SHA1-Digest: 4TeKIAY9YMHz/L+I371cJlwUepE=
+
+Name: assets/www/lib/ngmap/testapp/layer-kml.html
+SHA1-Digest: SUQVeG48cxjXZQXIwIL/pd6fjtw=
+
+Name: assets/www/lib/ngmap/directives/map-data.js
+SHA1-Digest: cnkF16wMXnMpiddbiKuReSCsA6Q=
+
+Name: assets/www/lib/angular-sanitize/angular-sanitize.js
+SHA1-Digest: KD++M6TtnnEQb7zmFJKpAPJQ2VM=
+
+Name: assets/www/lib/ngCordova/README.md
+SHA1-Digest: Y1GcdO+XjfgDPjBmH5y5Yb586o8=
+
+Name: assets/www/lib/ionic-datepicker/LICENSE.MD
+SHA1-Digest: Q1cyH5RNyGg/XzkQrGF/8TDkz+A=
+
+Name: res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+SHA1-Digest: mMc2vLuahJ9g89/mLStEyPQTEdM=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/static/styles/prettif
+ y-tomorrow.css
+SHA1-Digest: KCP2bpHhY4b6CnFpg3zngPHxzzU=
+
+Name: res/drawable/abc_ratingbar_material.xml
+SHA1-Digest: dQYfnGBvF3NoNPyyD+NZnOWv73w=
+
+Name: assets/www/lib/ngCordova/CHANGELOG.md
+SHA1-Digest: WjQMB0jadY3LtT7WpYrk7O3yTMk=
+
+Name: res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest: WCxduGC4/DHy03gNcIJSUEhQ28c=
+
+Name: assets/www/lib/ngmap/testapp/user-editable-shapes.html
+SHA1-Digest: DpjCRauC75MDpE0XFXTCjcnqcNk=
+
+Name: res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.p
+ ng
+SHA1-Digest: VtmcSWaUIf6+DhHt/mnXkgUFXH4=
+
+Name: res/drawable-mdpi-v4/notification_bg_low_normal.9.png
+SHA1-Digest: Tnovl3GT2HHDBF1rlU8FPMsFpFA=
+
+Name: assets/www/lib/ngmap/testapp/images/spinner.gif
+SHA1-Digest: 9bDtA+bK+InYyM/Ds7oUzKYc6Rc=
+
+Name: assets/www/lib/ionic-datepicker/README.md
+SHA1-Digest: ACkgoKpH5E10B2IP48VSzsdvCpQ=
+
+Name: lib/x86/libsqlc-native-driver.so
+SHA1-Digest: YBkw1e59qeEbIL9vaudlN442Yw4=
+
+Name: assets/www/lib/ngmap/testapp/map-with-dynamic-id.html
+SHA1-Digest: nhwj/Il7MdCi4bZOA/nq/E22R0U=
+
+Name: res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+SHA1-Digest: Su848yQo1YikW7QsiNSK72I0OiY=
+
+Name: res/layout/abc_dialog_title_material.xml
+SHA1-Digest: MlkkMLXNB0Ddd7aKn6m+vbXVKnQ=
+
+Name: assets/www/lib/ionic/css/ionic.min.css
+SHA1-Digest: j5aqFjzShO075uB8VOxIv0UNJLI=
+
+Name: res/layout/notification_template_part_time.xml
+SHA1-Digest: bhzybjnecxalCHcxl5KDJnJ1bPI=
+
+Name: assets/www/lib/ngmap/services/ng-map.js
+SHA1-Digest: cCSCD3dzXWFK9DbOswdsc1P1Sv4=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png
+SHA1-Digest: LOaqUgdDJCkzcFxWg8tmL0IBRoQ=
+
+Name: res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+SHA1-Digest: ayEN/y2/KZk92Zl774asitbOxNY=
+
+Name: res/color-v23/abc_btn_colored_borderless_text_material.xml
+SHA1-Digest: hgqlXDNv1f147I1EFu7idJBL7Lk=
+
+Name: assets/www/lib/ngmap/build/docs/source/map-type.html
+SHA1-Digest: Cv6eADIQ4KZQCo4OBewiW8MqpnE=
+
+Name: res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: oQXUTVCmKbEkuIGzA7hY1v2BYpE=
+
+Name: assets/www/lib/ngmap/build/docs/source/map-lazy-load.html
+SHA1-Digest: vNLDmVB4Iu50yH+IeaypkTDwPt4=
+
+Name: assets/www/lib/ngmap/testapp/scripts/get-starbucks.js
+SHA1-Digest: oK5K/xmBwet02fO7nozC6D+W8Nc=
+
+Name: res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000
+ .png
+SHA1-Digest: w/MYb1Y/O4Mr/eHUFvYCPi7mkN4=
+
+Name: assets/www/lib/ionic/scss/_modal.scss
+SHA1-Digest: DKw5FE9tIlnimiPVL141E7skl2E=
+
+Name: assets/www/lib/ionic-numberpicker/LICENSE.MD
+SHA1-Digest: SaS3eFdKdP5nlU9PfgFqOWSVT7A=
+
+Name: assets/www/lib/ngmap/testapp/script-tags-for-development.js
+SHA1-Digest: BhHo6wC3UlnXzG/w3faRKgJq+sE=
+
+Name: assets/www/lib/ngmap/build/docs/source/bicycling-layer.html
+SHA1-Digest: dfaGDqfT1AFE1OPnJjXMPqTvb5M=
+
+Name: res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+SHA1-Digest: z5rmTEqRHuMsX24l4sP3B88dR3Q=
+
+Name: assets/www/lib/angular-ui-router/src/templateFactory.js
+SHA1-Digest: UJM0JbpyRCzvxsEdxmfP9/JU3Co=
+
+Name: assets/www/lib/ionic/scss/_transitions.scss
+SHA1-Digest: TajbNBpZ4ZO+JY+1ja+6AgF1tC4=
+
+Name: assets/www/lib/ionic-numberpicker/bower.json
+SHA1-Digest: hR29vnHY6mDDpODY3+x2ZL85Kh8=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest: pekxWTKwrzIagiU2Ssj+otR4tkc=
+
+Name: assets/www/lib/ionic/scss/ionicons/_ionicons-font.scss
+SHA1-Digest: 8CmZiR6xF9yyIyYpkADXsFbTSNs=
+
+Name: res/drawable-port-hdpi-v4/screen.png
+SHA1-Digest: UELv50HH1jlpFthHehL4BW0NNMg=
+
+Name: res/xml/sharing_paths.xml
+SHA1-Digest: uvDmqvygUn10O9242WJecJjBO74=
+
+Name: assets/www/lib/angular/angular.min.js.map
+SHA1-Digest: g7iPPA5n8b0105Tb97ZKE6Ge9s8=
+
+Name: assets/www/lib/ngmap/testapp/marker-simple.html
+SHA1-Digest: yRQb4XKNHmPSxcrpEywDhRuxJtI=
+
+Name: assets/www/lib/ngmap/build/docs/source/traffic-layer.html
+SHA1-Digest: crJT0sU8tlCkUxbt5dXMRveXP+s=
+
+Name: assets/www/lib/ngmap/testapp/groundoverlay-simple.html
+SHA1-Digest: tgWUhtn720AQcoMU44fHXgruhac=
+
+Name: res/color-v23/abc_tint_spinner.xml
+SHA1-Digest: nDidQHjMTIhtNlFkm1D96wOTxLE=
+
+Name: assets/www/templates/sukosan_guide.html
+SHA1-Digest: gpDNbLuGTEeVzO1fZ6VuoYi3Ap0=
+
+Name: assets/www/lib/ngmap/testapp/multiple_maps_on_a_page.html
+SHA1-Digest: DfVh47N1OPRvymIX+lHfHF93bIo=
+
+Name: assets/www/lib/ngmap/build/docs/custom-control.html
+SHA1-Digest: D5EpHXEqYci5bilfAlhnpx2qv2Y=
+
+Name: assets/www/lib/ngmap/testapp/marker.html
+SHA1-Digest: CnTccMugIyszgWxpyozd72xZTnY=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/layout.tmpl
+SHA1-Digest: gIgW85GYh0nq0A30kuYbdrwS7YM=
+
+Name: assets/www/lib/ionic-timepicker/bower.json
+SHA1-Digest: gYjzIOjpAo4VU2Rx8XYU2/MxlGU=
+
+Name: assets/www/lib/ngmap/build/docs/source/maps-engine-layer.html
+SHA1-Digest: IjeWd9Iny8+VyJsd5vZPHZprIcE=
+
+Name: assets/www/lib/ionic-numberpicker/NumberPickerIcon.png
+SHA1-Digest: 25suHHuHQ6UmVGoYyetS8tgCsiA=
+
+Name: assets/www/lib/ngmap/build/docs/source/shape.html
+SHA1-Digest: ib60QcAHqh/S26GIG6rrOA3BGvw=
+
+Name: res/drawable-mdpi-v4/abc_ic_star_black_36dp.png
+SHA1-Digest: AkbIo7N/y4oNm7eUJCKzP6fxrhs=
+
+Name: assets/www/lib/ngmap/build/docs/source/NavigatorGeolocation.html
+SHA1-Digest: ocRpAuwtLi4YE1wJH2vMYQaqesI=
+
+Name: res/layout/abc_search_view.xml
+SHA1-Digest: xn2/kiH9VEOHti3AgMNf0DLGpH8=
+
+Name: assets/www/js/controllers.js
+SHA1-Digest: 2H+Hf37VqXlyOCpf5NB1/adliSw=
+
+Name: assets/www/lib/ngmap/testapp/marker_icon.html
+SHA1-Digest: tmXFKiK2T1sxQUmiZVxJsbBXAoY=
+
+Name: assets/www/lib/ngmap/testapp/lib/angular.js
+SHA1-Digest: x3cVd3BXlu9GgwGHyto+bAUKkmg=
+
+Name: assets/www/lib/ngmap/testapp/directions2.html
+SHA1-Digest: pb9FGLBWUa/hBw2v3D6AFQbOfpY=
+
+Name: assets/www/img/gradient.jpg
+SHA1-Digest: yJolLHCzvf52YC6UGovODGzYE28=
+
+Name: assets/www/plugins/cordova-plugin-geolocation/www/PositionError.
+ js
+SHA1-Digest: 4z4szFwrCNKQdgtCNDGGMrTD2d0=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+SHA1-Digest: am9o4CCMkLbqK7tqn2d7aY98YtM=
+
+Name: lib/armeabi-v7a/libsqlc-native-driver.so
+SHA1-Digest: aWW2EVcT40BD6ZA5rsdv7Ht7HT0=
+
+Name: assets/www/lib/ngmap/build/docs/overlay-map-type.html
+SHA1-Digest: ScEvsV1ya7bEH6Ual+JmdhJVKNU=
+
+Name: assets/www/lib/ngmap/app.js
+SHA1-Digest: cyenZt7hKqQWeOr93yJ6oAJIqOY=
+
+Name: res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+SHA1-Digest: j7oKd56yOLmG/qIDUU3a+2EFFV4=
+
+Name: assets/www/lib/ionic/js/angular-ui/angular-ui-router.js
+SHA1-Digest: ZLfQu+Jzy4+7Zes8WurvlRM2qBc=
+
+Name: res/drawable-xhdpi-v4/notification_bg_normal.9.png
+SHA1-Digest: VLNXFzqJn8hvw7NJ233yGma3RqA=
+
+Name: res/drawable/abc_ic_go_search_api_material.xml
+SHA1-Digest: 6zy+hVMOHtIke1dDbAPSlXUR5AM=
+
+Name: assets/www/lib/ionic/scss/_tabs.scss
+SHA1-Digest: JekNMB50rpxCPiIme++LYHi/WGw=
+
+Name: assets/www/lib/ionic/scss/_bar.scss
+SHA1-Digest: m9yInf3sCv3BgmYU+8DsEGv4Weo=
+
+Name: assets/www/lib/ionic/scss/_grid.scss
+SHA1-Digest: xERsvhANxg3KuZk8fnpsrWvn3X4=
+
+Name: assets/www/lib/ngmap/directives/dynamic-maps-engine-layer.js
+SHA1-Digest: 5fkttXOM3RjIy/IzHX/3quY3I5M=
+
+Name: assets/www/lib/ngmap/build/docs/dynamic-maps-engine-layer.html
+SHA1-Digest: nQMZ+8zdjKpnUx0C880/4X8Ap0s=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest: HgH+EY9WJEVfAXnClDsismo2FSs=
+
+Name: assets/www/lib/ngmap/testapp/polyline-complex.html
+SHA1-Digest: OJiR5NFm2jHvHYzerFO1bClyY4o=
+
+Name: assets/www/lib/angular/angular.min.js
+SHA1-Digest: p9u60wfn7t8BYkqPtLlMwPLYFE0=
+
+Name: assets/www/lib/ngmap/testapp/overlay-symbol-arrow.html
+SHA1-Digest: n0D0MpJmHekLfRwbvRSQcZbGdqc=
+
+Name: res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.
+ png
+SHA1-Digest: P2nXckVhoat9mgVUXkNB8jHu5sU=
+
+Name: assets/www/lib/ionic/scss/_type.scss
+SHA1-Digest: amftCNTU8b772vLvr0NzYLBYwRY=
+
+Name: res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+SHA1-Digest: fCw4/3GZJ6HvBRrlhVpfPdRbS48=
+
+Name: assets/www/lib/ngmap/testapp/scripts/quakes.geo.json
+SHA1-Digest: ysEKc8OxsDC5PLrHcL+fYBEeHMk=
+
+Name: assets/www/lib/ngmap/testapp/us-states-20m.json
+SHA1-Digest: vhWnmCuFfRqnBQLpRlWW8oLU0sY=
+
+Name: res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest: O9JInV5je9E+K0VDIh7tQxIyLAk=
+
+Name: assets/www/lib/ionic/scss/_slide-box.scss
+SHA1-Digest: W534f2hpuQegDJZT2XK5u8SOTMo=
+
+Name: res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: d4vgddzsyizuUaFKPS8KV2adOac=
+
+Name: assets/www/lib/ngmap/testapp/layer-bicycling.html
+SHA1-Digest: BVNB49pENP3OI16SrcR9eDak+NE=
+
+Name: res/layout/abc_expanded_menu_layout.xml
+SHA1-Digest: 8j27OGTyz8yyJB6wFXjC3d2TKFw=
+
+Name: assets/www/lib/ngmap/build/docs/source/ngmap.custom-marker.html
+SHA1-Digest: ROlE3HFThOBGYYxxRa1ko/PCa6I=
+
+Name: assets/www/lib/angular-translate/bower.json
+SHA1-Digest: cZX8OE7f4chXr1ZuTcLISgUwm+o=
+
+Name: assets/www/lib/ngmap/testapp/marker_with_current_position.html
+SHA1-Digest: aK4m84OKfMNj3ndq/vXTz63jiQo=
+
+Name: assets/www/lib/ngmap/ISSUE_TEMPLATE.md
+SHA1-Digest: 0KiOH+DPG2qdlJkj2U97wyq6jus=
+
+Name: assets/www/lib/ngmap/testapp/infowindow-simple.html
+SHA1-Digest: exQLh9a7LSrmQg8jgMTl6UqZtqw=
+
+Name: res/layout/abc_screen_toolbar.xml
+SHA1-Digest: Q3IGNGV1xxxZleCPu2HuJ9Ds4Zo=
+
+Name: res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.p
+ ng
+SHA1-Digest: fU5gisHGI+zYrb29D3vQ+ofKD4I=
+
+Name: assets/www/lib/ngmap/build/docs/source/GoogleMapsApi.html
+SHA1-Digest: Uu43uqwKJDPPL/cBITR9TiXEf1M=
+
+Name: res/drawable/abc_btn_borderless_material.xml
+SHA1-Digest: 9+UIx5LzMU67HsEZH0vBreWiJPE=
+
+Name: res/color-v23/abc_color_highlight_material.xml
+SHA1-Digest: Wa/DcA1rhQw9CVeh7Ym9yT+IJ1o=
+
+Name: res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+SHA1-Digest: CwBgZCf6HQH3oXQJ4vFliod7poc=
+
+Name: assets/www/lib/ngmap/testapp/ui-router2.html
+SHA1-Digest: nH001JA6ke4U6W/R7FscNYTxSJA=
+
+Name: assets/www/lib/ngmap/road-trip.md
+SHA1-Digest: tMpxokqZDyUqZFLhUg5t8KBnkKo=
+
+Name: assets/www/lib/ngmap/testapp/layer-fusiontables-simple.html
+SHA1-Digest: whW2ZlIgeYtxisWyZH/ERP8sRzY=
+
+Name: assets/www/lib/ngCordova/dist/ng-cordova.min.js
+SHA1-Digest: aUGKX2YWyyPJ7Eqwur0fD1NbG8Y=
+
+Name: res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest: DjgjddBKSH0OILJhqJkZXAYKmKg=
+
+Name: res/drawable/abc_tab_indicator_material.xml
+SHA1-Digest: HLMNWYzS8Xr2+cGXFiCZarvGfLw=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/members.tmpl
+SHA1-Digest: Pn7X5zTybGx0ooRx6I49KoQGW/8=
+
+Name: assets/www/lib/ngmap/testapp/overlay-simple.html
+SHA1-Digest: trGoFZktYc562PwGhHjjBnaZQ8k=
+
+Name: assets/www/lib/angular-ui-router/README.md
+SHA1-Digest: XuDBHf7yWg1LxpBmv5PorIGxga4=
+
+Name: assets/www/lib/ngmap/testapp/layer-data-quakes-simple.html
+SHA1-Digest: itWAU1BoFjwhRk8Qy+K7IId+WW4=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: uEqQdj8O/DgiXxPIGMvGrKY7dTE=
+
+Name: res/mipmap-xxxhdpi-v4/icon.png
+SHA1-Digest: /zgd5kfO2NNGrVyO9iO86dQl+fo=
+
+Name: res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.p
+ ng
+SHA1-Digest: 4maqTaWq3BEXw6ShM7wJMon1kU8=
+
+Name: assets/www/lib/ngmap/testapp/map-coordinates.html
+SHA1-Digest: pLZSdRIrTMrqTeaipDtTFZkCwiU=
+
+Name: assets/www/lib/ngmap/testapp/map-lazy-load-params.html
+SHA1-Digest: cLYWAmFoZGP2TzB13KQhhD67cBo=
+
+Name: res/layout-v21/notification_template_icon_group.xml
+SHA1-Digest: Gc5GCxUU3yT9OraAHkyN4kDyf2o=
+
+Name: res/layout/abc_activity_chooser_view_list_item.xml
+SHA1-Digest: 3deCfyLwxt5GOl4Hwdkp6lv/DbE=
+
+Name: assets/www/lib/ngmap/testapp/control-custom-state.html
+SHA1-Digest: OdHnPvUQ9rGx4qQcgGMw4h1OrXE=
+
+Name: assets/www/lib/ngmap/testapp/directions-with-custom-marker.html
+SHA1-Digest: oqFAH3w4R4aUKPzS4kqyjPtbe6A=
+
+Name: res/drawable/abc_vector_test.xml
+SHA1-Digest: Nt9ckQDkCsYP2/LnUbJXmZv47z4=
+
+Name: assets/www/lib/ngmap/testapp/all-examples.html
+SHA1-Digest: 4q6thY7tztoJ8vdMF59N35UVFIc=
+
+Name: res/color/abc_tint_edittext.xml
+SHA1-Digest: QJ03xTTHSPcxkaMD9/kED+bMpEk=
+
+Name: assets/www/lib/ngmap/testapp/overlay-symbol-animate.html
+SHA1-Digest: 9xF4QXUPUk1Y5bCzfNmERciPGbM=
+
+Name: assets/www/lib/ionic-datepicker/gulpfile.js
+SHA1-Digest: lxBwzkzQTHTVwaYE1tVs8kW/B9k=
+
+Name: res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+SHA1-Digest: kxSGYJoMOYG0HnE3IprNwOq5ou8=
+
+Name: res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+SHA1-Digest: FIm3sVpLJf34SkU3SQ/694URh1w=
+
+Name: res/layout/abc_action_bar_title_item.xml
+SHA1-Digest: MlfqlbbfvFJzeXQXjKfnYRPgAGQ=
+
+Name: assets/www/img/locationG.png
+SHA1-Digest: sd5PUOb0to+a2UpfQRz3AnMJbZM=
+
+Name: res/drawable/abc_btn_check_material.xml
+SHA1-Digest: YFDDnTUd6St4932sE/Xk6H0HMoc=
+
+Name: assets/www/lib/ngmap/testapp/custom-marker.html
+SHA1-Digest: RVNK+TpyVAMWNDrGqkBTbzdOZOo=
+
+Name: assets/www/lib/ngmap/testapp/layer-data-quakes-advanced.html
+SHA1-Digest: 2nZS3oxul8R2WHn+EpLMV83/DoM=
+
+Name: assets/www/lib/ngmap/spec/lib/markerclusterer.js
+SHA1-Digest: ZTtqOcOzSqOiDHsaC8jeug/1FGE=
+
+Name: assets/www/lib/ngmap/testapp/shape_circle_with_current_position.
+ html
+SHA1-Digest: vXr1767LpwA6dc11DOuMGVjeKhw=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png
+SHA1-Digest: 50lQ01X/2aI5rh53asY/AX4Fkhw=
+
+Name: res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest: je+36x1Dzaic4ajfPsRCU+apd1k=
+
+Name: assets/www/lib/ngCordova/dist/ng-cordova-mocks.min.js
+SHA1-Digest: 2T6O4e7qujUlqUjBoA7/Z6xwNjQ=
+
+Name: assets/www/lib/ngmap/build/docs/map-lazy-load.html
+SHA1-Digest: NpTvsUS2+FFALeNapNuKrrNnPfg=
+
+Name: assets/www/lib/ionic-datepicker/package.json
+SHA1-Digest: JIigYiLZAR0i5p9usD8JvAwUEhc=
+
+Name: assets/www/lib/ngmap/testapp/layer-georss.html
+SHA1-Digest: jkPdey8PuEdfUN9+tIcz8cQGFRA=
+
+Name: assets/www/lib/ionic/fonts/ionicons.woff
+SHA1-Digest: VIfznJpw+29jAG1niK/tTqSoP2o=
+
+Name: res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.
+ png
+SHA1-Digest: YwrO8vgjHUmvObRSq+AnITPZC2E=
+
+Name: res/drawable/abc_btn_radio_material.xml
+SHA1-Digest: npSvWgijFi0d2VFF3dOZmjf+WBQ=
+
+Name: assets/www/lib/ionic-numberpicker/dist/ionic-numberpicker.styles
+ .js
+SHA1-Digest: YyyvKLnjlOIUp4uMo3tVIziacSk=
+
+Name: res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: nqxFTHIyt1k31oTQzMBPMAnZrEM=
+
+Name: res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+SHA1-Digest: 2lRuxodMxnuWn+IclaJShuAV5+Y=
+
+Name: assets/www/lib/ngmap/testapp/control-custom.html
+SHA1-Digest: v3Kt8anjXN06F5JNft7cWevkwGw=
+
+Name: res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+SHA1-Digest: 1gu0+JdGxgtkd7hnwaQbfLEaaZc=
+
+Name: assets/www/lib/ngmap/testapp/control-simple.html
+SHA1-Digest: xx6D0Az+H/8hv7Iu/3Nzup4Kx9o=
+
+Name: assets/www/templates/popup.html
+SHA1-Digest: K5LO1eQZqukLVV+UvxvlG/vGmuM=
+
+Name: res/drawable/abc_cab_background_internal_bg.xml
+SHA1-Digest: OpZTAPON/eHCLK5xEp9Ei2cska4=
+
+Name: res/layout-v21/notification_action_tombstone.xml
+SHA1-Digest: EkpQZCrN38qFAuTVL+lwJSutWns=
+
+Name: res/drawable-mdpi-v4/notification_bg_low_pressed.9.png
+SHA1-Digest: sZI/MrQgBXh2aJFcQWzZXWRcBz0=
+
+Name: assets/www/lib/ngmap/directives/kml-layer.js
+SHA1-Digest: SVkcO8vlEd29IpRALs5w4o7Y4vs=
+
+Name: assets/www/lib/ngmap/testapp/street-view_road_trip.html
+SHA1-Digest: naFoL//5iVXGbYknDV3WZjeLpyQ=
+
+Name: res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+SHA1-Digest: LHgpBq22Tp/Uz7G6kTktjBB334g=
+
+Name: res/drawable/abc_seekbar_track_material.xml
+SHA1-Digest: DOBvDIvN1gw9U5RRVtBGkfeW8rY=
+
+Name: assets/www/css/eventDetail.css
+SHA1-Digest: noW0hUowlbVox3yVfEGTl2PEQuk=
+
+Name: res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest: aq/s3PoS9wD33oPeDdmP98R6Bkk=
+
+Name: res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: RT5SHZxO8jR3cgSzvKqbmSM4LGU=
+
+Name: assets/www/lib/angular/package.json
+SHA1-Digest: OHPZttjXXU6nYCOWoQo+vQTimRA=
+
+Name: res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png
+SHA1-Digest: WYHzqaIFGhxi7pUghVL542WmTfs=
+
+Name: res/layout/select_dialog_item_material.xml
+SHA1-Digest: Wc1LUrdQPdrfmppP/DMFDwnmRrc=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: x+Boa0yvhikp6dlPQH9/d26D60I=
+
+Name: res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9
+ .png
+SHA1-Digest: 8MDSDpYFD8fxl8tEamhg6/oSBig=
+
+Name: res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: cVnySG63cChr86Xl5aTin9ET16o=
+
+Name: assets/www/lib/platform.js/bower.json
+SHA1-Digest: HrMMWCVL7V+l+x5dF2S4nGLpktA=
+
+Name: assets/www/lib/angular-animate/angular-animate.min.js.map
+SHA1-Digest: dJOia4MAnqgugnTtddltXVO7cgA=
+
+Name: assets/www/lib/ionic-numberpicker/src/ionic-numberpicker-decimal
+ .html
+SHA1-Digest: k8qvuNjE89cYM4GlCnQyRjZ3pkk=
+
+Name: assets/www/img/push.png
+SHA1-Digest: WKFwlwMAi2BPpXIzejaLbNWGoeA=
+
+Name: res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA1-Digest: bTNFsVJfPn6MYG0AqtJNqG+o5hs=
+
+Name: res/color/abc_secondary_text_material_light.xml
+SHA1-Digest: vvlWDf5WW7DyEiYJAYXbtgUe8ek=
+
+Name: assets/www/lib/ngmap/spec/services/ng-map-pool-spec.js
+SHA1-Digest: HFxZGAVJAnTOclLSCNL1AXKv5Nw=
+
+Name: res/color/switch_thumb_material_light.xml
+SHA1-Digest: cRsH8E8QGWZvPBhWEQ+AxeA1ZRk=
+
+Name: res/anim/abc_slide_out_top.xml
+SHA1-Digest: NM9nWh/XI2zag3rBwIXEqrpl9XA=
+
+Name: assets/www/lib/ngmap/testapp/control-disableUI.html
+SHA1-Digest: glLknj2GOILfCYnwoFHSSqYaujQ=
+
+Name: res/layout/abc_screen_simple.xml
+SHA1-Digest: te7pBfnpuMLJz2O9Wb5LBrZI1uw=
+
+Name: res/layout/notification_action_tombstone.xml
+SHA1-Digest: uMdqlwN37kFpOS1D+r1wATSCWU4=
+
+Name: assets/www/lib/ngmap/directives/shape.js
+SHA1-Digest: 3TcR3dCy4+mFb2E2j2R4Mpy1+RU=
+
+Name: res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest: ToVo2KPSLrpwpzwqt2DA6d7KLWk=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/examples.tmpl
+SHA1-Digest: 06WIpWVHzrmKYAFY+WEoRzvnr34=
+
+Name: res/color-v23/abc_tint_seek_thumb.xml
+SHA1-Digest: HWitkATlnKy+3NIgkOz7BhWvTrM=
+
+Name: assets/www/lib/ionic-datepicker/src/ionic-datepicker-popup.html
+SHA1-Digest: 6MvyBw3Tj5uA+CVbvqNgUdVeinY=
+
+Name: assets/www/lib/ngmap/build/docs/map-type.html
+SHA1-Digest: Ysgs+H1jP14rCnx08bRF8py3DOI=
+
+Name: assets/www/lib/ngmap/testapp/circle-simple.html
+SHA1-Digest: 5IBqjwpBMKd7bDBZu4tJVdxDC1Q=
+
+Name: res/color-v23/abc_tint_edittext.xml
+SHA1-Digest: ZpuH53wScq0hmXdsHgNNLseCBYg=
+
+Name: res/drawable/abc_switch_thumb_material.xml
+SHA1-Digest: GMLceoxorxIv4SfySzjNiKy4yRk=
+
+Name: assets/www/templates/notifications.html
+SHA1-Digest: j9SRLBlZJa4fmCeAE8G1bikwnVk=
+
+Name: res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_light.png
+SHA1-Digest: NMyg1BB4Pz2cvQ21qDTnVO4XKPg=
+
+Name: res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+SHA1-Digest: iw5pKwcqPnAN4tMkq40FTN1cl9Y=
+
+Name: res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+SHA1-Digest: ORZEUwpye3vs2cpRUfvVYVg7UtU=
+
+Name: assets/www/lib/ngmap/testapp/marker-symbol-predefined.html
+SHA1-Digest: JCLXLSCsCbq2xAzhjJ0e8Jddpw0=
+
+Name: assets/www/lib/ngmap/directives/map.js
+SHA1-Digest: q01P1i8XxzOwI7eyKgpaWPzQlJE=
+
+Name: assets/www/img/info_icon.png
+SHA1-Digest: /ZSbwZwTV9bA0yEUBcaMrlvL7sU=
+
+Name: assets/www/lib/ionic/scss/_list.scss
+SHA1-Digest: CPmwqd1ovffh5q2FiqQA5u8zdOk=
+
+Name: assets/www/lib/ngmap/testapp/marker_dynamic_ng_repeat.html
+SHA1-Digest: Mk1JjXrQc/a787+6hPJq54Et7gA=
+
+Name: assets/www/lib/ionic/scss/_spinner.scss
+SHA1-Digest: w8svjUQTtmjC8U7C3d1e0lFD48M=
+
+Name: res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: qRCYZUzk2ijqbaq6h2ixzc8HbFg=
+
+Name: res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+SHA1-Digest: L4kldLqb9NR6DgoipZDWi2jQHbs=
+
+Name: assets/www/lib/angular-translate/README.md
+SHA1-Digest: fEF9fK6HZMm6n6k7cWfoQzOfvLI=
+
+Name: res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+SHA1-Digest: /SHIbNyt1+Fo97bGAhsp65znrc4=
+
+Name: assets/www/lib/ngmap/build/docs/heatmap-layer.html
+SHA1-Digest: Hzr1JmiFAnW3Gtmlpa/PxzbTeHM=
+
+Name: assets/www/lib/ngmap/testapp/event-arguments.html
+SHA1-Digest: pcl4c55BUaZ+OywhitXTSug2Lcc=
+
+Name: assets/www/lib/ionic-datepicker/src/ionic-datepicker.styles.css
+SHA1-Digest: PZgxN7ZWzBkDK4jv3fD7Uf2QHA8=
+
+Name: assets/www/lib/ngmap/testapp/scripts/markerclusterer.js
+SHA1-Digest: /r20qJb1SebU117T6hPqJeLEkRs=
+
+Name: res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: UcEHcms2r2N9yOnGvBk/CGupFMw=
+
+Name: res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.pn
+ g
+SHA1-Digest: ADDoWZfz0cLwg7Xh81feHpftgWM=
+
+Name: assets/www/lib/ngmap/testapp/polygon-simple.html
+SHA1-Digest: OP6ubDOARosKG4WcKHqBc9v2T3A=
+
+Name: res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+SHA1-Digest: 4CNgdraLjH84scvRJUfzItc3PbA=
+
+Name: assets/www/lib/angular-ui-router/LICENSE
+SHA1-Digest: EIPQaXbYJAwIFXu/yd5vOJrrF0o=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png
+SHA1-Digest: /qTnweOfRMZPcyM1eqEsdwUZTD4=
+
+Name: res/layout/abc_action_menu_item_layout.xml
+SHA1-Digest: 34Z2Ux5C5JDYnzBH7G5m1oH3cW8=
+
+Name: assets/www/lib/ngmap/build/docs/info-window.html
+SHA1-Digest: KgPDJZ7mTkyy/ppXYth0Jdc7BU8=
+
+Name: assets/www/lib/ngmap/build/docs/kml-layer.html
+SHA1-Digest: K7vhDurjjaVtyBZMlfiG75o0EMo=
+
+Name: assets/www/lib/ionic/scss/_range.scss
+SHA1-Digest: X2pSmVnBQWlQB5fl+W3rtvhtIHE=
+
+Name: assets/www/service-worker.js
+SHA1-Digest: Ggmj+I9L1lcobkdVGPHzj5xF1as=
+
+Name: res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+SHA1-Digest: N0JreKvhlyMPBSf34DQond465n0=
+
+Name: res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest: o6T1nENnpl79GnrVrE8AKfzN0kU=
+
+Name: assets/www/lib/ngmap/directives/overlay-map-type.js
+SHA1-Digest: 7eUc5RyaMmWPRK52qYsPpafam6k=
+
+Name: res/xml/config.xml
+SHA1-Digest: kT2rDdhzTkWteFIbLeAvrVWmWoc=
+
+Name: assets/www/lib/ngCordova/package.json
+SHA1-Digest: /eviiDSWFqxvyK2ZBAtbTAOZO04=
+
+Name: assets/www/lib/ngmap/testapp/overlay-custom.html
+SHA1-Digest: IEOst1X2jZUBp5pr6XJkZ8dszrY=
+
+Name: assets/www/lib/ngmap/build/docs/source/streetview-panorama.html
+SHA1-Digest: 9el68vWlwFzEM82JQwKo23uW0tM=
+
+Name: res/layout-v22/abc_alert_dialog_button_bar_material.xml
+SHA1-Digest: k1yK+GblgHsbRJDckB/m3czyrrQ=
+
+Name: assets/www/lib/ngmap/build/docs/GoogleMapsApi.html
+SHA1-Digest: aM9f01mWo8bPg5Nb9KILf3Htiqw=
+
+Name: assets/www/lib/ionic-numberpicker/src/ionic-numberpicker.styles.
+ css
+SHA1-Digest: 76mwFrdtj56An9WkfhqxUTi6iow=
+
+Name: res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+SHA1-Digest: B2HfhtZm7f+8V429AdZbU7mrLo8=
+
+Name: assets/www/lib/angular-sanitize/README.md
+SHA1-Digest: r1qFAJL636C9aVbUZ2zYbgEP1e8=
+
+Name: res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+SHA1-Digest: n3rquhXmVYjYpHMG9RG+SAJc+rA=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png
+SHA1-Digest: vK8qEx+zPuCHitVVR+eyI1+y5S8=
+
+Name: assets/www/lib/angular/README.md
+SHA1-Digest: 1NlvcZ1ixcwKvOtpxGW8HziYt9E=
+
+Name: assets/www/templates/home.html
+SHA1-Digest: WrsVdOQ/6y/jJ/dvrvTvjI4qWFo=
+
+Name: res/drawable/abc_seekbar_thumb_material.xml
+SHA1-Digest: 3gcgKKHkoQO20Qass3DY4tt02lc=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/tutorial.tmpl
+SHA1-Digest: lDNFwvAW1j6441x3sNvfbgUsLXU=
+
+Name: res/anim/abc_fade_out.xml
+SHA1-Digest: MfCV1efdxSKtesRMF81I08Zyvvo=
+
+Name: assets/www/lib/ngmap/testapp/polygon-arrays.html
+SHA1-Digest: hUgvHFJnRn47CbvdPa5dnc/VP8c=
+
+Name: assets/www/lib/ionic/scss/_radio.scss
+SHA1-Digest: KTrx/nt0kAksso1qAKnhf68IAgQ=
+
+Name: assets/www/lib/ngmap/testapp/marker_data_with_ng_repeat.html
+SHA1-Digest: Pnhv6IH/7pnoFFOE9Uo9krCComE=
+
+Name: assets/www/lib/ionic/js/angular/angular-animate.min.js
+SHA1-Digest: sT8GRL7m0zw+Y+AI7ZbGOctjDsk=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest: iuBU+dvN1PvZNfhVx+viSlB9A8A=
+
+Name: res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+SHA1-Digest: MRB8bfz87PDQFDWGNEetiXxTiwY=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: KU5BEai+yKGXvI7Yk2+h3Ehn27Y=
+
+Name: assets/www/lib/ngmap/testapp/lib/prettify-tomorrow-night.css
+SHA1-Digest: YGt9NXc8r3tqE57ket6zQp7AMjw=
+
+Name: res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA1-Digest: Eh+ZTEk9nWC3r6F65kTTCqFuv/0=
+
+Name: assets/www/lib/ngmap/build/docs/index.html
+SHA1-Digest: Zd8fLKr3nPRfvaA7P2apK36zMW4=
+
+Name: assets/www/plugins/de.appplant.cordova.plugin.local-notification
+ /www/local-notification.js
+SHA1-Digest: fwlbm2Y5HVMU+zuy/Iar1IC0RGQ=
+
+Name: assets/www/js/DistanceCtrl.js
+SHA1-Digest: oPQCyxSKxdztaFpvhwS71YUIc8A=
+
+Name: res/drawable-v21/abc_edit_text_material.xml
+SHA1-Digest: 8wU3YJ8ERs7EZJXzEm81Fx1iRhY=
+
+Name: res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005
+ .png
+SHA1-Digest: vemTSSQdycMQQJlthk4udlWVCtA=
+
+Name: assets/www/lib/ionic/scss/ionicons/_ionicons-icons.scss
+SHA1-Digest: /8Vnzz3lLn9G6J2oEzbr5fHffgg=
+
+Name: res/layout-v21/abc_screen_toolbar.xml
+SHA1-Digest: TpZH1vzPD2yZ+3hi4WiiTulvwjY=
+
+Name: res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+SHA1-Digest: bbu4U1Z2FReSVaAwtf9Uj+pAXxA=
+
+Name: assets/www/plugins/de.appplant.cordova.plugin.local-notification
+ /www/local-notification-util.js
+SHA1-Digest: IDdA3Q0cYslfiW5xmxDRlETG0vw=
+
+Name: assets/www/lib/ngmap/testapp/custom-marker.css
+SHA1-Digest: oXyzzaBWwo7npPOOOO0xZs8ewyI=
+
+Name: assets/www/lib/ngmap/testapp/map_events.html
+SHA1-Digest: TaFO+1yskdfnzDDz+l340TXds8g=
+
+Name: assets/www/plugins/cordova-plugin-geolocation/www/android/geoloc
+ ation.js
+SHA1-Digest: 4jv2uS6xdLTM0aK/vV09jzlg7U4=
+
+Name: res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: fnkne9XWnuqM1yhMI+5Xc4n/ET8=
+
+Name: assets/www/lib/ngmap/testapp/shape_circle_with_dynamic_address.h
+ tml
+SHA1-Digest: RIuzTPJQQhdI8Y6dtRzFtIYF52c=
+
+Name: assets/www/lib/ngmap/testapp/marker_with_dynamic_address.html
+SHA1-Digest: vfvDfQfdoWG0hfi51y91dNNuVzI=
+
+Name: assets/www/lib/ngmap/build/docs/css/site.css
+SHA1-Digest: QXPamjyhRxvTZb3REdTp/Jnjosw=
+
+Name: res/drawable-hdpi-v4/abc_ic_star_black_16dp.png
+SHA1-Digest: x902XiMoneAAmor81DbeuuMoYo8=
+
+Name: res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+SHA1-Digest: Z6SIIC97mku9jiqDCLc6pgfmpn4=
+
+Name: assets/www/lib/ionic/scss/_popup.scss
+SHA1-Digest: x0vjMAfkwa+7nNQns9keWfdzCwE=
+
+Name: assets/www/templates/menu.html
+SHA1-Digest: aow2WE68or4w1MsNp7Wzy0Gbscw=
+
+Name: assets/www/templates/favorites.html
+SHA1-Digest: iydriADcw6zG3huTRd2fMayc1k0=
+
+Name: res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9
+ .png
+SHA1-Digest: 3TVJoKotGhu2qu7nxOP+9dmuUfQ=
+
+Name: res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest: hFfrmpffeUhFY9P1rmOGIFG2AzQ=
+
+Name: res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest: xtSRUA6yPL0pgx6e3nVwE/7dLxw=
+
+Name: res/drawable-v21/abc_action_bar_item_background_material.xml
+SHA1-Digest: KV90fjq9oUm4oE6kD9IDK7IG1zg=
+
+Name: assets/www/lib/ngmap/directives/custom-control.js
+SHA1-Digest: vLc5nc+aux4iGwkX5YL40VahvmQ=
+
+Name: assets/www/lib/ngCordova/LICENSE
+SHA1-Digest: Xkx0NSRiL3cvTRWuFViurVob1qI=
+
+Name: assets/www/lib/ngmap/build/docs/marker.html
+SHA1-Digest: eBF3EuhyjiTSVgaQFKtvk5JMzfk=
+
+Name: assets/www/lib/ngmap/testapp/map-lazy-inint.html
+SHA1-Digest: 7hjxCPylzIsX2gObpcdl+S/K7zo=
+
+Name: res/anim/abc_shrink_fade_out_from_bottom.xml
+SHA1-Digest: A2WMxWg6WXNN7N6la/lxz5dpQ+E=
+
+Name: res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+SHA1-Digest: Rmk8UREagQdf47LncSS6fq9RbAo=
+
+Name: assets/www/lib/ngmap/testapp/overlay-symbol-dashed.html
+SHA1-Digest: zb7FP7+aTaEqV44CMbkEjfbe8DY=
+
+Name: assets/www/lib/ngmap/testapp/map-initialized.html
+SHA1-Digest: 5MfyoRezOy0DOwKlhbeb7q0sLOE=
+
+Name: assets/www/lib/ngmap/build/docs/css/prettify-tomorrow.css
+SHA1-Digest: 0SPcfnQS0ygJXf3G/R/BzR0GeQ8=
+
+Name: assets/www/lib/ngmap/spec/lib/angular-mocks.js
+SHA1-Digest: YZL23+7EWI+lpoO43tw9r3oibN8=
+
+Name: res/drawable-mdpi-v4/notification_bg_normal.9.png
+SHA1-Digest: Q3acMTlGj6UQhONPvMrXTfJYYHU=
+
+Name: res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest: Lr8CV2APFenrT2CnF18DHzPxPmc=
+
+Name: res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+SHA1-Digest: rDoVKQUYnqgVz5KStlGT59UHjW4=
+
+Name: res/drawable/abc_item_background_holo_dark.xml
+SHA1-Digest: M0YVK8Qdk4ReRL9EAtEpVn58SLc=
+
+Name: res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.pn
+ g
+SHA1-Digest: o3UnPa5xQWf+9sW1xzSf4Z35vmk=
+
+Name: assets/www/img/restaurant.png
+SHA1-Digest: Oulr6VQyieBdifJOlIB2ZEEauEU=
+
+Name: res/drawable-hdpi-v4/notification_bg_low_normal.9.png
+SHA1-Digest: GqlxeUYi9nderviC+XwD6tRD5Kg=
+
+Name: res/layout-v21/notification_template_custom_big.xml
+SHA1-Digest: 4zDgk4DDIlZS+pHjOww/aUa+r+4=
+
+Name: res/layout/abc_popup_menu_header_item_layout.xml
+SHA1-Digest: RipoyTeuV3wPw7iL/kSHe/NONzE=
+
+Name: assets/www/lib/ionic-datepicker/src/ionic-datepicker.service.js
+SHA1-Digest: S8qn5s+POkhJPrx8gtt3Kwwepds=
+
+Name: assets/www/lib/ngmap/build/docs/source/directions.html
+SHA1-Digest: emFFshkniJ6weuCrxy9G9NbqTqg=
+
+Name: assets/www/lib/ionic/fonts/ionicons.svg
+SHA1-Digest: B9v0F3lgwTTIB3cO+w21ldNDl5w=
+
+Name: assets/www/lib/ngmap/spec/directives/shape_spec_bak.js
+SHA1-Digest: TvHexbZo1M9IWYGxAztA0sXeMH4=
+
+Name: assets/www/lib/ngmap/testapp/layer-dynamicmapsengine.html
+SHA1-Digest: WGLWT2eKWxL/CfvC9jdqP7npJUo=
+
+Name: assets/www/lib/ngmap/README.md
+SHA1-Digest: GKQYdiKIxawnsHke8rj2QGX3dqw=
+
+Name: assets/www/lib/ngmap/testapp/gulpfile.js
+SHA1-Digest: qm5KAX7mTj0lU3LVRbc17DXfn8g=
+
+Name: assets/www/lib/ngmap/build/scripts/ng-map.js
+SHA1-Digest: L2pQdkBAvlgpMznJ+WkQBkq3eyQ=
+
+Name: assets/www/templates/settings.html
+SHA1-Digest: mw+W0j0CRByWuKJHMHaKAP2W7zs=
+
+Name: assets/www/lib/ionic/scss/_loading.scss
+SHA1-Digest: sZNBUdIOn3aDAjpomQFOI2d3GwA=
+
+Name: res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png
+SHA1-Digest: ZXAwjCRHDKMA1FtoZL8+AhM9yvI=
+
+Name: res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+SHA1-Digest: 0lawN0TfON5HQhuTBR7Om1xGxUI=
+
+Name: assets/www/lib/ngmap/spec/directives/map_controller_spec_back.js
+SHA1-Digest: 5SH54U2IyfJb0Vz4mJm/xAWXE9k=
+
+Name: res/layout/support_simple_spinner_dropdown_item.xml
+SHA1-Digest: QXLqpFY/OajFcJDuVhRdcaj4XYY=
+
+Name: assets/www/lib/ngmap/testapp/map_with_dynamic_address.html
+SHA1-Digest: Ved17CHzSoXXJFsuGgu3vqN1GMU=
+
+Name: res/layout-v11/notification_template_big_media_custom.xml
+SHA1-Digest: R/d1uO0L2zGoFEA2z1AAqnVB9a4=
+
+Name: res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: hlPg0mO16g5nYlkb2LmahKOZAG8=
+
+Name: assets/www/lib/ngmap/directives/custom-marker.js
+SHA1-Digest: 04TcrqK4LS5zy++noQBwBCcETAo=
+
+Name: res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.pn
+ g
+SHA1-Digest: e8DEB+kwT5rrQOaL1UepmHHnW0M=
+
+Name: res/layout/abc_select_dialog_material.xml
+SHA1-Digest: K9pisjIU2rWHo6NRKxu3JXD43p4=
+
+Name: res/layout/notification_template_icon_group.xml
+SHA1-Digest: lRjx6j/MpHUTUriqS3QCgRtOlrY=
+
+Name: res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+SHA1-Digest: 0zBo9Tp1wTO3RHYh5z1M+TUN+H8=
+
+Name: assets/www/img/bell.png
+SHA1-Digest: E+zXERC03dIUqfVInf1DA0TZ8Ag=
+
+Name: assets/www/lib/ionic/js/angular/angular-sanitize.min.js
+SHA1-Digest: BlKjkc5BNJgEt8D7poSmGL3CEW4=
+
+Name: assets/www/lib/ngmap/testapp/map-simple.html
+SHA1-Digest: NkI3dQS4WaAqYyj25ECjpTML5GI=
+
+Name: assets/www/img/pocetna.jpg
+SHA1-Digest: l0WCPFMWj0zThtHw5qJKQE+MKeE=
+
+Name: assets/www/lib/ngmap/testapp/custom-marker-2.html
+SHA1-Digest: KW4Lc8IoWZ/iaeN2WMmBO/WydtU=
+
+Name: assets/www/plugins/de.appplant.cordova.plugin.local-notification
+ /www/local-notification-core.js
+SHA1-Digest: PkUmnyBwWg1TkXznabv1QGc03S4=
+
+Name: res/color/abc_tint_btn_checkable.xml
+SHA1-Digest: TTxecMws1x4TSv9uBgnYxZSn40M=
+
+Name: assets/www/lib/ngmap/build/docs/source/NgMapPool.html
+SHA1-Digest: IBzLfqcdaaf+o1CExz/mnsCADMM=
+
+Name: res/color/abc_btn_colored_text_material.xml
+SHA1-Digest: kxXAJ4TjCJJJq/Ry1+V/ZTlyfc0=
+
+Name: res/layout-v11/notification_media_cancel_action.xml
+SHA1-Digest: p25IA40MhZ7EkRBLXRCZkHUVE6s=
+
+Name: assets/www/lib/ionic/js/ionic.js
+SHA1-Digest: eUAwIib2HYR04+eaDsVsTXhj3KQ=
+
+Name: res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: KzIuknZAyLH6woubBE32LAuZqFM=
+
+Name: assets/www/index.html
+SHA1-Digest: fQRmKCgohn393Zqxk6Saem/jxfY=
+
+Name: assets/www/lib/ngmap/spec/services/geo_coder_spec.js
+SHA1-Digest: kn0NU34Kidl2JEXMA7izFJT58MA=
+
+Name: assets/www/lib/ngmap/testapp/directions-with-current-location.ht
+ ml
+SHA1-Digest: y/MvaJghi1LMA49So7NZ/sRbQZU=
+
+Name: assets/www/lib/ionic/scss/_action-sheet.scss
+SHA1-Digest: Nj1t3HCw/1/EHMVVpXGcsEdh0GU=
+
+Name: assets/www/img/settings.png
+SHA1-Digest: n4jqEdeZz6fj/OYy1TSS9oq2QRk=
+
+Name: assets/www/js/SettingsCtrl.js
+SHA1-Digest: hQivV5PCkfgDmjyKSRN3tszcUNA=
+
+Name: assets/www/lib/ngmap/spec/directives/map_spec_bak.js
+SHA1-Digest: gWeFFgtHG5bv6hWCkdtkS40hSik=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/static/scripts/pretti
+ fy/prettify.js
+SHA1-Digest: GOd28/nb5iJCXw2rJqkumS1dDOc=
+
+Name: assets/www/lib/ngmap/build/docs/Attr2MapOptions.html
+SHA1-Digest: 6jdMxOUP8RYk/U3IjALuUbPhJtA=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest: kOF2VzVE6Z/WMHMU96aVNFLvUgk=
+
+Name: assets/www/lib/ngmap/build/docs/NgMapPool.html
+SHA1-Digest: 7V+Agg9O0itM7lIHTnz8zBXNGZM=
+
+Name: res/drawable/abc_ratingbar_indicator_material.xml
+SHA1-Digest: 6gbbPFsN/J2Dxd3gmFcvpI6abI4=
+
+Name: assets/www/lib/ngmap/testapp/lib/angular-ui-router.js
+SHA1-Digest: brZmp1iyQXtTqXPCKUy1UMRRyMI=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+SHA1-Digest: k2FhN6sjfE6Vf2vHkeQqYXKKIVw=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/static/styles/prettif
+ y-jsdoc.css
+SHA1-Digest: /wMuS09lLsZ3rWF6yYXv/hus08c=
+
+Name: res/mipmap-xxhdpi-v4/icon.png
+SHA1-Digest: nweGMFFEBx1tKM9MqSD41Fmzjpk=
+
+Name: assets/www/lib/ngmap/build/docs/StreetView.html
+SHA1-Digest: IPpWLzkGdseDYDtamLJO9p/91ZE=
+
+Name: res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.
+ png
+SHA1-Digest: Eve5+sY3kLylSmhDHmYnvjkZAps=
+
+Name: assets/www/js/EventsCtrl.js
+SHA1-Digest: 0Ym3Xv/CCZXtMTBHJ+3vzK/DUOU=
+
+Name: res/drawable/abc_list_selector_holo_dark.xml
+SHA1-Digest: sfvAyXGl6drAr6es0R11c9d9BWE=
+
+Name: assets/www/lib/ngmap/filters/camel-case.js
+SHA1-Digest: fH/aAvw+ACcC31pG2rSrA+7S4bA=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest: ycXiJ7g1XDwZNYF8OiLagssfXOA=
+
+Name: assets/www/lib/ngCordova/dist/ng-cordova.js
+SHA1-Digest: CiZHdNuJmM2MH9LIgzd1GP84tC0=
+
+Name: res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: 7EcOfBvuzL3CgvHqFSF/PzLjcQc=
+
+Name: assets/www/lib/ngmap/build/docs/bicycling-layer.html
+SHA1-Digest: B79I8xtVTwt7+8RtJ6sozJ8O0IM=
+
+Name: assets/www/lib/ngmap/testapp/infowindow_ng_click.html
+SHA1-Digest: aNhoNW3TbclzEUREUYmj944puCs=
+
+Name: res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+SHA1-Digest: +hxtgSGCnF5TH+4LvSwYRLnVzDw=
+
+Name: assets/www/lib/angular-sanitize/bower.json
+SHA1-Digest: x+68h/fn56uf/ilLsU1rq5SmfBg=
+
+Name: res/drawable/abc_ratingbar_small_material.xml
+SHA1-Digest: /P2KXIWbMuyOgftOHbBQa8ym+uI=
+
+Name: res/layout-v11/notification_template_big_media_narrow.xml
+SHA1-Digest: sCAKvMNFY0OwmVsD5VD9j9krsJc=
+
+Name: assets/www/lib/ngmap/testapp/layer-fusiontables-heatmap.html
+SHA1-Digest: xjI0ViTmQwD8TjxVVMC+l88ko8M=
+
+Name: res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_light.png
+SHA1-Digest: Fn9hoN8NVPqsAyN/H4QnXfMFpHM=
+
+Name: assets/www/lib/ionic/scss/_select.scss
+SHA1-Digest: 1wSLwtjrj6dJ/YjCdb76e6k1ZS0=
+
+Name: lib/armeabi/libsqlc-native-driver.so
+SHA1-Digest: gMfRzMqvep7n6tN8gPasVq3WrX8=
+
+Name: res/drawable/abc_spinner_textfield_background_material.xml
+SHA1-Digest: 5TIWk5j+Nt8zQIpUYLAl5sFkWdY=
+
+Name: assets/www/lib/ionic-numberpicker/README.md
+SHA1-Digest: D8iiTkoylcDaZnCOJrnXBmkUnYk=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/exceptions.tmpl
+SHA1-Digest: 1+p9kgLM+sp3g6EtSaW7aYqbSDU=
+
+Name: res/drawable/abc_dialog_material_background.xml
+SHA1-Digest: mLGxn48GAFs7+4j22JOs3ea71o0=
+
+Name: assets/www/js/BeachesAndSightsCtrl.js
+SHA1-Digest: 9ywYAeHCRtIIr4HuKf7IZwz9jFs=
+
+Name: assets/www/img/favorit.png
+SHA1-Digest: hQzUG2sYAIco1vFFK4EDgrIm508=
+
+Name: assets/www/lib/ngmap/build/docs/GeoCoder.html
+SHA1-Digest: cqTyKV7RMdCEBkw4KzlhT7wru1Q=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/source.tmpl
+SHA1-Digest: FIdvik9erW2WxGn/GgjHoGc7TZQ=
+
+Name: assets/www/cordova-js-src/platform.js
+SHA1-Digest: WMSkc0u+fBApAiUe86W9D5KufB4=
+
+Name: assets/www/lib/ionic/scss/_animations.scss
+SHA1-Digest: wmBwh9FUHZgZhVh5eZIa++SY8G4=
+
+Name: assets/www/lib/angular-ui-router/src/stateFilters.js
+SHA1-Digest: Sx9tiTaPMY72Bdw48OC10Pd0kJY=
+
+Name: res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest: QhKzfQqaMjEUNLGmR/QjnJ0PWe4=
+
+Name: assets/www/lib/angular/index.js
+SHA1-Digest: OLLghZ1RCe6gDzHg2xZaS+lYfiw=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png
+SHA1-Digest: l5P17R7tfjGW/U6cw97ToLROGKg=
+
+Name: assets/www/css/style.css
+SHA1-Digest: KlRrOmGE9ncz2TfXjV60Hw+P8Mo=
+
+Name: assets/www/lib/ngmap/testapp/custom-marker-custom-style.html
+SHA1-Digest: 5GyIo0R6od/Mib0ZQ/9mxNGQYa4=
+
+Name: res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+SHA1-Digest: vVifsTusCsEMS/QLwleavhByCls=
+
+Name: res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest: nmJdfiNISdfmbhXzZPqmMVghsi8=
+
+Name: assets/www/img/food.jpg
+SHA1-Digest: 2GlUeuGtrH6+k/JLGcvXxlVHoQY=
+
+Name: res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+SHA1-Digest: i8wYHM8BdG6ZwwbsPcMgrtWVs1o=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/details.tmpl
+SHA1-Digest: yJdoQ9IRs9FsYL87C4eWezUISq0=
+
+Name: assets/www/lib/ngmap/testapp/marker-animations-iteration.html
+SHA1-Digest: 8GHo9TEmn8kp6kMVXaTm370Ekb8=
+
+Name: assets/www/lib/angular-animate/package.json
+SHA1-Digest: XilcuoRUG8O/Mcko9+v5Vcjhwy0=
+
+Name: assets/www/lib/ionic/scss/_popover.scss
+SHA1-Digest: Ik7Dm+9kN9IIdqMidtUrrL/Mc6Y=
+
+Name: assets/www/lib/ngmap/controllers/map-controller.js
+SHA1-Digest: 8FZWV0JdSbLJje/c0XtF548XtXA=
+
+Name: assets/www/lib/ngmap/testapp/events.html
+SHA1-Digest: Y/DGVoYIyB9qk+qM8nHVZyGBOCc=
+
+Name: assets/www/lib/ngmap/build/docs/source/map-data.html
+SHA1-Digest: uGgrQLicoATjBKz8cuz8Iv09vEA=
+
+Name: res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_light.
+ png
+SHA1-Digest: zOCXfAxJchHRxMozw8XoHhVJJ3Q=
+
+Name: assets/www/lib/ionic/js/angular/angular-animate.js
+SHA1-Digest: bxw15HxhG56FlFNpUQT5w/Hk2Mo=
+
+Name: res/layout/abc_screen_content_include.xml
+SHA1-Digest: FpV3JdQnW5O9lUqIUkegz4XVD7M=
+
+Name: assets/www/img/remind.png
+SHA1-Digest: N+WcCJhqGCjs09GR7oPE0jNR4d4=
+
+Name: assets/www/lib/ngmap/testapp/maptype-image-overlay.html
+SHA1-Digest: MfkxI68q+Kp3JW4hy0vQcH5KE9g=
+
+Name: res/mipmap-hdpi-v4/icon.png
+SHA1-Digest: s3XYnQ8OnahtNALowVd+DWZep+4=
+
+Name: res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png
+SHA1-Digest: tLTtgWwmC52vFV8WmsQe/d9txW4=
+
+Name: assets/www/lib/ngmap/testapp/map-geolocation.html
+SHA1-Digest: +Pb+MPfUvqN88xKtDW2N7youLYQ=
+
+Name: res/layout/abc_alert_dialog_title_material.xml
+SHA1-Digest: ZeAAgOXk1ZQNQc7K791Wew9zDs8=
+
+Name: assets/www/img/calendarG.png
+SHA1-Digest: qcQpBtKmtBzXJ5N9mqB4wAc52pE=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest: x6v2WXfb5dlObVj7r3apFaVYbqU=
+
+Name: res/color-v23/abc_tint_switch_track.xml
+SHA1-Digest: KmwBrME7oha5vut8yAeIp9ryZ1k=
+
+Name: res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.pn
+ g
+SHA1-Digest: hZVZo6Q2zbo8jok1iFFNncAE3yQ=
+
+Name: assets/www/lib/ngmap/testapp/partials/custom-info-window-templat
+ e.html
+SHA1-Digest: TDOt61KRta7KiV4Fd9vEuuxhqLQ=
+
+Name: assets/www/lib/ngmap/build/docs/transit-layer.html
+SHA1-Digest: NwJM/C3Ef3x7c91DxjyP8v7bx2o=
+
+Name: res/layout/select_dialog_singlechoice_material.xml
+SHA1-Digest: p/lwvjv6RWginamrUbFRcfhhuQ4=
+
+Name: assets/www/js/NotificationCtrl.js
+SHA1-Digest: ADgnmGM+jdwgrn11DtpDN0CRVeo=
+
+Name: assets/www/cordova_plugins.js
+SHA1-Digest: iXrvDNeNHzIfzm1l1CjtnIePNUg=
+
+Name: assets/www/templates/services_choice.html
+SHA1-Digest: Wiievjt8H2yQtJq2YOUul3ndWK4=
+
+Name: assets/www/lib/ngmap/build/docs/shape.html
+SHA1-Digest: 8ewT5ufG3OwzetkaSzgEiPXAdug=
+
+Name: assets/www/lib/platform.js/LICENSE
+SHA1-Digest: GZzEAF9yjb1Xvhiil26f+GB3HG4=
+
+Name: assets/www/lib/ngmap/config/jsdoc/template/tmpl/example.tmpl
+SHA1-Digest: xzl1k0tOgywlGhT2tj1ULjy20PA=
+
+Name: assets/www/lib/angular-ui-router/src/view.js
+SHA1-Digest: KaV3p4aYcmDGfknHHdzFh3BaLoo=
+
+Name: res/layout-v11/notification_template_big_media_narrow_custom.xml
+SHA1-Digest: lCVWc4D9LX4/b3MXK/WxFmBKCVg=
+
+Name: assets/www/lib/ngmap/directives/directions.js
+SHA1-Digest: IsmskfL2KjOAE4MFTpaGXdk7y+c=
+
+Name: assets/www/lib/angular-sanitize/package.json
+SHA1-Digest: 0fAZ4VhxJtrghC5i/zM6iPJrUdM=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest: WWeCz1VpFVwQ378BwOFriTLP1x8=
+
+Name: assets/www/lib/ngmap/testapp/shape_with_ng_repeat.html
+SHA1-Digest: 146Zo6k8iA6rM/2k0JS5zLL3lCA=
+
+Name: res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+SHA1-Digest: rGE2d1k3CHBN3WEhJb2tWHl+aew=
+
+Name: res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+SHA1-Digest: 1Ih2zOyUzHfQqptwXGLdPfBUSns=
+
+Name: res/drawable/abc_btn_default_mtrl_shape.xml
+SHA1-Digest: j0j9AeMjvljHCLD4YBkBT0Fi0us=
+
+Name: assets/www/lib/ngmap/testapp/scripts/markers.js
+SHA1-Digest: bC2upqURfEmAp1SW9wKq1XQw9EA=
+
+Name: assets/www/lib/ngmap/testapp/images/beachflag.png
+SHA1-Digest: ac5OgIgZWfJZ7dbNUVIjAXFPg2k=
+
+Name: res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest: sORfnhpPIEXLnh57veYnu5sMZD0=
+
+Name: res/mipmap-xhdpi-v4/icon.png
+SHA1-Digest: PJUbHDmmteZN/WwDLybmJWJoyvw=
+
+Name: assets/www/lib/ionic/scss/_reset.scss
+SHA1-Digest: F0HoY7GRW5C4C8wqXtgvLOu1fhE=
+
+Name: res/color-v23/abc_tint_btn_checkable.xml
+SHA1-Digest: +Jc02K1b84hUvHPxzAjMIBlHwkI=
+
+Name: assets/www/img/navi.png
+SHA1-Digest: pO0mZvtoIpjUpY8Fs6EO7biK+a4=
+
+Name: assets/www/lib/ngmap/services/geo-coder.js
+SHA1-Digest: I480d35A61IDj2r2HHQ0sbKhtEs=
+
+Name: res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest: bazEYewUnilv0P6pckaiMrtQjTA=
+
+Name: assets/www/lib/angular/bower.json
+SHA1-Digest: LJWxLMjVJsa4RtimoqDtuYnJzPs=
+
+Name: res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+SHA1-Digest: PIZprngie1clc1fat6kH+iHy6P4=
+
+Name: assets/www/lib/ngmap/testapp/marker_on_street_view.html
+SHA1-Digest: JANV7j05dd+k7OvrWNh6MSzPMtI=
+
+Name: res/drawable/abc_seekbar_tick_mark_material.xml
+SHA1-Digest: ITq1Qm9xizQMdqrkUhmWOul2dmk=
+
+Name: assets/www/lib/ngmap/testapp/marker-with-default-options.html
+SHA1-Digest: /OhrhooH1EW2I003cWEJqUQTtHA=
+
+Name: assets/www/templates/services.html
+SHA1-Digest: gJeuqZhnCLHa1iky9nHbXeZElS8=
+
+Name: res/drawable-hdpi-v4/notification_bg_normal.9.png
+SHA1-Digest: c5f+iD+5NWV0zWxwzUyh+V+QpkY=
+

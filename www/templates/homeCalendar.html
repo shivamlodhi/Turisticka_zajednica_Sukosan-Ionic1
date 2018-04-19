@@ -32,11 +32,10 @@
   margin-left: auto; 
   margin-right: auto;">
 
-			<div ng-click="openDatePicker()" style="height: 65px;width: 100px;text-align: center; background-color: white; box-shadow: 2px 2px 1px #1C1C1C; display:inline-block;margin-bottom:0px;"
+			<div ng-click="openDatePicker()" style="height: 65px;width: 120px;text-align: center; background-color: #0094de; box-shadow: 2px 2px 1px #1C1C1C; display:inline-block;margin-bottom:0px;"
 			 class="list list-inset">
-				<p style="color: #0094de;  ">  {{"from" | translate}}
-				</p>
-				<p style=" font-size: 14px;font-weight: bold ;color: #0094de; margin-top: -23px;    text-align: center;
+				 
+				<p style=" font-size: 14px;font-weight: bold ;color: white; margin-top: -2px;    text-align: center;
     position: relative;
     top: 50%;
     -ms-transform: translateY(-50%);
@@ -45,21 +44,24 @@
 					{{from}}
 				</p>
 			</div>
-			<div ng-click="openDatePicker2()" style="height: 65px;width: 100px; background-color: white;margin-top:0px; box-shadow: 2px 2px 1px #1C1C1C;padding-top: 22px;display:inline-block;"
-			 class="list list-inset">
-				<p style="color: #0094de;margin-left: 44px; margin-top: -20px;position: absolute"> {{"to" | translate}}
-				</p>
-				<p style=" font-size: 14px;font-weight: bold ;color: #0094de; ">
-					{{to}}
-				</p>
-			</div>
-		</div>
-		<p style="position: absolute;font-size: 16px;color: white;padding-top: 10px; margin-top: 200px">
+			<div ng-click="openDatePicker2()" style="height: 65px;width: 120px;text-align: center; background-color: #0094de; box-shadow: 2px 2px 1px #1C1C1C; display:inline-block;margin-bottom:0px;"
+			class="list list-inset">
+				
+			   <p style=" font-size: 14px;font-weight: bold ;color: white;margin-top: -2px;    text-align: center;
+   position: relative;
+   top: 50%;
+   -ms-transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+   transform: translateY(-50%); ">
+				   {{to}}
+			   </p>
+		   </div>
+			 
+		<p style="position: absolute;font-size: 16px;color: white;padding-top: -180px; ">
 			 {{"enterDate" | translate}}
-		</p>
-		<a ng-click="openState('app.home')" style="position: absolute; 
-          float: right;
-	background-color:#007dc1;margin-top: 230px;
+		</p> <br><br><br><br><br><br><br><br><br>
+		<a id="skip" ng-click="openState('app.home')" style="position: absolute;  
+	background-color:#007dc1;margin-top: 450px;
 	-moz-border-radius:28px;
 	-webkit-border-radius:28px;
 	border-radius:28px;
@@ -68,13 +70,15 @@
   color:#ffffff;
   height: 30px;
 	font-family:Arial;
-	font-size:17px;
-  padding:6px 30px;
+	font-size:17px; 
   text-align: left;
+  width:140px;
 	text-decoration:none;
   text-shadow:0px 1px 0px #154682;
-  right: 30px;bottom:30px; 
+  right: 30px;bottom:30px; display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
  
-"> {{"skip" | translate}}</a>
+"> {{skip}}</a>
 	</ion-content>
 </ion-view>

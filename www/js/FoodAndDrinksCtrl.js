@@ -59,8 +59,7 @@ var app = angular.module('Sukosan')
 
             $cordovaSQLite.execute(db, "CREATE TABLE if not exists events (id integer primary key, title text,day text, date Date, description text, favorit integer,notification integer)").then(function (res) {
 
-
-                var request = $http({
+                 var request = $http({
                     method: "POST",
                     url: 'http://appeventnet.com/rest/events.php',
                     data: { id: "11", category: window.localStorage.getItem("category"), jezik: window.localStorage.getItem("language") },
@@ -71,6 +70,7 @@ var app = angular.module('Sukosan')
                 request.success(function (data) {
 
                     for (var v = 0; v < data.length; v++) {
+                       console.log( data[v]["title"]+" - "+data[v]["id"]);
                         var query = "INSERT INTO events (id, title,date,description,favorit) VALUES (?,?,?,?,?)";
 
                         $cordovaSQLite.execute(db, query, [data[v]["id"], data[v]["title"], data[v]["date"], "", 1]).then(function (res) {

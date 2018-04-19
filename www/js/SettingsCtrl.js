@@ -77,7 +77,7 @@ angular.module('Sukosan')
 
         console.log('Return value from the datepicker popup is : ' + val, new Date(val)); 
         window.localStorage.setItem("to", new Date(val).toDateString());
-        window.localStorage.setItem("toString",$filter('date')(new Date(val), 'MM-dd') ); 
+        window.localStorage.setItem("toString",$filter('date')(new Date(val), 'dd-MM-yyyy') ); 
         $scope.to= new Date(val).toDateString();
         $scope.sendPost();
       },

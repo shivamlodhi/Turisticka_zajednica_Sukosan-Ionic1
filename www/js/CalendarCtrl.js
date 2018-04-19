@@ -1,66 +1,68 @@
 angular.module('Sukosan')
-  .controller('CalendarCtrl', function ($scope, $stateParams, $http, ionicDatePicker, $filter) {
+  .controller('CalendarCtrl', function ($scope, $stateParams, $http, ionicDatePicker, $filter, $translate) {
+    var areDatesSet = false;
+    $translate('skip').then(function (translation) {
+      $scope.skip = translation;
+    }, function (translationId) {
 
-
+    });
     if (window.localStorage.getItem("to") == null) {
-      $scope.to = "Pick date";
+      $translate('odlazak').then(function (translation) {
+        $scope.to = translation;
+      }, function (translationId) {
+        $scope.headline = translationId;
+
+      });
     } else {
-      $scope.to = window.localStorage.getItem("to")
+      areDatesSet = true; 
+        $scope.to = window.localStorage.getItem("toString"); 
     }
     if (window.localStorage.getItem("from") == null) {
-      $scope.from = "Pick date";
+      $translate('dolazak').then(function (translation) {
+        $scope.from = translation;
+      }, function (translationId) {
+        $scope.headline = translationId;
+
+      });
     } else {
-      $scope.from = window.localStorage.getItem("from")
+      if (areDatesSet == true) {
+        $translate('next').then(function (translation) {
+          $scope.skip = translation;
+        }, function (translationId) {
+
+        });
+      } else {
+        $translate('skip').then(function (translation) {
+          $scope.skip = translation;
+        }, function (translationId) {
+
+        });
+      } 
+        $scope.from = window.localStorage.getItem("fromString"); 
     }
 
-     var ipObj = {
-      callback: function (val) {  //Mandatory 
-
-        console.log('Return value from the datepicker popup is : ' + val, new Date(val)); 
-        window.localStorage.setItem("to", new Date(val).toDateString());
-        window.localStorage.setItem("toString",$filter('date')(new Date(val), 'MM-dd') ); 
-        $scope.to= new Date(val).toDateString(); 
-      },
-      disabledDates: [            //Optional
-        new Date(2016, 2, 16),
-        new Date(2015, 3, 16),
-        new Date(2015, 4, 16),
-        new Date(2015, 5, 16),
-        new Date('Wednesday, August 12, 2015'),
-        new Date("08-16-2016"),
-        new Date(1439676000000)
-      ],
-      from: new Date(2017, 1, 1), //Optional
-      to: new Date(2100, 10, 30), //Optional
-      inputDate: new Date(),      //Optional
-      mondayFirst: true,          //Optional
-      disableWeekdays: [0],       //Optional
-      closeOnSelect: false,       //Optional
-      templateType: 'popup'       //Optional
-    };
-
-    $scope.openDatePicker2 = function () {
-      ionicDatePicker.openDatePicker(ipObj);
-    };
 
     if (window.localStorage.getItem("notifications") == null) {
       $scope.click = 'red';
       window.localStorage.setItem("notifications", "red");
-    } else {
-
-
-
+    } else {  
       $scope.click = window.localStorage.getItem("notifications");
 
     }
 
-    var ipObj = {
-      callback: function (val) {  //Mandatory 
-
-        console.log('Return value from the datepicker popup is : ' + val, new Date(val)); 
+    var ipObj2 = {
+      callback: function (val) {  //Mandatory  
+        console.log('Return value from the datepicker popup is : ' + val, new Date(val));
         window.localStorage.setItem("to", new Date(val).toDateString());
-        window.localStorage.setItem("toString",$filter('date')(new Date(val), 'MM-dd') ); 
-        $scope.to= new Date(val).toDateString(); 
+        window.localStorage.setItem("toString", $filter('date')(new Date(val), 'dd-MM-yyyy')); 
+          $scope.to = $filter('date')(new Date(val), 'dd-MM-yyyy'); 
+        if (window.localStorage.getItem("from") != null && window.localStorage.getItem("to") != null) {
+          $translate('next').then(function (translation) {
+            $scope.skip = translation;
+          }, function (translationId) {
+          });
+        }
+
       },
       disabledDates: [            //Optional
         new Date(2016, 2, 16),
@@ -77,22 +79,28 @@ angular.module('Sukosan')
       mondayFirst: true,          //Optional
       disableWeekdays: [0],       //Optional
       closeOnSelect: false,       //Optional
-      templateType: 'popup'       //Optional
+      templateType: 'modal'       //Optional
     };
 
     $scope.openDatePicker2 = function () {
-      ionicDatePicker.openDatePicker(ipObj);
+      ionicDatePicker.openDatePicker(ipObj2);
     };
 
 
 
 
     var ipObj1 = {
-      callback: function (val) {  //Mandatory
-        console.log('Return value from the datepicker popup is : ' + val, new Date(val)); 
+      callback: function (val) {  //Mandatory 
+        console.log('Return value from the datepicker popup is : ' + val, new Date(val));
         window.localStorage.setItem("from", new Date(val).toDateString());
-        window.localStorage.setItem("fromString", $filter('date')(new Date(val), 'yyyy-MM-dd') ); 
-        $scope.from = new Date(val).toDateString(); 
+        window.localStorage.setItem("fromString", $filter('date')(new Date(val), 'dd-MM-yyyy')); 
+          $scope.from =  $filter('date')(new Date(val), 'dd-MM-yyyy'); 
+        if (window.localStorage.getItem("from") != null && window.localStorage.getItem("to") != null) {
+          $translate('next').then(function (translation) {
+            $scope.skip = translation;
+          }, function (translationId) {
+          });
+        }
       },
       disabledDates: [            //Optional
         new Date(2016, 2, 16),
@@ -109,7 +117,7 @@ angular.module('Sukosan')
       mondayFirst: true,          //Optional
       disableWeekdays: [0],       //Optional
       closeOnSelect: false,       //Optional
-      templateType: 'popup'       //Optional
+      templateType: 'modal'       //Optional
     };
 
     $scope.openDatePicker = function () {

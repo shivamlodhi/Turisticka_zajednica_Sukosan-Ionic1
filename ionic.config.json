@@ -1,6 +1,9 @@
 {
   "name": "Bosk",
-  "app_id": "",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
   "gulpStartupTasks": [
     "sass",
     "watch"

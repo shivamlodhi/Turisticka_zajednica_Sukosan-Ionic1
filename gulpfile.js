@@ -37,6 +37,8 @@ gulp.task('install', ['git-check'], function() {
     });
 });
 
+//the function is done
+
 gulp.task('git-check', function(done) {
   if (!sh.which('git')) {
     console.log(
